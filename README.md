@@ -3,8 +3,8 @@
 SUMMARY
 
 Unlike the Macintosh Plus, which offers a simple SIMM-based memory upgrade, expanding the memory of these early Macs is significantly more complex and requires additional components.
-Back in the day, RAM expansion boards were available to increase the memory of early Macs. However, finding these boards in working condition has become increasingly challenging and expensive. The Mac Rescue boards, with an expansion RAM of 4MB, are particularly rare.
-This newly designed expansion board, paired with an auxiliary board I called "RAM Configurator", provides a flexible and customizable solution to increase memory up to 4MB. The circuitry is largely based on the Macsnap 548E board from DOVE Inc. With a few modifications and enhancements, 4MB RAM is easily achievable using newer, higher-density DRAM FP ICs of 256Kb x 16 bits (512KB per IC).
+Back in the day, RAM expansion boards were available to increase the memory of early Macs. However, finding these boards in working condition has become increasingly challenging and expensive. The Mac Rescue board, with an expansion RAM of 4MB, is particularly rare.
+This newly designed expansion board, paired with an auxiliary board I called "RAM Refresh Configurator", provides a flexible and customizable solution to increase memory up to 4MB. The circuitry is largely based on the Macsnap 548E board from DOVE computer corp. With a few modifications and enhancements, 4MB RAM is easily achievable using newer, higher-density FP DRAM ICs of 256Kb x 16 bits (512KB per IC).
 
 ![Screenshot 2024-10-22 at 3 00 07 PM](https://github.com/user-attachments/assets/0927eb3d-6c0c-4479-a216-cbbe3e41b88d)
 ![Screenshot 2024-10-22 at 6 50 35 PM](https://github.com/user-attachments/assets/46a6b025-a1a6-4c5b-a361-0ad218c6825e)
@@ -18,7 +18,7 @@ KEY FEATURES
 
 •	Compatible with Macintosh 128K, 512K, and 512KE models (using Apple 128K ROM or ROM-INATOR).
 
-•	Option to include or exclude onboard RAM bank for 512K/512KE models through a DIP switch (Version 3).
+•	Option to include or exclude onboard RAM bank for 512K/512KE models through a DIP switch (Version 3 only).
 
 •	Soldered type jumpers to select among various memory configurations (1MB, 2MB, or 4MB).
 
@@ -99,12 +99,16 @@ To implement the standard refresh mode on a Mac 512K/KE, signals 4 (A17), and 5 
 
 MACPLUS REFRESH CYCLES MODE
 
-As the name suggests, this mode replicates how the Mac Plus generates RAM addresses for refresh cycles. The RAM Configurator or auxiliary boards implement the circuit logic of the Mac Plus to emulate this behavior.
-A few several input signals pickup trough cables soldered to specific points on the LB are needed for this mode, fortunately some of them have been already pickup on the expansion board, so to avoid soldering on the LB, you could take those repeated signals directly from the pins on J5 accordinly 
+As the name suggests, this mode replicates how the Mac Plus generates RAM addresses for refresh cycles. In this mode, the RAM Configurator board generates address bits RA8 and RA0 as in the Mac Plus, subtituting it the default RA0 & RA8. A member of 68KMLA forums named Golden Potato was the one who figure out how to generate those bits. Thanks again Golden Potato!
 
- 7. A19 - PIN #8 - J5 - EXPANSION BOARD 
- 8. A20 - PIN #7 - J5 - EXPANSION BOARD 
- 9. A17 - PIN #3 - J5 - EXPANSION BOARD or Pin #45 (CPU)
-10. VA5 - PIN #3 - (U2F)
-11. A18 - PIN #2 - J5 - EXPANSION BOARD or PIN #46 (CPU)
-12. VA13 -
+An additional few input signals pickup trough cables soldered to specific points on the LB are needed for this mode, fortunately most of the signals are taken trough the piggy back socket on U4F.
+
+The additional signals pickup trough cables are:
+
+ 7.  A19 - PIN #8  - J5 - EXPANSION BOARD 
+ 8.  A20 - PIN #7  - J5 - EXPANSION BOARD 
+ 9.  A17 - PIN #3  - J5 - EXPANSION BOARD or Pin #45 (CPU)
+10.  VA5 - PIN #13 - (U3G)
+11.  A18 - PIN #2  - J5 - EXPANSION BOARD or PIN #46 (CPU)
+12. VA13 - PIN #12 - (U3G)
+13. /DMA - PIN #15 - (U2G)
