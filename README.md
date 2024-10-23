@@ -65,10 +65,10 @@ STANDARD REFRESH CYCLES MODE
 
 The standard refresh mode is the stock method used by the Mac 128/512/KE to generate DRAM refresh cycles.
 Although the system memory ICs are 256 cycles/4ms, the ICs used in this RAM expansion board (AS4C1256KFO / 512 refresh cycles / 8ms), work perfectly!.
-Somehow, these ICs are correctly refreshed within 8 ms in all their address range, making them compatible with the system refresh circuitry. This mode has been used in the expansion board prototype installed on my Macintosh 512K for a significant time without any issues.
-Using the default refresh mode requires fewer signals from the logic board, reducing the number of components needed in the auxiliary board. (U1, U2, and U3 can be omitted.)
+Somehow, these ICs are correctly refreshed within 8 ms in all their rows range, making them compatible with the system refresh circuitry. This mode has been working in the expansion board prototype installed on my Macintosh 512K for a significant time without any kind of issues.
+Using the default refresh mode requires fewer signals from the logic board, reducing the number of components to be populated in the auxiliary board. (U1, U2, and U3 can be omitted.)
 
-To implement the standard refresh mode for the memory expansion board on a Mac 128K, just 6 signals need to be pickup from the LB and connected to J5 at the expansion board:
+For this mode, the connections trough cables you need is just 6 signals from the LB to J5 at the expansion board:
 
 1.	/RAS - Left Leg of R42
 
@@ -82,7 +82,7 @@ To implement the standard refresh mode for the memory expansion board on a Mac 1
 
 6.	A21 – Pin #50 (CPU)
 
-Another 4 signals are collected directly by the auxiliary board and routed trough J3 to J5, which are from bottom to top on J3:
+Another 4 signals are collected directly by the auxiliary board and need to be wire from J3 to J5, which are from bottom to top on J3:
 
 -	/CAS1
 
@@ -92,7 +92,9 @@ Another 4 signals are collected directly by the auxiliary board and routed troug
 
 -	C2M
 
-To implement the standard refresh mode on a Mac 512K/KE, signals 4 (A17), and 5 (A18) can be omitted and leave disconnected.
+Signals from connection point 4. (A17), and 5, (A18) are need only for the Mac 128K.
+
+Jumper settings for each refresh mode and other functionalities can be found at the end of this document. 
 
 ![LB_512K_scaled copy](https://github.com/user-attachments/assets/7516653b-66f9-4f18-a7ac-8dcdc91c0549)
 
