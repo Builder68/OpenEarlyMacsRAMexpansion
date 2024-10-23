@@ -3,7 +3,7 @@
  ## SUMMARY
 
 Unlike the Macintosh Plus, which offers a straightforward SIMM-based memory upgrade, expanding the memory of these early Macs is significantly more complex and requires additional components.
-Back in the day, RAM expansion boards were available to increase the memory of early Macs. However, finding these boards in working condition has become increasingly challenging and expensive. The *Mac Rescue board*, with an expansion RAM of 4MB, is particularly rare.
+Back in the day, RAM expansion boards were available to increase the memory of early Macs. However, finding these boards in working condition has become increasingly challenging and expensive. The *Mac Rescue board*, one of the very few that provides full 4MB of RAM, is particularly rare.
 
 This newly designed expansion board, paired with an auxiliary board I called **RAM Refresh Configurator**, provides a flexible and customizable solution to increase memory up to 4MB. The circuitry is largely based on the *Macsnap 548E board from DOVE computer corp.* With a few modifications and enhancements, 4MB RAM is easily achievable using newer, higher-density FP DRAM ICs of 256Kb x 16 bits (512KB per IC).
 
