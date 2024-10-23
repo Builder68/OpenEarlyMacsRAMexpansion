@@ -121,7 +121,8 @@ An additional few input signals pickup trough cables soldered to specific points
 
 Finally, one of the legs of R42 have to be opened and set the solder jumpers accordinly *(See the table at end fo this document)*
 
-![Uploading LB_512K_scaled 2.jpg…]()
+![LB_512K_scaled 2](https://github.com/user-attachments/assets/007c1723-e56c-4e4b-952f-53907c9661ce)
+
 
 ### 1204 REFRESH CYCLES MODE
 
