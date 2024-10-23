@@ -68,19 +68,19 @@ Although the system memory ICs are 256 cycles/4ms, the ICs used in this RAM expa
 Somehow, these ICs are correctly refreshed within 8 ms in all their address range, making them compatible with the system refresh circuitry. This mode has been used in the expansion board prototype installed on my Macintosh 512K for a significant time without any issues.
 Using the default refresh mode requires fewer signals from the logic board, reducing the number of components needed in the auxiliary board. (U1, U2, and U3 can be omitted.)
 
-To implement the standard refresh mode for the memory expansion board on a Mac 128K, just 6 signals need to be pick-up from the LB and connected to the expansion board (J5) :
+To implement the standard refresh mode for the memory expansion board on a Mac 128K, just 6 signals need to be pickup from the LB and connected to J5 at the expansion board:
 
 1.	/RAS - Left Leg of R42
 
-2.	/A19  - Pin #3 TSG  (D3)
+2.	A19  - Pin #3 TSG  (D3)
 
-3.	/A20  - Pin #5 LS04 (D4)
+3.	A20  - Pin #5 LS04 (D4)
 
-4.	/A17  - Pin #45 (CPU)
+4.	A17  - Pin #45 (CPU)
 
-5.	/A18 - Pin #46 (CPU)
+5.	A18 - Pin #46 (CPU)
 
-6.	/A21 – Pin #50 (CPU)
+6.	A21 – Pin #50 (CPU)
 
 Another 4 signals are collected directly by the auxiliary board and routed trough J3 to J5, which are from bottom to top on J3:
 
@@ -101,20 +101,20 @@ MACPLUS REFRESH CYCLES MODE
 
 As the name suggests, this mode replicates how the Mac Plus generates RAM addresses for refresh cycles. In this mode, the RAM Configurator board generates address bits RA8 and RA0 as in the Mac Plus, subtituting it the default RA0 & RA8. A member of 68KMLA forums named Golden Potato was the one who figure out how to generate those bits. Thanks again Golden Potato!
 
-An additional few input signals pickup trough cables soldered to specific points on the LB are needed for this mode, fortunately most of the signals are taken trough the piggy back socket on U4F.
+An additional few input signals pickup trough cables soldered to specific points on the LB are needed for this mode, and all of them goes to J3 at the auxiliary board. The rest of the needed signals are taken trough the piggy back socket on U4F.
 
-The additional signals pickup trough cables are:
-
- 7.  A19 - PIN #8  - J5 - EXPANSION BOARD
-  
- 8.  A20 - PIN #7  - J5 - EXPANSION BOARD 
+ 7.  A19 - Pin #7 (RP1 DIP resistor array, Later LB models) or connection point 2.
+   
+ 8.  A20 - Pin #48 (CPU) or same as connection point 3.
  
- 9.  A17 - PIN #3  - J5 - EXPANSION BOARD or Pin #45 (CPU)
+ 9.  A17 - Same as connection point 4.
 
-10.  VA5 - PIN #13 - (U3G)
+10.  A18 - Same as connection point .5
 
-11.  A18 - PIN #2  - J5 - EXPANSION BOARD or PIN #46 (CPU)
+11.  VA5 - PIN #13 - (U3G)
    
 12.  VA13 - PIN #12 - (U3G)
 
-13. /DMA - PIN #15 - (U2G)
+13. /DMA - PIN #15 - (U2F)
+
+Finally, the Mac Plus refresh need one of the legs of R42 be opened and set de soldered jumpers accordinly (
