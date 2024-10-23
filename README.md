@@ -3,13 +3,13 @@
  ## SUMMARY
 
 Unlike the Macintosh Plus, which offers a simple SIMM-based memory upgrade, expanding the memory of these early Macs is significantly more complex and requires additional components.
-Back in the day, RAM expansion boards were available to increase the memory of early Macs. However, finding these boards in working condition has become increasingly challenging and expensive. The Mac Rescue board, with an expansion RAM of 4MB, is particularly rare.
-This newly designed expansion board, paired with an auxiliary board I called "RAM Refresh Configurator", provides a flexible and customizable solution to increase memory up to 4MB. The circuitry is largely based on the Macsnap 548E board from DOVE computer corp. With a few modifications and enhancements, 4MB RAM is easily achievable using newer, higher-density FP DRAM ICs of 256Kb x 16 bits (512KB per IC).
+Back in the day, RAM expansion boards were available to increase the memory of early Macs. However, finding these boards in working condition has become increasingly challenging and expensive. The *Mac Rescue board*, with an expansion RAM of 4MB, is particularly rare.
+This newly designed expansion board, paired with an auxiliary board I called **RAM Refresh Configurator**, provides a flexible and customizable solution to increase memory up to 4MB. The circuitry is largely based on the #Macsnap 548E board from DOVE computer corp.# With a few modifications and enhancements, 4MB RAM is easily achievable using newer, higher-density FP DRAM ICs of 256Kb x 16 bits (512KB per IC).
 
 ![Screenshot 2024-10-22 at 3 00 07 PM](https://github.com/user-attachments/assets/0927eb3d-6c0c-4479-a216-cbbe3e41b88d)
 ![Screenshot 2024-10-22 at 6 50 35 PM](https://github.com/user-attachments/assets/46a6b025-a1a6-4c5b-a361-0ad218c6825e)
 
-The expansion board has been tested only with 128K MacPlus / 512Ke ROMs. If a ROM-INATOR board is installed concurrently, it needs to be previously patched (instructions provided below. Many thanks to Golden Potato and SVGA for this solution!).
+The expansion board has been tested only with 128K MacPlus / 512Ke ROMs. If a *ROM-INATOR board* is installed concurrently, it needs to be previously patched (instructions provided below. Many thanks to Golden Potato and SVGA for this solution!).
 
 
 KEY FEATURES
