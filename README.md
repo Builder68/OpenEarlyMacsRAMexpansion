@@ -130,9 +130,9 @@ This mode is for a memory expansion board with FP/EM DRAM ICs of higher density,
 
 ## SOLDER JUMPER SETTINGS
 
-| Tables        | Are           | Cool  | Cool  |
-| ------------- |:-------------:| -----:| -----:|
-| col 3 is      | right-aligned | $1600 | -----:|
-| col 2 is      | centered      |   $12 | -----:|
-| zebra stripes | are neat      |    $1 | -----:|
+| Board          | Jumper        |           Function             |             Mac Models             |
+| -------------  |:-------------:| ------------------------------:| ----------:|----------:|----------:|
+| Expansion      | right-aligned | $1600 | -----:|
+| Expansion      | centered      |   $12 | -----:|
+| Expansion      | are neat      |    $1 | -----:|
 
