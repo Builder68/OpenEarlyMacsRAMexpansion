@@ -68,7 +68,6 @@ Although the system memory ICs are 256 cycles/4ms, the ICs used in this RAM expa
 Somehow, these ICs are correctly refreshed within 8 ms in all their address range, making them compatible with the system refresh circuitry. This mode has been used in the expansion board prototype installed on my Macintosh 512K for a significant time without any issues.
 Using the default refresh mode requires fewer signals from the logic board, reducing the number of components needed in the auxiliary board. (U1, U2, and U3 can be omitted.)
 
-
 To implement the standard refresh mode for the memory expansion board on a Mac 128K, just 6 signals need to be pick-up from the LB and connected to the expansion board (J5) :
 
 1.	/RAS - Left Leg of R42
@@ -82,7 +81,6 @@ To implement the standard refresh mode for the memory expansion board on a Mac 1
 5.	/A18 - Pin #46 (CPU)
 
 6.	/A21 – Pin #50 (CPU)
-
 
 Another 4 signals are collected directly by the auxiliary board and routed trough J3 to J5, which are from bottom to top on J3:
 
@@ -99,3 +97,13 @@ To implement the standard refresh mode on a Mac 512K/KE, signals 4 (A17), and 5 
 ![LB_512K_scaled copy](https://github.com/user-attachments/assets/7516653b-66f9-4f18-a7ac-8dcdc91c0549)
 
 
+MACPLUS REFRESH CYCLES MODE
+
+As the name suggests, this mode replicates how the Mac Plus generates RAM addresses for refresh cycles. The RAM Configurator or auxiliary boards implement the circuit logic of the Mac Plus to emulate this behavior.
+A few several input signals pickup trough cables soldered to specific points on the LB are needed for this mode, fortunately some of them have been already pickup on the expansion board, so to avoid soldering on the LB, you could take those repeated signals directly from the pins on J5 accordinly 
+
+ 7. A19 - PIN #8 - J5 - EXPANSION BOARD 
+ 8. A20 - PIN #7 - J5 - EXPANSION BOARD 
+ 9. A17 - PIN #3 - J5 - EXPANSION BOARD or Pin #45 (CPU)
+10. VA5 - PIN #3 - (U2F)
+11. A18 - PIN #2 - J5 - EXPANSION BOARD
