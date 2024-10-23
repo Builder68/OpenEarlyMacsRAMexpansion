@@ -4,6 +4,7 @@
 
 Unlike the Macintosh Plus, which offers a straightforward SIMM-based memory upgrade, expanding the memory of these early Macs is significantly more complex and requires additional components.
 Back in the day, RAM expansion boards were available to increase the memory of early Macs. However, finding these boards in working condition has become increasingly challenging and expensive. The *Mac Rescue board*, with an expansion RAM of 4MB, is particularly rare.
+
 This newly designed expansion board, paired with an auxiliary board I called **RAM Refresh Configurator**, provides a flexible and customizable solution to increase memory up to 4MB. The circuitry is largely based on the *Macsnap 548E board from DOVE computer corp.* With a few modifications and enhancements, 4MB RAM is easily achievable using newer, higher-density FP DRAM ICs of 256Kb x 16 bits (512KB per IC).
 
 ![Screenshot 2024-10-22 at 3 00 07 PM](https://github.com/user-attachments/assets/0927eb3d-6c0c-4479-a216-cbbe3e41b88d)
@@ -14,19 +15,19 @@ The expansion board has been tested only with 128K MacPlus / 512Ke ROMs. If a *R
 
 ## KEY FEATURES
 
-•	Configurable to add up to 4MB of RAM, the maximum supported by early Macs.
+• Configurable to add up to 3.5MB of RAM, resulting in a total of 4MB when combined with the onboard memory, the maximum supported by early Macs.
 
-•	Compatible with Macintosh 128K (version 3 only), Macintosh 512K, and 512KE models (using *Apple 128K ROM or ROM-INATOR*).
+• Compatible with Macintosh 512K using either Apple 128K ROM or ROM-INATOR, and the 512KE.
 
-•	Option to include or exclude onboard RAM bank for 512K/512KE models through a DIP switch (Version 3 only).
+• Version 3 of the expansion and auxiliary boards now supports up to 4MB of RAM, giving you the option to exclude the onboard memory bank using a DIP switch. Additionally, this version supports Macintosh 128K models using Apple 128K ROM or ROM-INATOR.
 
-•	Soldered type jumpers to select among various memory configurations (1MB, 2MB, or 4MB).
+• Solder jumpers to select among three memory size configurations (1MB, 2MB, or 4MB).
 
-•	Auxiliary board can be set to restore original configuration and disable the expansion board through a DIP switch (Version 3 only).
+• Auxiliary board can be set to restore original configuration and disable the expansion board (Version 3 uses a DIP switch).
 
-•	Auxiliary board allows customization of the number of refresh cycles (standard, Mac Plus-style, or 1024 refresh cycles).
+• Auxiliary board allows customization of the number of refresh cycles (Standard, Mac Plus style 512 refresh cycles, or 1024 refresh cycles).
 
-•	No extensions or other software are required, and the Mac recognizes all the configured RAM at startup.
+• No extensions or other software are required, and the Mac recognizes all the configured RAM at startup.
 
 
 ## INSTALLATION
