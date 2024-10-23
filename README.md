@@ -119,4 +119,11 @@ An additional few input signals pickup trough cables soldered to specific points
 
 13. /DMA - PIN #15 - (U2F)
 
-Finally, the Mac Plus refresh need one of the legs of R42 be opened and set de soldered jumpers accordinly (
+Finally, one of the legs of R42 have to be opened and set the solder jumpers accordinly *(See the table at end fo this document)*
+
+![Uploading LB_512K_scaled copy.jpg…]()
+
+
+
+
+
