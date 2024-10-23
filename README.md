@@ -127,11 +127,12 @@ Finally, one of the legs of R42 have to be opened and set the solder jumpers acc
 
 This mode is for a memory expansion board with FP/EM DRAM ICs of higher density, and at this time is still under development.
 
+
 ## SOLDER JUMPER SETTINGS
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Tables        | Are           | Cool  | Cool  |
+| ------------- |:-------------:| -----:| -----:|
+| col 3 is      | right-aligned | $1600 | -----:|
+| col 2 is      | centered      |   $12 | -----:|
+| zebra stripes | are neat      |    $1 | -----:|
 
