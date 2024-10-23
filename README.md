@@ -9,7 +9,7 @@ This newly designed expansion board, paired with an auxiliary board I called "RA
 ![Screenshot 2024-10-22 at 3 00 07 PM](https://github.com/user-attachments/assets/0927eb3d-6c0c-4479-a216-cbbe3e41b88d)
 ![Screenshot 2024-10-22 at 6 50 35 PM](https://github.com/user-attachments/assets/46a6b025-a1a6-4c5b-a361-0ad218c6825e)
 
-The expansion board has been tested only with 128K MacPlus / 512Ke ROMs. If a ROM-INATOR board is installed concurrently, it needs to be previously patched (instructions provided below).
+The expansion board has been tested only with 128K MacPlus / 512Ke ROMs. If a ROM-INATOR board is installed concurrently, it needs to be previously patched (instructions provided below. Many thanks to Golden Potato and SVGA for this solution!).
 
 
 KEY FEATURES
