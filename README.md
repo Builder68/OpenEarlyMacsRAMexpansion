@@ -2,7 +2,7 @@
 
  ## SUMMARY
 
-Unlike the Macintosh Plus, which offers a simple SIMM-based memory upgrade, expanding the memory of these early Macs is significantly more complex and requires additional components.
+Unlike the Macintosh Plus, which offers a straightforward SIMM-based memory upgrade, expanding the memory of these early Macs is significantly more complex and requires additional components.
 Back in the day, RAM expansion boards were available to increase the memory of early Macs. However, finding these boards in working condition has become increasingly challenging and expensive. The *Mac Rescue board*, with an expansion RAM of 4MB, is particularly rare.
 This newly designed expansion board, paired with an auxiliary board I called **RAM Refresh Configurator**, provides a flexible and customizable solution to increase memory up to 4MB. The circuitry is largely based on the *Macsnap 548E board from DOVE computer corp.* With a few modifications and enhancements, 4MB RAM is easily achievable using newer, higher-density FP DRAM ICs of 256Kb x 16 bits (512KB per IC).
 
@@ -103,7 +103,7 @@ Jumper settings for each refresh mode and other functionalities can be found at 
 
 As the name suggests, this mode replicates how the Mac Plus generates RAM addresses for refresh cycles. In this mode, the RAM Configurator board generates address bits RA8 and RA0 as in the Mac Plus, subtituting it the default RA0 & RA8. A member of 68KMLA forums named Golden Potato was the one who figure out how to generate those bits. Thanks again Golden Potato!
 
-An additional few input signals pickup trough cables soldered to specific points on the LB are needed for this mode, and all of them goes to J3 at the auxiliary board. The rest of the needed signals are taken trough the piggy back socket on U4F.
+An additional few input signals picked up through cables soldered to specific points on the LB are needed for this mode, and all of them go to J3 at the auxiliary board. The rest of the needed signals are taken through the piggyback socket on U4F.
 
  7.  A19 - Pin #7 (RP1 DIP resistor array, Later LB models) or connection point 2.
    
@@ -142,6 +142,9 @@ This mode is for a memory expansion board with FP/EM DRAM ICs of higher density,
 | JP5 / EXP.B V2  | 1-2    | 1-2      | 1-2         |
 | JP1 / AUX.B V2  | 1-2    | 1-2      | 1-2         |
 | JP2 / AUX.B V2  | 1-2    | 1-2      | 1-2         |
+| JP3 / AUX.B V2  | 1-2    | 1-2      | 1-2         |
+| JP4 / AUX.B V2  | 1-2    | 1-2      | 1-2         |
+| JP5 / AUX.B V2  | 1-2    | 1-2      | 1-2         |
 
 ### MAC PLUS REFRESH MODE
 
@@ -153,6 +156,34 @@ This mode is for a memory expansion board with FP/EM DRAM ICs of higher density,
 | JP4 / EXP.B V2  | 2-3    | 2-3      | 2-3         |
 | JP5 / EXP.B V2  | 1-2-3  | 1-2-3    | 1-2-3       |
 | JP1 / AUX.B V2  | 2-3    | 2-3      | 2-3         |
-| JP2 / AUX.B V2  | 1-2    | 1-2      | 1-2         |
+| JP2 / AUX.B V2  | 2-3    | 2-3      | 2-3         |
+| JP3 / AUX.B V2  | 1-2    | 1-2      | 1-2         |
+| JP4 / AUX.B V2  | 1-2    | 1-2      | 1-2         |
+| JP5 / AUX.B V2  | 1-2    | 1-2      | 1-2         |
 
+### 1024 REFRESH CYCLES MODE
+
+| JUMPER          | 1MB    | 2MB      | 4MB         | 
+|:---------------:|:------:|:--------:|:-----------:|
+| JP1 / EXP.B V2  | 1-2    | 2-3      | 2-3         |
+| JP2 / EXP.B V2  | 1-2    | 1-2      | 2-3         |
+| JP3 / EXP.B V2  | 1-2    | 1-2      | 1-2         |
+| JP4 / EXP.B V2  | 2-3    | 2-3      | 2-3         |
+| JP5 / EXP.B V2  | 1-2-3  | 1-2-3    | 1-2-3       |
+| JP1 / AUX.B V2  | 2-3    | 2-3      | 2-3         |
+| JP2 / AUX.B V2  | 2-3    | 2-3      | 2-3         |
+| JP3 / AUX.B V2  | 2-3    | 2-3      | 2-3         |
+| JP4 / AUX.B V2  | 1-2    | 1-2      | 1-2         |
+| JP5 / AUX.B V2  | 1-2    | 1-2      | 1-2         |
+
+### EXPANSION BOARD DISABLED  & STOCK MEMORY CONFIGURATION RESTORED
+
+| JUMPER          |        | 
+|:---------------:|:------:|
+| JP5 / AUX.B V2  | 2-3    |
+| JP5 / AUX.B V2  | 2-3    |
+
+** REMOVE THE EXPANSION BOARD BEFORE TURN ON **
+
+## SOLDER JUMPER SETTINGS FOR MACINTOSH 128K - Boards version 2
 
