@@ -121,8 +121,11 @@ An additional few input signals pickup trough cables soldered to specific points
 
 Finally, one of the legs of R42 have to be opened and set the solder jumpers accordinly *(See the table at end fo this document)*
 
-![Uploading LB_512K_scaled copy.jpg…]()
+![Uploading LB_512K_scaled 2.jpg…]()
 
+### 1204 REFRESH CYCLES MODE
+
+This mode is for a memory expansion board with FP/EM DRAM ICs of higher density, and at this time is still under development.
 
 
 
