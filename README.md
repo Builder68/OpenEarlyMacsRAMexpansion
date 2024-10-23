@@ -1,6 +1,6 @@
 # OpenEarlyMacsRAMexpansion
 
-SUMMARY
+ ## SUMMARY
 
 Unlike the Macintosh Plus, which offers a simple SIMM-based memory upgrade, expanding the memory of these early Macs is significantly more complex and requires additional components.
 Back in the day, RAM expansion boards were available to increase the memory of early Macs. However, finding these boards in working condition has become increasingly challenging and expensive. The Mac Rescue board, with an expansion RAM of 4MB, is particularly rare.
