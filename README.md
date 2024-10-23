@@ -35,7 +35,7 @@ Two options are available for installing these boards:
 
 •	Soldering piggyback sockets
   
-  This is the easiest method and can be reversed. Solder DIP sockets onto specific ICs (U5-11F, U5-11G, U12E, U13E, and U4F for the auxiliary board) on the logic board. Then, the boards connect through male pin headers to these sockets.
+This is the easiest method and can be reversed. Solder DIP sockets onto specific ICs (U5-11F, U5-11G, U12E, U13E, and U4F for the auxiliary board) on the logic board. Then, the boards connect through male pin headers to these sockets.
 
 • Relocating ICs to the expansion boards
 
@@ -106,4 +106,5 @@ A few several input signals pickup trough cables soldered to specific points on 
  8. A20 - PIN #7 - J5 - EXPANSION BOARD 
  9. A17 - PIN #3 - J5 - EXPANSION BOARD or Pin #45 (CPU)
 10. VA5 - PIN #3 - (U2F)
-11. A18 - PIN #2 - J5 - EXPANSION BOARD
+11. A18 - PIN #2 - J5 - EXPANSION BOARD or PIN #46 (CPU)
+12. VA13 -
