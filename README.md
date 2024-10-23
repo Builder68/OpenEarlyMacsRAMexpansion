@@ -131,7 +131,7 @@ This mode is for a memory expansion board with FP/EM DRAM ICs of higher density,
 ## SOLDER JUMPER SETTINGS
 
 | Board          | Jumper        |           Function             |             Mac Models             |
-|:--------------:|:-------------:| :-----------------------------:| :---------:|:---------:|:---------:|
+|: --- :|: --- :|: --- :|: --- :|: --- :|: --- :|
 | Expansion      | right-aligned |                                |            |           |           |
 | Expansion      | centered      |                                |            |           |           |
 | Expansion      | are neat      |                                |            |           |           |
