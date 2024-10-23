@@ -186,5 +186,4 @@ This mode is for a memory expansion board with FP/EM DRAM ICs of higher density,
 
 ** REMOVE THE EXPANSION BOARD BEFORE TURN ON **
 
-## SOLDER JUMPER SETTINGS FOR MACINTOSH 128K - Boards version 2
-
+## SOLDER JUMPER SETTINGS FOR MACINTOSH 512K / KE - Boards version 3
