@@ -128,25 +128,30 @@ Finally, one of the legs of R42 have to be opened and set the solder jumpers acc
 This mode is for a memory expansion board with FP/EM DRAM ICs of higher density, and at this time is still under development.
 
 
-## SOLDER JUMPER SETTINGS FOR MACINTOSH 512K / KE
+## SOLDER JUMPER SETTINGS FOR MACINTOSH 512K / KE - Boards version 2
 
 ### STANDARD REFRESH MODE
 
 | JUMPER          | 1MB    | 2MB      | 4MB         | 
 |:---------------:|:------:|:--------:|:-----------:|
-| JP1 / EXP.B     | 1-2    | 2-3      | 2-3         |
-| JP2 / EXP.B     | 1-2    | 1-2      | 2-3         |
-| JP3 / EXP.B     | 1-2    | 1-2      | 1-2         |
-| JP4 / EXP.B     | 2-3    | 2-3      | 2-3         |
-| JP5 / EXP.B     | 1-2    | 1-2      | 1-2         |
-| JP1 / AUX.B     | 1-2    | 1-2      | 1-2         |
-| JP2 / AUX.B     | 1-2    | 1-2      | 1-2         |
-| JP  / AUX.B     | 1-2    | 1-2      | 1-2         |
+| JP1 / EXP.B V2  | 1-2    | 2-3      | 2-3         |
+| JP2 / EXP.B V2  | 1-2    | 1-2      | 2-3         |
+| JP3 / EXP.B V2  | 1-2    | 1-2      | 1-2         |
+| JP4 / EXP.B V2  | 2-3    | 2-3      | 2-3         |
+| JP5 / EXP.B V2  | 1-2    | 1-2      | 1-2         |
+| JP1 / AUX.B V2  | 1-2    | 1-2      | 1-2         |
+| JP2 / AUX.B V2  | 1-2    | 1-2      | 1-2         |
+
+### MAC PLUS REFRESH MODE
+
+| JUMPER          | 1MB    | 2MB      | 4MB         | 
+|:---------------:|:------:|:--------:|:-----------:|
+| JP1 / EXP.B V2  | 1-2    | 2-3      | 2-3         |
+| JP2 / EXP.B V2  | 1-2    | 1-2      | 2-3         |
+| JP3 / EXP.B V2  | 1-2    | 1-2      | 1-2         |
+| JP4 / EXP.B V2  | 2-3    | 2-3      | 2-3         |
+| JP5 / EXP.B V2  | 1-2-3  | 1-2-3    | 1-2-3       |
+| JP1 / AUX.B V2  | 2-3    | 2-3      | 2-3         |
+| JP2 / AUX.B V2  | 1-2    | 1-2      | 1-2         |
 
 
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
