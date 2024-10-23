@@ -136,9 +136,9 @@ This mode is for a memory expansion board with FP/EM DRAM ICs of higher density,
 |:---------------:|:------:|:--------:|:-----------:|
 | JP1 / EXP.B     | 1-2    | 2-3      | 2-3         |
 | JP2 / EXP.B     | 1-2    | 1-2      | 2-3         |
-| JP3 / EXP.B     | J3     |      xxx  |       1-2-3|
-| JP4 / EXP.B     | J3     |      xxx  |       1-2-3|
-| JP5 / EXP.B     | J3     |      xxx  |       1-2-3|
+| JP3 / EXP.B     | 1-2    | 1-2      | 1-2         |
+| JP4 / EXP.B     | 2-3    | 2-3      | 2-3         |
+| JP5 / EXP.B     | 1-2    | 1-2      | 1-2         |
 
 
 | Left-Aligned  | Center Aligned  | Right Aligned |
