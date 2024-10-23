@@ -105,10 +105,16 @@ An additional few input signals pickup trough cables soldered to specific points
 
 The additional signals pickup trough cables are:
 
- 7.  A19 - PIN #8  - J5 - EXPANSION BOARD 
+ 7.  A19 - PIN #8  - J5 - EXPANSION BOARD
+  
  8.  A20 - PIN #7  - J5 - EXPANSION BOARD 
+ 
  9.  A17 - PIN #3  - J5 - EXPANSION BOARD or Pin #45 (CPU)
+
 10.  VA5 - PIN #13 - (U3G)
+
 11.  A18 - PIN #2  - J5 - EXPANSION BOARD or PIN #46 (CPU)
-12. VA13 - PIN #12 - (U3G)
+   
+12.  VA13 - PIN #12 - (U3G)
+
 13. /DMA - PIN #15 - (U2G)
