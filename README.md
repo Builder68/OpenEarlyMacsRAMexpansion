@@ -38,6 +38,7 @@ Two options are available for installing these boards:
 • Relocating ICs to the expansion boards
 
 Alternatively, relocate those ICs to the expansion boards and install pin header sockets (machine round type preferably) directly onto the logic board to make the connection.
+
 Additionally, resistor arrays RP2 and RP3 must be removed from the logic board, and at least 4 to 6 signals (standard mode, depending the Mac model is 512 or 128) need to be collected through cables soldered to specific points on the logic board and brought to the expansion board using DIP connectors.
 
 AUXILIARY BOARD / RAM CONFIGURATOR
