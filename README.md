@@ -95,6 +95,8 @@ Another 4 signals are collected directly by the auxiliary board and need to be w
 
 Signals from connection point 4. (A17), and 5, (A18) are need only for the Mac 128K.
 
+*#For this refresh mode, must be check that MSRA8F signal is NOT wired from J3 on the aux.board to J5 on the expansion board. Otherwise, a SAD MAC error will apear at boot.#*
+
 Jumper settings for each refresh mode and other functionalities can be found at the end of this document. 
 
 ![LB_512K_scaled copy](https://github.com/user-attachments/assets/7516653b-66f9-4f18-a7ac-8dcdc91c0549)
@@ -120,7 +122,9 @@ An additional few input signals picked up through cables soldered to specific po
 
 13. /DMA - PIN #15 - (U2F)
 
-Finally, one of the legs of R42 have to be opened and set the solder jumpers accordinly *(See the table at end fo this document)*
+One of the legs of R42 have to be opened and set the solder jumpers accordinly *(See the table at end fo this document)*
+
+Finally, the signal MSRA8F present at J3 must be wired to J5, pin #1.
 
 ![LB_512K_scaled 2](https://github.com/user-attachments/assets/007c1723-e56c-4e4b-952f-53907c9661ce)
 
