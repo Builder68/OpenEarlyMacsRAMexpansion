@@ -34,7 +34,7 @@ The expansion board has been tested only with 128K MacPlus / 512Ke ROMs. If a *R
 
 Two options are available for installing these boards:
 
-###•	Soldering piggyback sockets
+### •	Soldering piggyback sockets
   
 This is the easiest method and can be reversed. Solder DIP sockets onto specific ICs (U5-11F, U5-11G, U12E, U13E, and U4F for the auxiliary board) on the logic board. Then, the boards connect through male pin headers to these sockets. *This task requires a certain degree of soldering expertise. Ensure that all pins from the DIP sockets are soldered securely and double-check the continuity between the base of the IC leg and the top of the pin socket.*
 
