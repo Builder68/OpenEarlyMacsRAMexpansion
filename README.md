@@ -34,13 +34,15 @@ The expansion board has been tested only with 128K MacPlus / 512Ke ROMs. If a *R
 
 Two options are available for installing these boards:
 
-•	Soldering piggyback sockets
+###•	Soldering piggyback sockets
   
-This is the easiest method and can be reversed. Solder DIP sockets onto specific ICs (U5-11F, U5-11G, U12E, U13E, and U4F for the auxiliary board) on the logic board. Then, the boards connect through male pin headers to these sockets.
+This is the easiest method and can be reversed. Solder DIP sockets onto specific ICs (U5-11F, U5-11G, U12E, U13E, and U4F for the auxiliary board) on the logic board. Then, the boards connect through male pin headers to these sockets. *This task requires a certain degree of soldering expertise. Ensure that all pins from the DIP sockets are soldered securely and double-check the continuity between the base of the IC leg and the top of the pin socket.*
 
-• Relocating ICs to the expansion boards
+###• Relocating ICs to the expansion boards
 
-Alternatively, relocate those ICs to the expansion boards and install pin header sockets (machine round type preferably) directly onto the logic board to make the connection.
+Alternatively, relocate those ICs to the expansion boards and install pin header sockets directly onto the logic board to make the connection with male pin headers soldered to the boards. It is highly recommended to use the rounded or machined type for both the pin header sockets (female) and the pin headers.
+
+###• Resitor Arrays RP2 & RP3
 
 Additionally, resistor arrays RP2 and RP3 must be removed from the logic board, and at least 4 to 6 signals (standard mode, depending the Mac model is 512 or 128) need to be collected through cables soldered to specific points on the logic board and brought to the expansion board using DIP connectors.
 
@@ -106,7 +108,7 @@ Jumper settings for each refresh mode and other functionalities can be found at 
 
 As the name suggests, this mode replicates how the Mac Plus generates RAM addresses for refresh cycles. In this mode, the RAM Configurator board generates address bits RA8 and RA0 as in the Mac Plus, subtituting it the default RA0 & RA8. A member of 68KMLA forums named Golden Potato was the one who figure out how to generate those bits. Thanks again Golden Potato!
 
-An additional few input signals picked up through cables soldered to specific points on the LB are needed for this mode, and all of them go to J3 at the auxiliary board. The rest of the needed signals are taken through the piggyback socket on U4F.
+Additionaly, a few more input signals picked up through cables soldered to specific points on the LB are needed for this mode, and all of them go to J3 at the auxiliary board. 
 
  7.  A19 - Pin #7 (RP1 DIP resistor array, Later LB models) or connection point 2.
    
@@ -122,9 +124,11 @@ An additional few input signals picked up through cables soldered to specific po
 
 13. /DMA - PIN #15 - (U2F)
 
-One of the legs of R42 have to be opened and set the solder jumpers accordinly *(See the table at end fo this document)*
+**One of the legs of resistor R42 (LB) have to be opened and set the solder jumpers accordinly** *(See the table at end fo this document)*
 
-Finally, the signal MSRA8F present at J3 must be wired to J5, pin #1.
+**Finally, the signal MSRA8F present at J3 must be wired to J5, pin #1**.
+
+**Failure to do any of the required connections mention above will result in a SAD MAC error during boot**
 
 ![LB_512K_scaled 2](https://github.com/user-attachments/assets/007c1723-e56c-4e4b-952f-53907c9661ce)
 
