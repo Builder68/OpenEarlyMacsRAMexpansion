@@ -95,7 +95,7 @@ Another 4 signals are collected directly by the auxiliary board and need to be w
 
 Signals from connection point 4. (A17), and 5, (A18) are need only for the Mac 128K.
 
-*#For this refresh mode, must be check that MSRA8F signal is NOT wired from J3 on the aux.board to J5 on the expansion board. Otherwise, a SAD MAC error will apear at boot.#*
+**For this refresh mode, it is essential to verify that the MSRA8F signal is not connected from J3 on the auxiliary board to J5 on the expansion board. Failure to do so will result in a SAD MAC error during boot.**
 
 Jumper settings for each refresh mode and other functionalities can be found at the end of this document. 
 
