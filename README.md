@@ -68,7 +68,7 @@ The following signals are collected trough bodge cables from the logic board to 
 
 *Attention: pin N°1 of J5 is at the top*
 
-| SIGNAL         | Location    | Pin N° on J5 | 
+| SIGNAL         | Location    | Pin N° on J5 | Comment         |
 |:---------------:|:------:|:--------:|:-----------:|
 | /RAS |Left Leg of R42|1       |          |
 | A19  |Pin N°3 - D3   |2       |          |
