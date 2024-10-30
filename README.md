@@ -2,7 +2,7 @@
 
  ## SUMMARY
 
-Back in the day, RAM upgrades were available to increase the memory of early Macs. However, finding these boards in working condition has become increasingly challenging. The *Mac Rescue board*, one of the very few that provides full 4MB of RAM, is almost unobtaniable.
+Back in the day, RAM upgrades were available for Early Macs. However, finding these boards in working condition has become increasingly challenging. The *Mac Rescue board*, one of the very few that provides full 4MB of RAM, is almost unobtaniable.
 
 This newly designed expansion board, paired with an auxiliary board I called **RAM Refresh Configurator**, provides a affordable solution to increase memory up to 4MB.
 
@@ -46,7 +46,7 @@ Alternatively, you can use extra long pin header sockets like the ones used by t
 
 Resistor arrays RP2 and RP3 must be removed from the LB, and solder socket pin headers on the LB (round-machined type).
 
-### Inputs signals form LB trough wires
+### Inputs signals trough wires
 
 The following signals are collected trough bodge cables from the LB to the expansion board (J5):
 
