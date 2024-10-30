@@ -89,7 +89,7 @@ The following signals are collected directly by the auxiliary board and need to 
 | VID /u  |3       |7       |          |
 | MC2M    |4       |6       |          |
 | /MSRA8F |5       |1       |          |
-| /MSRA9F |6       |5       | Not used, leave unconnected | 
+| /MSRA9F |6       |NC     | Not used with this version, leave unconnected | 
 
   
 
