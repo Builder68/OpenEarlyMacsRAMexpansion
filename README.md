@@ -85,11 +85,11 @@ The following signals are collected trough bodge cables from the LB to the auxil
 | /DMA            |Pin N°15 - U2F  |2             |                 |
 | VA6             |Pin N°6 - U2F   |3             |                 |
 | VA13            |Pin N°12 - U3G  |4             |                 |
-| A18             |                |5             |                 |
+| A18             |Pin N°46 - CPU  |5             |                 |
 | VA5             |Pin N°13 - U3G  |6             |                 |
-| A17             |                |7             |                 |
-| A20             |Pin N°5 - D4    |8             |                 |
-| A19             |Pin N°3 - D3    |9             |                 |
+| A17             |Pin N°45 - CPU  |7             |                 |
+| A20             |Pin N°5 - U4D   |8             |                 |
+| A19             |Pin N°3 - U3D   |9             |                 |
 
 The following signals are collected directly by the auxiliary board and need to be wired from J3 to J5:
 
