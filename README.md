@@ -2,16 +2,18 @@
 
  ## SUMMARY
 
-Back in the day, RAM expansion boards were available to increase the memory of early Macs. However, finding these boards in working condition has become increasingly challenging. The *Mac Rescue board*, one of the very few (if not the only one) that provides full 4MB of RAM, is particularly unobtaniable these days.
+Back in the day, RAM upgrades were available to increase the memory of early Macs. However, finding these boards in working condition has become increasingly challenging. The *Mac Rescue board*, one of the very few that provides full 4MB of RAM, is almost unobtaniable.
 
-This newly designed expansion board, paired with an auxiliary board I called **RAM Refresh Configurator**, provides a simple solution to increase memory up to 4MB.
+This newly designed expansion board, paired with an auxiliary board I called **RAM Refresh Configurator**, provides a affordable solution to increase memory up to 4MB.
 
 ![Screenshot 2024-10-22 at 3 00 07 PM](https://github.com/user-attachments/assets/0927eb3d-6c0c-4479-a216-cbbe3e41b88d)
 ![Screenshot 2024-10-22 at 6 50 35 PM](https://github.com/user-attachments/assets/46a6b025-a1a6-4c5b-a361-0ad218c6825e)
 
 The expansion board has been tested only on a Macintosh 512K with MacPlus / 512Ke ROMs, and also with the *ROM-INATOR board* is installed concurrently.
 
-*Attention: The ROM-INATOR detects the machine model by checking the RAM size available, so the ROM need to be patched before installing this board or any other RAM upgrade on the early macs*
+*Warning: testing on a Mac 128K still pending*  
+
+*Attention: The ROM-INATOR detects the machine model by checking the RAM size available, so the ROM image need to be patched before installing this board or any other RAM upgrade on the early macs*
 
 ## KEY FEATURES
 
@@ -19,50 +21,32 @@ The expansion board has been tested only on a Macintosh 512K with MacPlus / 512K
 
 • Compatible with Macintosh 128/512K using either Apple 128K ROM or ROM-INATOR, and the 512KE.
 
-• Option to exclude the onboard memory bank using a DIP switch. (A must for Macintosh 128K).
+• Option to exclude the onboard memory bank using a DIP switch. (Mandatory for Macintosh 128K).
 
 • Solder jumpers to select among three memory size configurations (1MB, 2MB, or 4MB).
 
-• Auxiliary board can be set to restore original configuration and disable the expansion board (DIP switch).
+• Auxiliary board can be set trough a DIP switch to disable the expansion board, restoring original configuration.
 
 • No extensions or other software are required, and the Mac recognizes all the configured RAM at startup.
 
 
 ## INSTALLATION
 
-Two options are available for installing these boards:
-
-### •	Soldering piggyback sockets
+### •	Option A: Soldering piggyback sockets
   
-This is the easiest method. Solder DIP sockets onto specific ICs (U5-11F, U5-11G, U12E, U13E, and U4F for the auxiliary board) on the logic board. Then, the boards connect through male pin headers to these sockets. *This task requires a certain degree of soldering expertise. Ensure that all pins from the DIP sockets are soldered securely and double-check the continuity between the base of the IC leg and the top of the pin socket.*
+This is the easiest method. Solder DIP sockets onto the ICs U11F, U11G, U12E, U13E, and U4F. Then, the boards connect through male pin headers to these sockets.
 
-### • Relocating ICs to the expansion boards
+*Attention: This task requires a certain degree of soldering expertise. Please ensure that all pins from the DIP sockets are soldered securely and double-check the continuity between the base of the IC leg and the top of the pin socket.*
 
-Alternatively, you can use extra long pin header sockets like the ones used by the Mac’s-a-Million board by Sophisticated Circuits and relocate the mentioned ICs on the expansion board. 
+### • Obtion B: Relocating ICs to the expansion boards
+
+Alternatively, you can use extra long pin header sockets like the ones used by the *Mac’s-a-Million board by Sophisticated Circuits* and relocate the mentioned ICs on the expansion and auxiliary boards. 
 
 ### • Resistor Arrays RP2 & RP3
 
-Additionally, resistor arrays RP2 and RP3 must be removed from the logic board, and 6 signals need to be collected through bodge cables.
+Resistor arrays RP2 and RP3 must be removed from the LB, and solder socket pin headers on the LB (round-machined type).
 
-
-## AUXILIARY BOARD: THE RAM REFRESH CONFIGURATOR
-
-This tiny board offers several handy features:
-
-•	Intervene /CAS signals, handle RAM address bus and optionally can reconfigure the way the RAM addreses are generated for refresh cycles. 
-
-•	Disable the RAM expansion board trough a DIP switch, allowing to remove completely the expansion board and quickly restore the memory stock configuration.
-
-
-### HANDLING OF THE ONBOARD MEMORY BANK
-
-The onboard memory bank consists of 16 ICs of either 256Kbitx1bit (Macintosh 512K/KE) or 64Kbitx1bit (Macintosh 128K). 
-The expansion board has a DIP switch that enables the option to include or exclude this memory bank withing the 4MB of RAM. 
-
-*Attention: The DIP switch on the expansiuon board must be always set to disable system memory bank when installed on a Macintosh 128K*
-
-
-### INPUT SIGNALS FROM THE LB
+### Inputs signals form LB trough wires
 
 The following signals are collected trough bodge cables from the LB to the expansion board (J5):
 
@@ -81,7 +65,7 @@ The following signals are collected trough bodge cables from the LB to the auxil
 
 | SIGNAL          | Location       | Pin N° on J2 | Comment         |
 |:---------------:|:--------------:|:------------:|:---------------:|
-| /SNDPG2         |Pin N°5 - U2F   |1             |Leave unconnected|
+| /SNDPG2         |Pin N°5 - U2F   |1             |                 |
 | /DMA            |Pin N°15 - U2F  |2             |                 |
 | VA6             |Pin N°6 - U2F   |3             |                 |
 | VA13            |Pin N°12 - U3G  |4             |                 |
@@ -95,18 +79,16 @@ The following signals are collected directly by the auxiliary board and need to 
 
 *Attention: pin N°1 of J3 is at the bottom, pin N°1 of J5 is at the top*.
 
-| SIGNAL         | Pin N° on J3 Aux. B    | Pin N° on J5 Exp.B  | Comment         | 
+| SIGNAL         | Pin N° on J3 Aux. B | Pin N° on J5 Exp.B  | Comment         | 
 |:---------------:|:------:|:--------:|:-----------:|
-| /MCAS0  |1       |9       |          |
-| /MCAS1  |2       |8       |          |
-| VID /u  |3       |7       |          |
-| MC2M    |4       |6       |          |
-| /MSRA8F |5       |1       |          |
-| /MSRA9F |6       |NC      | Leave unconnected | 
+| /MCAS0          |1       |9         |             |
+| /MCAS1          |2       |8         |             |
+| VID /u          |3       |7         |             |
+| MC2M            |4       |6         |             |
+| /MSRA8F         |5       |1         |             |
+| /MSRA9F         |6       |NC        | Leave unconnected | 
 
   
-
-
 Jumper settings for each refresh mode and other functionalities can be found at the end of this document. 
 
 ![LB_512K_scaled copy](https://github.com/user-attachments/assets/7516653b-66f9-4f18-a7ac-8dcdc91c0549)
