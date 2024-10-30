@@ -82,8 +82,9 @@ The following signals are collected trough bodge cables from the LB to the auxil
 | SIGNAL         | Location    | Pin N° on J2 | Comment         |
 |:---------------:|:------:|:--------:|:-----------:|
 | /SNDPG2         | NC     |1         |Leave unconnected|
-| /DMA            |        |          |                 |
-| VA6             | NV     |3         |Leave unconnected|
+| /DMA            |        |2          |                 |
+| VA6             | NC     |3         |Leave unconnected|
+| VA13            |        |4         |                 |
 | A18             |        |4         |                 |
 | VA5             |        |4         |                 |
 | A17             |        |4         |                 |
