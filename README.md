@@ -6,9 +6,6 @@ Back in the day, RAM upgrades were available for Early Macs. However, finding th
 
 This newly designed expansion board, paired with an auxiliary board I called **RAM Refresh Configurator**, provides a affordable solution to increase memory up to 4MB.
 
-![Screenshot 2024-10-22 at 3 00 07 PM](https://github.com/user-attachments/assets/0927eb3d-6c0c-4479-a216-cbbe3e41b88d)
-![Screenshot 2024-10-22 at 6 50 35 PM](https://github.com/user-attachments/assets/46a6b025-a1a6-4c5b-a361-0ad218c6825e)
-
 The expansion board has been tested only on a Macintosh 512K with MacPlus / 512Ke ROMs, and also with the *ROM-INATOR board* is installed concurrently.
 
 *Warning: testing on a Mac 128K still pending*  
@@ -54,7 +51,7 @@ The following signals are collected trough bodge cables from the LB to the expan
 
 | SIGNAL                | Location    | Pin N° on J5 | Comment         |
 |:---------------------:|:-----------:|:------------:|:---------------:|
-| /RAS |Left Leg of R42 |7            |              |                 |
+| /RAS |Left Leg of R4  |7            |              |                 |
 | A19  |Pin N°3 - U3D   |2            |              |                 |
 | A20  |Pin N°5 - U4D   |3            |              |                 |
 | A21  |Pin N°50 - CPU  |4            |              |                 |
@@ -88,51 +85,27 @@ The following signals are collected directly by the auxiliary board and need to 
 | /MSRA8F         |5       |1         |             |
 | /MSRA9F         |6       |NC        | Leave unconnected | 
 
-  
-Jumper settings for each refresh mode and other functionalities can be found at the end of this document. 
+### Opening trace at R42
 
-![LB_512K_scaled copy](https://github.com/user-attachments/assets/7516653b-66f9-4f18-a7ac-8dcdc91c0549)
-
-Somehow, these ICs are correctly refreshed within 8 ms in all their rows range, making them compatible with the system refresh circuitry. This refresh cycle mode has been working in the expansion board prototype installed on my Macintosh 512K without any kind of issues.
-
-The standard refresh mode is the stock method used by the Mac 128/512/KE to generate DRAM refresh cycles.
-Although the system memory ICs are 256 cycles/4ms, the ICs used in this RAM expansion board (AS4C1256KFO / 512 refresh cycles / 8ms), work perfectly!.
-
-, reducing the number wires needed to the board and some components no need to be populated in the auxiliary board. (U1, U2, and U3 can be omitted.)
+One of the legs of resistor R42 (LB) have to be opened
 
 ### MACPLUS REFRESH CYCLES MODE
 
-As the name suggests, this mode replicates how the Mac Plus generates RAM addresses for refresh cycles. In this mode, the RAM Configurator board generates address bits RA8 and RA0 as in the Mac Plus, subtituting it the default RA0 & RA8. A member of 68KMLA forums named *Golden Potato* was the one who figure out how to generate those bits. Thanks again Golden Potato!
+This is the deafult refresh cycle mode I recommend to set.
 
-Additionaly, a few more input signals picked up through cables soldered to specific points on the LB are needed for this mode, and all them this time go to J3 at the auxiliary board. 
+In this mode, the RAM configurator board replicates how the Mac Plus generates RAM addresses for refresh cycles. RAM address bits RA8 and RA0 are generated as in the Mac Plus, subtituting it the system RA0 & RA8. A member of 68KMLA forums named *Golden Potato* was the one who figure out how to generate those RAM address bits. Thanks again Golden Potato!
 
- 7.  A19 - Pin #7 (RP1 DIP resistor array, Later LB models) or same as connection point 2.
-   
- 8.  A20 - Pin #48 (CPU) or same as connection point 3.
- 
- 9.  A17 - Same as connection point 4.
+### SYSTEM REFRESH CYCLES MODE
 
-10.  A18 - Same as connection point .5
+The RAM ICs used by the early Macs need 256 refresh cycles withing every 4 ms. The sub-circuitry on the LB generates 256 RAM addresses secuentyally every 4 ms to refresh the "rows" using the /RAS method (/RAS before /CAS).
 
-11.  VA5 - PIN #13 - (U3G)
-   
-12.  VA13 - PIN #12 - (U3G)
+Just by pure accident, I figure out that at least the RAM ICs I used on the expansion board work flawesly without the need to modify the RAM address bus generation sub-circuitry, although the specification of those ICs clearly states that it needs 512 refresh cyles. This mode have been working now for months on my Mac 512K with no issues. 
 
-13. /DMA - PIN #15 - (U2F)
-
-**One of the legs of resistor R42 (LB) have to be opened and set the solder jumpers accordinly** *(See the table at end fo this document)*
-
-**Finally, the signal MSRA8F present at J3 must be wired to J5, pin #1**.
-
-**Failure to do any of the required connections mention above will result in a SAD MAC error during boot**
-
-![LB_512K_scaled 2](https://github.com/user-attachments/assets/007c1723-e56c-4e4b-952f-53907c9661ce)
-
+Havin not found yet a clear explanation of why it works, I can´t recommend it as the default choice. But!.... if you wan´t to use less components and less wires to the LB, the   
 
 ### 1204 REFRESH CYCLES MODE
 
-This mode is for a memory expansion board with FP/EM DRAM ICs of higher density, and at this time is still under development.
-
+This mode is for a memory expansion board with FP/EM DRAM ICs of higher density (10 address bits), and at this time is still under development.
 
 ## SOLDER JUMPER SETTINGS FOR MACINTOSH 512K / KE - Boards version 2
 
