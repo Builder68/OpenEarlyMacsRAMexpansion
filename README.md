@@ -68,28 +68,28 @@ The following signals are collected trough bodge cables from the LB to the expan
 
 *Attention: pin N°1 of J5 is at the top*
 
-| SIGNAL         | Location    | Pin N° on J5 | Comment         |
-|:---------------:|:------:|:--------:|:-----------:|
-| /RAS |Left Leg of R42|7       |          |
-| A19  |Pin N°3 - D3   |2       |          |
-| A20  |Pin N°5 - D4   |3       |          |
-| A21  |Pin N°50 - CPU |4       |          |
+| SIGNAL                | Location    | Pin N° on J5 | Comment         |
+|:---------------------:|:-----------:|:------------:|:---------------:|
+| /RAS |Left Leg of R42 |7            |              |                 |
+| A19  |Pin N°3 - U3D   |2            |              |                 |
+| A20  |Pin N°5 - U4D   |3            |              |                 |
+| A21  |Pin N°50 - CPU  |4            |              |                 |
 
 The following signals are collected trough bodge cables from the LB to the auxiliary board (J2):
 
 *Attention: pin N°1 of J2 is at the top*
 
-| SIGNAL          | Location   | Pin N° on J2 | Comment         |
-|:---------------:|:----------:|:------------:|:---------------:|
-| /SNDPG2         | NC         |1             |Leave unconnected|
-| /DMA            |            |2             |                 |
-| VA6             | NC         |3             |Leave unconnected|
-| VA13            |            |4             |                 |
-| A18             |            |5             |                 |
-| VA5             |            |6             |                 |
-| A17             |            |7             |                 |
-| A20             |Pin N°5 - D4|8             |                 |
-| A19             |Pin N°3 - D3|9             |                 |
+| SIGNAL          | Location       | Pin N° on J2 | Comment         |
+|:---------------:|:--------------:|:------------:|:---------------:|
+| /SNDPG2         |Pin N°5 - U2F   |1             |Leave unconnected|
+| /DMA            |Pin N°15 - U2F  |2             |                 |
+| VA6             |Pin N°6 - U2F   |3             |                 |
+| VA13            |Pin N°12 - U3G  |4             |                 |
+| A18             |                |5             |                 |
+| VA5             |Pin N°13 - U3G  |6             |                 |
+| A17             |                |7             |                 |
+| A20             |Pin N°5 - D4    |8             |                 |
+| A19             |Pin N°3 - D3    |9             |                 |
 
 The following signals are collected directly by the auxiliary board and need to be wired from J3 to J5:
 
