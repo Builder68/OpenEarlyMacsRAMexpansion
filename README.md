@@ -66,18 +66,17 @@ The expansion board has a DIP switch that enables the option to include or exclu
 
 The following signals are collected trough bodge cables from the logic board to the expansion board (J5):
 
-1.	/RAS - Left Leg of R42
+*Attention: pin N°1 of J5 is at the top*
 
-2.	A19  - Pin #3 TSG  (D3)
+| SIGNAL         | Location    | Pin N° on J5 | 
+|:---------------:|:------:|:--------:|:-----------:|
+| /RAS |Left Leg of R42|1       |          |
+| A19  |Pin N°3 - D3   |2       |          |
+| A20  |Pin N°5 - D4   |3       |          |
+| A17  |Pin N°45 - CPU |4       |          |
+| A18  |Pin N°46 - CPU |5       |          |
+| A21  |Pin N°50 - CPU |6       |          | 
 
-3.	A20  - Pin #5 LS04 (D4)
-
-4.	A17  - Pin #45 (CPU)
-
-5.	A18 - Pin #46 (CPU) 
-
-6.	A21 – Pin #50 (CPU)
- 
 The following signals are collected directly by the auxiliary board and need to be wired from J3 to J5:
 
 *Attention: pin N°1 of J3 is at the bottom, pin N°1 of J5 is at the top*.
