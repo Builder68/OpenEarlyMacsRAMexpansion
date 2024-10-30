@@ -62,20 +62,33 @@ The expansion board has a DIP switch that enables the option to include or exclu
 *Attention: The DIP switch on the expansiuon board must be always set to disable system memory bank when installed on a Macintosh 128K*
 
 
-### INPUT SIGNAS
+### INPUT SIGNALS FROM THE LB
 
-The following signals are collected trough bodge cables from the logic board to the expansion board (J5):
+The following signals are collected trough bodge cables from the LB to the expansion board (J5):
 
 *Attention: pin N°1 of J5 is at the top*
 
 | SIGNAL         | Location    | Pin N° on J5 | Comment         |
 |:---------------:|:------:|:--------:|:-----------:|
-| /RAS |Left Leg of R42|1       |          |
+| /RAS |Left Leg of R42|7       |          |
 | A19  |Pin N°3 - D3   |2       |          |
 | A20  |Pin N°5 - D4   |3       |          |
-| A17  |Pin N°45 - CPU |4       |          |
-| A18  |Pin N°46 - CPU |5       |          |
-| A21  |Pin N°50 - CPU |6       |          | 
+| A21  |Pin N°50 - CPU |4       |          |
+
+The following signals are collected trough bodge cables from the LB to the auxiliary board (J2):
+
+*Attention: pin N°1 of J2 is at the top*
+
+| SIGNAL         | Location    | Pin N° on J2 | Comment         |
+|:---------------:|:------:|:--------:|:-----------:|
+| /SNDPG2         | NC     |1         |Leave unconnected|
+| /DMA            |        |          |                 |
+| VA6             | NV     |3         |Leave unconnected|
+| A18             |        |4         |                 |
+| VA5             |        |4         |                 |
+| A17             |        |4         |                 |
+| A20             |        |4         |                 |
+| A19             |        |4         |                 |
 
 The following signals are collected directly by the auxiliary board and need to be wired from J3 to J5:
 
