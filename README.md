@@ -79,17 +79,17 @@ The following signals are collected trough bodge cables from the LB to the auxil
 
 *Attention: pin N°1 of J2 is at the top*
 
-| SIGNAL         | Location    | Pin N° on J2 | Comment         |
-|:---------------:|:------:|:--------:|:-----------:|
-| /SNDPG2         | NC     |1         |Leave unconnected|
-| /DMA            |        |2          |                 |
-| VA6             | NC     |3         |Leave unconnected|
-| VA13            |        |4         |                 |
-| A18             |        |4         |                 |
-| VA5             |        |4         |                 |
-| A17             |        |4         |                 |
-| A20             |        |4         |                 |
-| A19             |        |4         |                 |
+| SIGNAL          | Location   | Pin N° on J2 | Comment         |
+|:---------------:|:----------:|:------------:|:---------------:|
+| /SNDPG2         | NC         |1             |Leave unconnected|
+| /DMA            |            |2             |                 |
+| VA6             | NC         |3             |Leave unconnected|
+| VA13            |            |4             |                 |
+| A18             |            |5             |                 |
+| VA5             |            |6             |                 |
+| A17             |            |7             |                 |
+| A20             |Pin N°5 - D4|8             |                 |
+| A19             |Pin N°3 - D3|9             |                 |
 
 The following signals are collected directly by the auxiliary board and need to be wired from J3 to J5:
 
@@ -102,7 +102,7 @@ The following signals are collected directly by the auxiliary board and need to 
 | VID /u  |3       |7       |          |
 | MC2M    |4       |6       |          |
 | /MSRA8F |5       |1       |          |
-| /MSRA9F |6       |NC     | Not used with this version, leave unconnected | 
+| /MSRA9F |6       |NC      | Leave unconnected | 
 
   
 
