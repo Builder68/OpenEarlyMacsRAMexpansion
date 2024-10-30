@@ -5,27 +5,24 @@
 Unlike the Macintosh Plus, which offers a straightforward SIMM-based memory upgrade, expanding the memory of these early Macs is significantly more complex and requires additional components.
 Back in the day, RAM expansion boards were available to increase the memory of early Macs. However, finding these boards in working condition has become increasingly challenging and expensive. The *Mac Rescue board*, one of the very few that provides full 4MB of RAM, is particularly rare.
 
-This newly designed expansion board, paired with an auxiliary board I called **RAM Refresh Configurator**, provides a flexible and customizable solution to increase memory up to 4MB. The circuitry is largely based on the *Macsnap 548E board from DOVE computer corp.* With a few modifications and enhancements, 4MB RAM is easily achievable using newer, higher-density FP DRAM ICs of 256Kb x 16 bits (512KB per IC).
+This newly designed expansion board, paired with an auxiliary board I called **RAM Refresh Configurator**, provides a simple solution to increase memory up to 4MB. The circuitry is largely based on the *Macsnap 548E board from DOVE computer corp.* With a few modifications and enhancements, 4MB RAM was achieved, using higher-density FP DRAM ICs.
 
 ![Screenshot 2024-10-22 at 3 00 07 PM](https://github.com/user-attachments/assets/0927eb3d-6c0c-4479-a216-cbbe3e41b88d)
 ![Screenshot 2024-10-22 at 6 50 35 PM](https://github.com/user-attachments/assets/46a6b025-a1a6-4c5b-a361-0ad218c6825e)
 
-The expansion board has been tested only with 128K MacPlus / 512Ke ROMs. If a *ROM-INATOR board* is installed concurrently, it needs to be previously patched (instructions provided below. Many thanks to Golden Potato and SVGA for this solution!).
-
+The expansion board has been tested only with MacPlus / 512Ke ROMs. If a *ROM-INATOR board* is installed concurrently, it needs to be previously patched (instructions provided below. Many thanks to Golden Potato and SVGA for this solution!).
 
 ## KEY FEATURES
 
-• Configurable to add up to 3.5MB of RAM, resulting in a total of 4MB when combined with the onboard memory, the maximum supported by early Macs.
+• Configurable to add up to 4MB of RAM, the maximum supported by early Macs.
 
-• Compatible with Macintosh 512K using either Apple 128K ROM or ROM-INATOR, and the 512KE.
+• Compatible with Macintosh 128/512K using either Apple 128K ROM or ROM-INATOR, and the 512KE.
 
-• Version 3 of the expansion and auxiliary boards now supports up to 4MB of RAM, giving you the option to exclude the onboard memory bank using a DIP switch. Additionally, this version supports Macintosh 128K models using Apple 128K ROM or ROM-INATOR.
+• Option to exclude the onboard memory bank using a DIP switch. (A must for Macintosh 128K).
 
 • Solder jumpers to select among three memory size configurations (1MB, 2MB, or 4MB).
 
-• Auxiliary board can be set to restore original configuration and disable the expansion board (Version 3 uses a DIP switch).
-
-• Auxiliary board allows customization of the number of refresh cycles (Standard, Mac Plus style 512 refresh cycles, or 1024 refresh cycles).
+• Auxiliary board can be set to restore original configuration and disable the expansion board (DIP switch).
 
 • No extensions or other software are required, and the Mac recognizes all the configured RAM at startup.
 
@@ -36,22 +33,22 @@ Two options are available for installing these boards:
 
 ### •	Soldering piggyback sockets
   
-This is the easiest method and can be reversed. Solder DIP sockets onto specific ICs (U5-11F, U5-11G, U12E, U13E, and U4F for the auxiliary board) on the logic board. Then, the boards connect through male pin headers to these sockets. *This task requires a certain degree of soldering expertise. Ensure that all pins from the DIP sockets are soldered securely and double-check the continuity between the base of the IC leg and the top of the pin socket.*
+This is the easiest method. Solder DIP sockets onto specific ICs (U5-11F, U5-11G, U12E, U13E, and U4F for the auxiliary board) on the logic board. Then, the boards connect through male pin headers to these sockets. *This task requires a certain degree of soldering expertise. Ensure that all pins from the DIP sockets are soldered securely and double-check the continuity between the base of the IC leg and the top of the pin socket.*
 
 ### • Relocating ICs to the expansion boards
 
-Alternatively, relocate those ICs to the expansion boards and install pin header sockets directly onto the logic board to make the connection with male pin headers soldered to the boards. It is highly recommended to use the rounded or machined type for both the pin header sockets (female) and the pin headers.
+Alternatively, you can use extra long pin header sockets like the ones used by the Mac’s-a-Million board by Sophisticated Circuits and relocate the mentioned ICs on the expansion board. 
 
-### • Resitor Arrays RP2 & RP3
+### • Resistor Arrays RP2 & RP3
 
-Additionally, resistor arrays RP2 and RP3 must be removed from the logic board, and at least 4 to 6 signals (standard mode, depending the Mac model is 512 or 128) need to be collected through cables soldered to specific points on the logic board and brought to the expansion board using DIP connectors.
+Additionally, resistor arrays RP2 and RP3 must be removed from the logic board, and 6 signals need to be collected through bodge cables.
 
 
 ## THE RAM REFRESH CONFIGURATOR
 
 This versatile tiny board offers several handy features:
 
-•	Intervene /CAS signals, handle RAM address bus and select between 3 refresh cycles modes: Standard, Mac Plus, 1024 cycles (experimental). 
+•	Intervene /CAS signals, handle RAM address bus and reconfigure the number of refresh cycles to give maximum compatability with FPM RAM ICs of 512 cycles. 
 
 •	Disable the RAM expansion board trough a DIP switch, allowing to remove completely the expansion board and quickly restore the memory stock configuration.
 
@@ -59,15 +56,16 @@ This versatile tiny board offers several handy features:
 ### HANDLING OF THE ONBOARD MEMORY BANK
 
 The onboard memory bank consists of 16 ICs of either 256Kbitx1bit (Macintosh 512K/KE) or 64Kbitx1bit (Macintosh 128K). 
-The expansion board (version 3.0) has a DIP switch that enables the option to include or exclude this memory bank withing the 4MB of RAM. 
+The expansion board has a DIP switch that enables the option to include or exclude this memory bank withing the 4MB of RAM. 
+
 On Mac 128K, the system memory bank must always be excluded. On Mac 512K/KE, it's optional. 
-Excluding the aging onboard memory bank may reduce overall energy consumption and heat generated by the logic board.
 
 
 ### STANDARD REFRESH CYCLES MODE
 
 The standard refresh mode is the stock method used by the Mac 128/512/KE to generate DRAM refresh cycles.
 Although the system memory ICs are 256 cycles/4ms, the ICs used in this RAM expansion board (AS4C1256KFO / 512 refresh cycles / 8ms), work perfectly!.
+
 Somehow, these ICs are correctly refreshed within 8 ms in all their rows range, making them compatible with the system refresh circuitry. This refresh cycle mode has been working in the expansion board prototype installed on my Macintosh 512K without any kind of issues.
 Using the default refresh mode requires fewer signals from the logic board, reducing the number wires needed to the board and some components no need to be populated in the auxiliary board. (U1, U2, and U3 can be omitted.)
 
