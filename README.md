@@ -84,12 +84,12 @@ The following signals are collected directly by the auxiliary board and need to 
 
 | SIGNAL         | Pin N° on J3 Aux. B    | Pin N° on J5 Exp.B  | Comment         | 
 |:---------------:|:------:|:--------:|:-----------:|
-| /MCAS0  |       |1       | 9         |
-| /MCAS1  |       |2       | 8         |
-| VID /u  |       |3       | 7         |
-| MC2M    |       |4       | 6         |
-| /MSRA8F |       |5       | 1         |
-| /MSRA9F |       |6       | 5         | Not used, leave unconnected
+| /MCAS0  |1       |9       |          |
+| /MCAS1  |2       |8       |          |
+| VID /u  |3       |7       |          |
+| MC2M    |4       |6       |          |
+| /MSRA8F |5       |1       |          |
+| /MSRA9F |6       |5       | Not used, leave unconnected | 
 
   
 
