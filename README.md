@@ -31,17 +31,19 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 ## INSTALLATION
 
-### Resistor R42 
+### Resistor R42 (LB)
 
-To modify the refresh cycle mode, we need to physically alter the circuit, starting with opening one of the legs of resistor R42. This only applies to LBs revisions who acctualy have an R42 resistor and IC U13F populated 
+Start the installation by opening one leg of resistor R42. This only applies to LB revisions that have an R42 resistor and IC U13F populated. Early LB revisions from Macintosh 128K will not have these components. 
 
-### •	Option A: Soldering piggyback sockets
+## Boards Install
+
+### Option A: Soldering piggyback sockets
   
 This is the easiest method. Solder DIP sockets onto ICs U11F, U11G, U12E, U13E, and U4F. Then, the boards connect to these sockets via male pin headers.
 
 *Attention: This task requires basic soldering skills. Ensure that all pins from the DIP sockets are securely soldered and double-check the continuity between the IC leg base and the top of the pin socket.*
 
-### • Obtion B: Relocating ICs to the expansion boards
+### Obtion B: Relocating ICs to the expansion boards
 
 Alternatively, you can use extra-long pin header sockets like those used by the Mac’s-a-Million board by Sophisticated Circuits and relocate the mentioned ICs to the expansion and auxiliary boards.
 
