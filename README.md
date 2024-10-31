@@ -31,6 +31,10 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 ## INSTALLATION
 
+### Resistor R42 
+
+To modify the refresh cycle mode, we need to physically alter the circuit, starting with opening one of the legs of resistor R42. This only applies to later LBs from Macintosh 512K / 512Ke
+
 ### •	Option A: Soldering piggyback sockets
   
 This is the easiest method. Solder DIP sockets onto ICs U11F, U11G, U12E, U13E, and U4F. Then, the boards connect to these sockets via male pin headers.
@@ -87,9 +91,6 @@ The following table shows signals that are collected directly by the auxiliary b
 | /MSRA8F         |5       |1         |             |
 | /MSRA9F         |6       |NC        | Leave unconnected | 
 
-Opening the trace at R42
-
-To modify the refresh cycle mode, we need to physically alter the circuit, starting with opening one of the legs of resistor R42 (LB).
 
 Mac Plus Refresh Cycles Mode
 
