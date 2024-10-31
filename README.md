@@ -47,9 +47,9 @@ Resistor arrays RP2 and RP3 must be removed from the logic board (LB) and replac
 
 ### Inputs signals trough wires
 
-The following signals are collected trough bodge cables from the LB to the expansion board (J5):
+The following table shows the signals that are collected via bodged cables from the LB to the expansion board (J5):
 
-*Attention: pin N°1 of J5 is at the top*
+*Please note that pin 1 of connector J5 is located at the top.*
 
 | SIGNAL                | Location    | Pin N° on J5 | Comment         |
 |:---------------------:|:-----------:|:------------:|:---------------:|
@@ -58,9 +58,9 @@ The following signals are collected trough bodge cables from the LB to the expan
 | A20  |Pin N°5 - U4D   |3            |              |                 |
 | A21  |Pin N°50 - CPU  |4            |              |                 |
 
-The following signals are collected trough bodge cables from the LB to the auxiliary board (J2):
+The following table shows the signals that are collected via bodged cables from the LB to the auxiliary board (J2):
 
-*Attention: pin N°1 of J2 is at the top*
+*Please note that pin 1 of connector J5 is located at the top.*
 
 | SIGNAL          | Location       | Pin N° on J2 | Comment         |
 |:---------------:|:--------------:|:------------:|:---------------:|
@@ -74,9 +74,9 @@ The following signals are collected trough bodge cables from the LB to the auxil
 | A20             |Pin N°5 - U4D   |8             |                 |
 | A19             |Pin N°3 - U3D   |9             |                 |
 
-The following signals are collected directly by the auxiliary board and need to be wired from J3 to J5:
+The following table shows signals that are collected directly by the auxiliary board and need to be wired from J3 to J5:
 
-*Attention: pin N°1 of J3 is at the bottom, pin N°1 of J5 is at the top*.
+*Please note that pin 1 of connector J3 is located at the bottom, whereas pin 1 of connector J5 is located at the top.*
 
 | SIGNAL         | Pin N° on J3 Aux. B | Pin N° on J5 Exp.B  | Comment         | 
 |:---------------:|:------:|:--------:|:-----------:|
