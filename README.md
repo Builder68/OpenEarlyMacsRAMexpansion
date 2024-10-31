@@ -35,6 +35,11 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 Start the installation by opening one leg of resistor R42. This only applies to LB revisions that have an R42 resistor and IC U13F populated. Early LB revisions from Macintosh 128K will not have these components. 
 
+
+### Resistor Arrays RP2 & RP3 (LB)
+
+In order to install the auxiliary board, resistor arrays RP2 and RP3 must be removed from the logic board (LB) and solder in their places socket pin headers. The auxiliary board will connect to these sockets via  J6 & J7 which are male to male pin headers (machined round type)
+
 ## Boards Install
 
 ### Option A: Soldering piggyback sockets
@@ -47,9 +52,7 @@ This is the easiest method. Solder DIP sockets onto ICs U11F, U11G, U12E, U13E, 
 
 Alternatively, you can relocate the mentioned ICs to the expansion and auxiliary boards by soldering IC sockets in their places on the main board (LB) and using extra-long pin header sockets (like those used by the Mac’s-a-Million board by Sophisticated Circuits) for the expansion boards.
 
-### • Resistor Arrays RP2 & RP3
 
-Resistor arrays RP2 and RP3 must be removed from the logic board (LB) and replaced with socket pin headers (round-machined type).
 
 ### Inputs signals trough wires
 
