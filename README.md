@@ -3,7 +3,7 @@
 
  ## SUMMARY
 
-Back in the day, RAM upgrades were available for Early Macs. However, finding these boards in working condition has become increasingly difficult. The *Mac Rescue* board, one of the few offering a full 4MB of RAM, is nearly impossible to obtain.
+Back in the day, RAM upgrades were available for the so called Early Macs (Macintosh 128K / 512K and 512Ke). However, finding these boards in working condition has become increasingly difficult. The *Mac Rescue* board, one of the few offering a full 4MB of RAM, is nearly impossible to obtain.
 
 This newly designed expansion board, paired with an auxiliary **RAM Refresh Configurator board**, provides an affordable solution to increase memory up to 4MB.
 
