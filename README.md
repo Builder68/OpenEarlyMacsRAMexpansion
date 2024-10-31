@@ -133,7 +133,7 @@ Early Mac RAM ICs require just 256 refresh cycles every 4 milliseconds. The LB's
 
 Interestingly, I’ve discovered that at least the RAM ICs I’ve used on my expansion board function flawlessly without modifying the RAM address bus generation circuitry, even though their specifications indicate a requirement for 512 refresh cycles. I haven’t yet figured out if this is due to the LB actually generating 512 refresh cycles from the point of view of the IC, or if the IC only needs address variations between RA0-RA7 for RAM refresh. Anyway, this mode has been stable on my Mac 512K for several months.
 
-While I haven't determined the exact reason for this unexpected behavior, I cannot confidently recommend it as the default choice for any other scenario where the LB, the ROM image, and the RAM IC model is the same as mines. However, if you're aiming to wire usage on the LB, and you're using the same RAM ICs I recommend, you can implement this mode with reasonable assurance.
+While I haven't determined the exact reason for this unexpected behavior, I cannot confidently recommend it as the default choice for any other scenario where the LB, the ROM image, and the RAM IC model is the same as mines. However, if you're aiming to minimize wiring from the LB, and you're using the same RAM ICs I recommend, you can implement this mode with reasonable assurance.
 
 ### 1204 REFRESH CYCLES MODE
 
