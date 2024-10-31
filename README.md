@@ -45,7 +45,7 @@ This is the easiest method. Solder DIP sockets onto ICs U11F, U11G, U12E, U13E, 
 
 ### Obtion B: Relocating ICs to the expansion boards
 
-Alternatively, you can use extra-long pin header sockets like those used by the Mac’s-a-Million board by Sophisticated Circuits and relocate the mentioned ICs to the expansion and auxiliary boards.
+Alternatively, you can relocate the mentioned ICs to the expansion and auxiliary boards by soldering IC sockets in their places on the main board (LB) and using extra-long pin header sockets (like those used by the Mac’s-a-Million board by Sophisticated Circuits) for the expansion boards.
 
 ### • Resistor Arrays RP2 & RP3
 
