@@ -33,7 +33,7 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 ### Resistor R42 
 
-To modify the refresh cycle mode, we need to physically alter the circuit, starting with opening one of the legs of resistor R42. This only applies to later LBs from Macintosh 512K / 512Ke
+To modify the refresh cycle mode, we need to physically alter the circuit, starting with opening one of the legs of resistor R42. This only applies to LBs revisions who acctualy have an R42 resistor and IC U13F populated 
 
 ### •	Option A: Soldering piggyback sockets
   
