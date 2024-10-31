@@ -1,16 +1,18 @@
 # OpenEarlyMacsRAMexpansion
 
+
  ## SUMMARY
 
-Back in the day, RAM upgrades were available for Early Macs. However, finding these boards in working condition has become increasingly challenging. The *Mac Rescue board*, one of the very few that provides full 4MB of RAM, is almost unobtaniable.
+Back in the day, RAM upgrades were available for Early Macs. However, finding these boards in working condition has become increasingly difficult. The *Mac Rescue* board, one of the few offering a full 4MB of RAM, is nearly impossible to obtain.
 
-This newly designed expansion board, paired with an auxiliary board I called **RAM Refresh Configurator**, provides a affordable solution to increase memory up to 4MB.
+This newly designed expansion board, paired with an auxiliary **RAM Refresh Configurator board**, provides an affordable solution to increase memory up to 4MB.
 
-The expansion board has been tested only on a Macintosh 512K with MacPlus / 512Ke ROMs, and also with the *ROM-INATOR board* is installed concurrently.
+The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs, and also with the *ROM-INATOR* board installed concurrently.
 
-*Warning: testing on a Mac 128K still pending*  
+*Warning: Testing on a Mac 128K is still pending*  
 
-*Attention: The ROM-INATOR detects the machine model by checking the RAM size available, so the ROM image need to be patched before installing this board or any other RAM upgrade on the early macs*
+*Attention: The ROM-INATOR detects the machine model by checking the available RAM size. Therefore, the ROM image needs to be patched before installing this board or any other RAM upgrade on early Macs*
+
 
 ## KEY FEATURES
 
@@ -18,11 +20,11 @@ The expansion board has been tested only on a Macintosh 512K with MacPlus / 512K
 
 • Compatible with Macintosh 128/512K using either Apple 128K ROM or ROM-INATOR, and the 512KE.
 
-• Option to exclude the onboard memory bank using a DIP switch. (Mandatory for Macintosh 128K).
+• Option to use a DIP switch to swap the onboard memory with a memory bank from the expansion board (necessary for Macintosh 128K).
 
 • Solder jumpers to select among three memory size configurations (1MB, 2MB, or 4MB).
 
-• Auxiliary board can be set trough a DIP switch to disable the expansion board, restoring original configuration.
+• Auxiliary board can be set via a DIP switch to disable the expansion board, restoring the original configuration.
 
 • No extensions or other software are required, and the Mac recognizes all the configured RAM at startup.
 
@@ -31,17 +33,17 @@ The expansion board has been tested only on a Macintosh 512K with MacPlus / 512K
 
 ### •	Option A: Soldering piggyback sockets
   
-This is the easiest method. Solder DIP sockets onto the ICs U11F, U11G, U12E, U13E, and U4F. Then, the boards connect through male pin headers to these sockets.
+This is the easiest method. Solder DIP sockets onto ICs U11F, U11G, U12E, U13E, and U4F. Then, the boards connect to these sockets via male pin headers.
 
-*Attention: This task requires a certain degree of soldering expertise. Please ensure that all pins from the DIP sockets are soldered securely and double-check the continuity between the base of the IC leg and the top of the pin socket.*
+*Attention: This task requires basic soldering skills. Ensure that all pins from the DIP sockets are securely soldered and double-check the continuity between the IC leg base and the top of the pin socket.*
 
 ### • Obtion B: Relocating ICs to the expansion boards
 
-Alternatively, you can use extra long pin header sockets like the ones used by the *Mac’s-a-Million board by Sophisticated Circuits* and relocate the mentioned ICs on the expansion and auxiliary boards. 
+Alternatively, you can use extra-long pin header sockets like those used by the Mac’s-a-Million board by Sophisticated Circuits and relocate the mentioned ICs to the expansion and auxiliary boards.
 
 ### • Resistor Arrays RP2 & RP3
 
-Resistor arrays RP2 and RP3 must be removed from the LB, and solder socket pin headers on the LB (round-machined type).
+Resistor arrays RP2 and RP3 must be removed from the logic board (LB) and replaced with socket pin headers (round-machined type).
 
 ### Inputs signals trough wires
 
