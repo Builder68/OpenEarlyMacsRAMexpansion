@@ -64,7 +64,7 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 #### Sockets & Pinheaders
 
-##### PiggyBack Sockets Install
+##### Pin Headers & PiggyBack Sockets Install (Removable)
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
@@ -73,7 +73,7 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 | 40P 2.54mm Single Row Pin Header|2            |             |   |
 | 40P Right Angle 2.54mm Single Row Male Header Pin Header|1            |             |   |
 
-##### Connector & Socket Install
+##### Connectors & Sockets Install (Relocate U12E, U13E, U11F, and U11G to the Expansion Board)
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
