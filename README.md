@@ -53,11 +53,11 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
-|5V 256K x 16 CMOS DRAM (fast page mode)|8               |                 | AS4C256K16F0-60JC  |
-|5V 8-bit buffer/line driver, 3-states     |2            |              | 74HCT244        |
+|5V 256K x 16 CMOS DRAM (fast page mode)   |8            |                                                   | AS4C256K16F0-60JC  |
+|5V 8-bit buffer/line driver, 3-states     |2            |[74HCT244-T](https://www.mouser.com/ProductDetail/771-74HCT244D-T)|     |
 |5V 3 to 8 line decoder demultiplexer      |2            |[74HCT138D-T](https://www.mouser.com/ProductDetail/771-74HCT138D-T)|    | 
-|5V dual 4-bit multiplexer                 |2            |              | 74HCT253        | 
-|5V quad 2-input NAND gate                 |1            |              | 74HCT132        | 
+|5V dual 4-bit multiplexer                 |2            |[HCT253D653](https://www.mouser.com/ProductDetail/771-HCT253D653) |     | 
+|5V quad 2-input NAND gate                 |1            |[74HCT32D-T](https://www.mouser.com/ProductDetail/771-74HCT32D-T) |     | 
 
 ## INSTALLATION
 
