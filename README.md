@@ -42,7 +42,12 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 |2.2K ohm 0805 Resistor |8            |              |                 | 
 |47 ohm 0805 Resistor   |16           |              |                 |
  
+### CAPACITORS
 
+| Part description      | Quantity    | Supplier     | Notes           |
+|:---------------------:|:-----------:|:------------:|:---------------:|
+|10uF 0805 Multilayer Ceramic Capacitor |1            |              |                 | 
+|100nF 0805 Multilayer Ceramic Capacitor |29           |              |                 |
  
 
 ## INSTALLATION
