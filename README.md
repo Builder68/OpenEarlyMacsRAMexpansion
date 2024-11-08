@@ -86,7 +86,8 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
-| Brd Spt Snap Lock Nylon 1/2"   |1            |[36-8892-ND](https://www.digikey.com/en/products/detail/keystone-electronics/8892/2746017)|                 |
+| Brd Spt Snap Lock Nylon 1/2"   |1            |[36-8892-ND](https://www.digikey.com/en/products/detail/keystone-electronics/8892/2746017)| Height for Piggyback Install 12.7 mm  |
+| Brd Spt Snap Lock Nylon 1/2"   |1            |[36-8892-ND](https://www.digikey.com/en/products/detail/keystone-electronics/8892/2746017)| Height for Piggyback Install 12.7 mm  |
 
 ## INSTALLATION
 
