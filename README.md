@@ -53,8 +53,8 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
-|5V 256K x 16 CM0S DRAM (fast page mode)|8            |              | 50 or 60 ns  |
-|100nF 0805 Multilayer Ceramic Capacitor |29           |              |                 |
+|5V 256K x 16 CMOS DRAM (fast page mode)|8            |              | AS4C256K16F0-60JC  |
+|8-bit buffer/line driver, 3-states     |2            |              | 74HCT244          |
  
 
 ## INSTALLATION
