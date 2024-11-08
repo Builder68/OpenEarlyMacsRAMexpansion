@@ -64,7 +64,7 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 #### Sockets & Pinheaders
 
-##### PiggyBack Install (Removeable)
+##### PiggyBack Sockets Install
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
@@ -73,12 +73,12 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 | 40P 2.54mm Single Row Pin Header|2            |             |   |
 | 40P Right Angle 2.54mm Single Row Male Header Pin Header|1            |             |   |
 
-##### Fixed Install
+##### Connector & Socket Install
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
-|2.2K ohm 0805 Resistor |8            |              |                 | 
-
+|Conn Socket 64P        |2            | [316-93-164-41-007000](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/316-93-164-41-007000/357031?s=N4IgTCBcDaIMwEYBsBaAnHFyAsLsJQAZCB2YwkAXQF8g)|              |
+|Conn IC DIP-20 Socket  |2            | [SA203000](https://www.digikey.com/en/products/detail/on-shore-technology-inc/SA203000/3313532)             |                 |
 
 #### Spacer
 
