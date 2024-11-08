@@ -29,19 +29,21 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 • No extensions or other software are required, and the Mac recognizes all the configured RAM at startup.
 
 
-## WHAT YOU NEED
+## CONSTRUCTION
 
-• LB schematics 
+• Latest Schematics
 
-• 
+• Latest Gerber files
 
-• 
+### RESISTORS
 
-• 
+| Part description      | Quantity    | Supplier     | Notes           |
+|:---------------------:|:-----------:|:------------:|:---------------:|
+|2.2K ohm 0805 Resistor |8            |              |                 | 
+|47 ohm 0805 Resistor   |16           |              |                 |
+ 
 
-• 
-
-• 
+ 
 
 ## INSTALLATION
 
