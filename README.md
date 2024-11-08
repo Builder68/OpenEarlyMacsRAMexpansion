@@ -16,7 +16,7 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 ## KEY FEATURES
 
-• Configurable to add up to 4MB of RAM, the maximum supported by early Macs.
+• Configurable to add up to 4MB of RAM.
 
 • Compatible with Macintosh 128/512K using either Apple 128K ROM or ROM-INATOR, and the 512KE.
 
