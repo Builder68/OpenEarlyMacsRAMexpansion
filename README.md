@@ -99,7 +99,7 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
-| Zener Diode ZNR SOD123 500MW   |2            |[863-SZMMSZ5V1T1G](https://www.mouser.com/ProductDetail/onsemi/SZMMSZ5V1T1G?qs=k%252Be6uhf5HI1HqLTFyqTq7w%3D%3D)| Ultra low profile  |
+| Zener Diode ZNR SOD123 500MW   |2            |[863-SZMMSZ5V1T1G](https://www.mouser.com/ProductDetail/onsemi/SZMMSZ5V1T1G?qs=k%252Be6uhf5HI1HqLTFyqTq7w%3D%3D)|   |
 
 
 ### RAM REFRESH CONFIGURATOR BOARD (REV 2.0)
