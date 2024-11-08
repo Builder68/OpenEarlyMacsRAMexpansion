@@ -95,6 +95,12 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 |:---------------------:|:-----------:|:------------:|:---------------:|
 | Slide DIP Switch 8P   |1            |[653-A6H-8101](https://www.mouser.com/ProductDetail/Omron-Electronics/A6H-8101?qs=Rh%252BaoYk36r6BMZDoR1skvA%3D%3D)| Ultra low profile  |
 
+#### Diode
+
+| Part description      | Quantity    | Supplier     | Notes           |
+|:---------------------:|:-----------:|:------------:|:---------------:|
+| Zener Diode ZNR SOD123 500MW   |2            |[863-SZMMSZ5V1T1G](https://www.mouser.com/ProductDetail/onsemi/SZMMSZ5V1T1G?qs=k%252Be6uhf5HI1HqLTFyqTq7w%3D%3D)| Ultra low profile  |
+
 
 ### RAM REFRESH CONFIGURATOR BOARD (REV 2.0)
 
