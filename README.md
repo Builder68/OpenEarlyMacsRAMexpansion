@@ -62,7 +62,9 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 |5V dual 4-bit multiplexer                 |2            |[HCT253D653](https://www.mouser.com/ProductDetail/771-HCT253D653) |     | 
 |5V quad 2-input NAND gate                 |1            |[74HCT32D-T](https://www.mouser.com/ProductDetail/771-74HCT32D-T) |     | 
 
-#### Sockets & Pinheaders (For PiggyBack install option) 
+#### Sockets & Pinheaders
+
+##### PiggyBack Install (Removeable)
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
@@ -70,6 +72,13 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 | DIP-16 IC Chip Socket 2.54mm Pitch 7.6mm Flat Pins Soldering|2            |[DIP-16_FP](https://www.amazon.com/Uxcell-a11090300ux0244-2-54mm-Socket-Adaptors/dp/B0079SM1LW/ref=sr_1_3?crid=3M210B1RLHYSC&dib=eyJ2IjoiMSJ9.yineh7dbus9HEsJfsGH3_ClMOLEVwf48Z8De29l_YNoGtqEnB3tJyRem-zre07ujnL2TVvvco8eNgvti2jm33CcLyhH6U8PqRWmaaaLEjJr2N3zYNPC2qB9pAX1UW_nH8ozCvKjCdbLYAzu-9tqIig_TJYqLxoH7n4VqFM2st4Kt-TMeYwoZHiOQBwCx7e21wEb46F8zvW9XvW_nHaPshvztxEOVDYZ9SdTvv7pO12s.dVQZb8SDUPE-DL8tchl75I0Dl3JAkO5fDYRe4af360w&dib_tag=se&keywords=dip+sockets+2.54+mm+16&qid=1731069778&sprefix=dip+sockets+2.54+mm+16%2Caps%2C297&sr=8-3)              |Flat Pins Soldering| 
 | 40P 2.54mm Single Row Pin Header|2            |             |   |
 | 40P Right Angle 2.54mm Single Row Male Header Pin Header|1            |             |   |
+
+##### Fixed Install
+
+| Part description      | Quantity    | Supplier     | Notes           |
+|:---------------------:|:-----------:|:------------:|:---------------:|
+|2.2K ohm 0805 Resistor |8            |              |                 | 
+
 
 #### Spacer
 
