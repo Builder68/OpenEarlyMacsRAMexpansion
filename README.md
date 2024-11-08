@@ -35,18 +35,25 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 • Latest Gerber files
 
-### RESISTORS
+### Resistors
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
 |2.2K ohm 0805 Resistor |8            |              |                 | 
 |47 ohm 0805 Resistor   |16           |              |                 |
  
-### CAPACITORS
+### Capacitors
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
 |10uF Tantalum Capacitor|1            |              | CP_EIA-6032-28  |
+|100nF 0805 Multilayer Ceramic Capacitor |29           |              |                 |
+
+### Semiconductors
+
+| Part description      | Quantity    | Supplier     | Notes           |
+|:---------------------:|:-----------:|:------------:|:---------------:|
+|5V 256K x 16 CM0S DRAM (fast page mode)|8            |              | 50 or 60 ns  |
 |100nF 0805 Multilayer Ceramic Capacitor |29           |              |                 |
  
 
