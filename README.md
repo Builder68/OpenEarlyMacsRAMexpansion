@@ -31,25 +31,28 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 ## CONSTRUCTION
 
+### RAM EXPANSION BOARD (REV 2.0)
+
 • Latest Schematics
 
 • Latest Gerber files
 
-### Resistors
+#### Resistors
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
 |2.2K ohm 0805 Resistor |8            |              |                 | 
 |47 ohm 0805 Resistor   |16           |              |                 |
+|1K ohm 0805 Resistor   |2            |              |                 |
  
-### Capacitors
+#### Capacitors
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
 |10uF Tantalum Capacitor|1            |              | CP_EIA-6032-28  |
 |100nF 0805 Multilayer Ceramic Capacitor |29           |              |                 |
 
-### Semiconductors
+#### Semiconductors
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
@@ -58,6 +61,12 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 |5V 3 to 8 line decoder demultiplexer      |2            |[74AHCT138D118](https://www.mouser.com/ProductDetail/771-AHCT138D118)|  | 
 |5V dual 4-bit multiplexer                 |2            |[HCT253D653](https://www.mouser.com/ProductDetail/771-HCT253D653) |     | 
 |5V quad 2-input NAND gate                 |1            |[74HCT32D-T](https://www.mouser.com/ProductDetail/771-74HCT32D-T) |     | 
+
+#### Sockets (For PiggyBack install option) 
+
+| Part description      | Quantity    | Supplier     | Notes           |
+|:---------------------:|:-----------:|:------------:|:---------------:|
+| DIP-20 IC Chip Socket 2.54mm Pitch 7.6mm Flat Pins Soldering|2            |[DIP-20_FP](https://www.amazon.com/uxcell-2-54mm-Soldering-Socket-Adaptor/dp/B07H3RPFH8/ref=sr_1_3?crid=2AAD93YCWMVIH&dib=eyJ2IjoiMSJ9.6rmeeWM4h6g26z0fF63UVOQBFD-LY572b8sE6Kwfb46kzqcsdJvKzEFnzfhSIdAwsuqcWDpDLJj2Oti_vD6p8fpeCsuMI993gmlABOKltN3lKmSxixw9XLjJH7muzdcxx5D0xDImA1dHnck_T9dc8W93a5LaqLHKh_ePhn_39s1udbXTR77i_F_zIucm3cKNmHkN4nzuJcKCB4kohj35bIPE2ApCTL3GoYCQTWGhc.kuVyk9TBJDEDQ9C8tdMgAusFZUh16W4Kn76WCFhgiQ4&dib_tag=se&keywords=dip+sockets+2.54+mm+20&qid=1731069402&sprefix=dip+sockets+2.54+mm+20%2Caps%2C218&sr=8-3)              |Flat Pins Soldering| 
 
 ## INSTALLATION
 
