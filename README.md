@@ -48,7 +48,7 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 ### Resistor R42 (*)
 
 Let's start the installation by opening one leg of resistor R42.
-Then, solder one end of a bodged cable of at least 5 cm long, to the pin hole where the left leg was connected. You need to do this as a first step because the expansion boards will later be on top of this connection point, making it much harder to make the connection.
+Then, solder one end of a bodged cable of at least 5 cm long, to the pin hole where the left leg was connected. You need to do this as a first step because the expansion boards will later be on top of this connection point.
 
 *Please note this will only apply to LB revisions that actually have an R42 resistor and IC U13F populated. Early LB revisions from Macintosh 128K will not have these components.*
 
