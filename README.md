@@ -32,13 +32,13 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 ##
 ## CONSTRUCTION
 ###
-### RAM EXPANSION BOARD (REV 2.0)
+###    RAM EXPANSION BOARD (REV 2.0)
 
 • Latest Schematics
 
 • Latest Gerber files
 ####
-#### Resistors
+####      Resistors
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
