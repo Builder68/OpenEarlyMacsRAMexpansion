@@ -32,6 +32,8 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 ###
 ### 1. RAM EXPANSION BOARD (REV 2.0)
 
+![Front_EB](https://github.com/user-attachments/assets/7b5f1d7c-59fb-42c0-81d6-d0c1ccaf5089)
+
 • Latest Schematics
 
 • Latest Gerber files
