@@ -179,12 +179,13 @@ Alternatively, you can relocate the mentioned ICs to the expansion and auxiliary
 
 ### Inputs signals via wires
 
-The following table shows the signals that are collected via bodged cables from the LB to the expansion board (J5):
+The following table shows the signals that are collected via bodged cables from the LB to the EB (J5):
 
-*Please note that pin 1 of connector J5 is located at the top.*
+*Please note that pin 1 of connector J3 is located at the top.*
 
-| SIGNAL                | Location    | Pin N° on J5 | Comment         |
+| SIGNAL                | Location on LB   | Pin N° on J5 | Comment         |
 |:---------------------:|:-----------:|:------------:|:---------------:|
+
 | /RAS |Left Leg of R4  |7            |              |                 |
 | A19  |Pin N°3 - U3D   |2            |              |                 |
 | A20  |Pin N°5 - U4D   |3            |              |                 |
@@ -205,6 +206,7 @@ The following table shows the signals that are collected via bodged cables from 
 | A17             |Pin N°45 - CPU  |7             |                 |
 | A20             |Pin N°5 - U4D   |8             |                 |
 | A19             |Pin N°3 - U3D   |9             |                 |
+| RA(             |Left Pad R42    |9             |R42 must be open |
 
 The following table shows signals that are collected directly by the auxiliary board and need to be wired from J2 to J5:
 
