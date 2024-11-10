@@ -252,6 +252,7 @@ The following table shows signals that are collected directly by the auxiliary b
 
 *Warning: DIP Switch is inverted, therefore switch n°1 is at the bottom. Any other combination may cause damages to the Logic Board*
 
+*Warning: For Mac 128K, system RAM must be set to disabled*
 
 ### 6.2 RAM Refresh Configurator Board
 
