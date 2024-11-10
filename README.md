@@ -241,10 +241,11 @@ The following table shows signals that are collected directly by the auxiliary b
 
 #### 6.1.3 System RAM Bank
 
-| SW1                                |
-|:----------------------------------:|
-|RAM              |Mac 128K/512K/Ke  |
-|:---------------:|:----------------:|
+| SW1                               |
+|:---------------------------------:|
+
+|RAM                | Mac 128K/512K/Ke |
+|:-----------------:|:----------------:|
 | Up to 1MB       |JP1 & JP2: 2-3    |
 
 ### 6.2 RAM Refresh Configurator Board
