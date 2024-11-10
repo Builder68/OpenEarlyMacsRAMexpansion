@@ -241,14 +241,17 @@ The following table shows signals that are collected directly by the auxiliary b
 
 #### 6.1.3 System RAM Bank (SW1)
 
-|System RAM Disabled | System RAM Enabled  |
-|:------------------:|:-------------------:|
-| ON                 |               OFF   |
-| OFF                |               ON    |
-| ON                 |               OFF   |
-| OFF                |               ON    |
-| ON                 |               OFF   |
-| OFF                |               ON    |
+|S n°|System RAM Disabled | System RAM Enabled  |
+|:--:|:------------------:|:-------------------:|
+| 1  | ON                 |               OFF   |
+| 2  | OFF                |               ON    |
+| 3  | ON                 |               OFF   |
+| 4  | OFF                |               ON    |
+| 5  | ON                 |               OFF   |
+| 6  | OFF                |               ON    |
+
+*Warning: DIP Switch is inverted, therefore switch n°1 is at the bottom. Any other combination may cause damages to the Logic Board*
+
 
 ### 6.2 RAM Refresh Configurator Board
 
