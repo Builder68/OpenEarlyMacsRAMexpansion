@@ -141,6 +141,7 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 | DIP-16 IC Chip Socket 2.54mm Pitch 7.6mm Flat Pins Soldering|1            |[DIP-16_FP](https://www.amazon.com/Uxcell-a11090300ux0244-2-54mm-Socket-Adaptors/dp/B0079SM1LW/ref=sr_1_3?crid=3M210B1RLHYSC&dib=eyJ2IjoiMSJ9.yineh7dbus9HEsJfsGH3_ClMOLEVwf48Z8De29l_YNoGtqEnB3tJyRem-zre07ujnL2TVvvco8eNgvti2jm33CcLyhH6U8PqRWmaaaLEjJr2N3zYNPC2qB9pAX1UW_nH8ozCvKjCdbLYAzu-9tqIig_TJYqLxoH7n4VqFM2st4Kt-TMeYwoZHiOQBwCx7e21wEb46F8zvW9XvW_nHaPshvztxEOVDYZ9SdTvv7pO12s.dVQZb8SDUPE-DL8tchl75I0Dl3JAkO5fDYRe4af360w&dib_tag=se&keywords=dip+sockets+2.54+mm+16&qid=1731069778&sprefix=dip+sockets+2.54+mm+16%2Caps%2C297&sr=8-3)              |Flat Pins Soldering| 
 |Conn Socket 64P        |2            | [316-93-164-41-007000](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/316-93-164-41-007000/357031?s=N4IgTCBcDaIMwEYBsBaAnHFyAsLsJQAZCB2YwkAXQF8g)|Need 20 pins|
 |2.54mm 40x1 Male Header Strip, Machine Round Pins |1            | |Need 20 pins|
+| 1x40 Right Angle 2.54mm Male Pin Header STD    |1            |             | need 16 pins  |
 
 ##### Option N°2: Connectors & Sockets Install (Relocate U12E, U13E, U11F, and U11G to the Expansion Board)
 
