@@ -206,7 +206,7 @@ The following table shows the signals that are collected via bodged cables from 
 | A17             |Pin N°45 - CPU  |7             |                 |
 | A20             |Pin N°5 - U4D   |8             |                 |
 | A19             |Pin N°3 - U3D   |9             |                 |
-| RA(             |Left Pad R42    |9             |R42 must be open |
+| RA8             |Left Pad R42    |9             |R42 must be open |
 
 The following table shows signals that are collected directly by the auxiliary board and need to be wired from J2 to J5:
 
