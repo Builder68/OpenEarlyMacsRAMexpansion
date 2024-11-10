@@ -66,6 +66,8 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 ##### Option N°1: Pin Headers & PiggyBack Sockets Install (Removable)
 
+*Attention: Clearance between LB and EB will be aprox. 12.7 mm, allowing for the LB to slide back on its rails. No Trough Hole Mount components are installed on the EB for this option*
+
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
 | DIP-20 IC Chip Socket 2.54mm Pitch 7.6mm Flat Pins |2            |[DIP-20_FP](https://www.amazon.com/uxcell-2-54mm-Soldering-Socket-Adaptor/dp/B07H3RPFH8/ref=sr_1_3?crid=2AAD93YCWMVIH&dib=eyJ2IjoiMSJ9.6rmeeWM4h6g26z0fF63UVOQBFD-LY572b8sE6Kwfb46kzqcsdJvKzEFnzfhSIdAwsuqcWDpDLJj2Oti_vD6p8fpeCsuMI993gmlABOKltN3lKmSxixw9XLjJH7muzdcxx5D0xDImA1dHnck_T9dc8W93a5LaqLHKh_ePhn_39s1udbXTR77i_F_zIucm3cKNmHkN4nzuJcKCB4kohj35bIPE2ApCTL3GoYCQTWGhc.kuVyk9TBJDEDQ9C8tdMgAusFZUh16W4Kn76WCFhgiQ4&dib_tag=se&keywords=dip+sockets+2.54+mm+20&qid=1731069402&sprefix=dip+sockets+2.54+mm+20%2Caps%2C218&sr=8-3)              |Flat Pins Soldering| 
@@ -74,6 +76,8 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 | 1x40 Right Angle 2.54mm Male Pin Header STD    |1            |             | need 9 pins  |
 
 ##### Option N°2: Connectors & Sockets Install (ICs U12E, U13E, U11F, and U11G are relocated to the Expansion Board)
+
+*Attention: There will be a 9.5mm gap between the Logic Board and the Expansion Board. allowing for the Logic Board to slide back on its rails and ensures enough space for the THM ICs relocated on the Expansion Board.
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
