@@ -66,7 +66,7 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 ##### Option N°1: Pin Headers & PiggyBack Sockets Install (Removable)
 
-*Attention: Clearance between LB and EB will be aprox. 12.7 mm, allowing for the LB to slide back on its rails. No Trough Hole Mount components are installed on the EB for this option*
+*Attention: Clearance between LB and EB will be approx. 12.7 mm, allowing for the LB to slide back on the metallic rails of the case with no interference. No Through-Hole Mount components are installed on the EB for this option.*
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
