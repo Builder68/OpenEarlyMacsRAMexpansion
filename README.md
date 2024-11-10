@@ -12,7 +12,7 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 *Warning: Testing on a Mac 128K with earlier LB revision is still pending*  
 
-*Attention: The ROM-INATOR detects the machine model by checking the available RAM size. Therefore, the ROM image needs to be patched before installing this board or any other RAM upgrade on early Macs*
+*Attention: For use concurrently with the ROM-INATOR, its ROM image needs to be patched before installing this board or any other RAM upgrade*
 
 ##
 ## KEY FEATURES
