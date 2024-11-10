@@ -220,9 +220,9 @@ The following table shows signals that are collected directly by the auxiliary b
 | /MSRA8F         |5       |1         |             |
 | /MSRA9F         |6       |NC        | Leave unconnected / Not used| 
 
-## 6 JUMPERS $ SWITCHES SETTINGS
+## 6. Settings
 
-### 6.1 EXPANSION BOARD
+### 6.1 Expansion Board
 
 #### 6.1.1 Mac Model Selection
 
@@ -233,11 +233,11 @@ The following table shows signals that are collected directly by the auxiliary b
 
 #### 6.1.1 RAM Size
 
-|RAM              |Mac 128K        | Mac 512K/Ke  |
-|:---------------:|:--------------:|:------------:|
-| 1MB             |JP1 & JP2: 2-3  |9             |
-
-
+|RAM              |Mac 128K/512K/Ke  |
+|:---------------:|:----------------:|
+| Up to 1MB       |JP1 & JP2: 2-3    |
+| Up to 2MB       |JP1:1-2 / JP2: 2-3|
+| Up to 4MB       |JP1 & JP2: 1-2    |
 
 ### Mac model
 
