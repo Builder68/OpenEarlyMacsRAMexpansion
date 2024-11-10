@@ -231,13 +231,17 @@ The following table shows signals that are collected directly by the auxiliary b
 | Open            | Macintosh 128K    |
 | Close           | Macintosh 512K/Ke |
 
-#### 6.1.1 RAM Size
+#### 6.1.2 RAM Size
 
 |RAM              |Mac 128K/512K/Ke  |
 |:---------------:|:----------------:|
 | Up to 1MB       |JP1 & JP2: 2-3    |
 | Up to 2MB       |JP1:1-2 / JP2: 2-3|
 | Up to 4MB       |JP1 & JP2: 1-2    |
+
+### 6.2 RAM Refresh Configurator Board
+
+
 
 ### Mac model
 
