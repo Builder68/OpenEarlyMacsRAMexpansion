@@ -210,7 +210,7 @@ The following table shows the signals that are collected via bodged cables from 
 
 The following table shows signals that are collected directly by the auxiliary board and need to be wired from J2 to J5:
 
-*Please note that pin 1 of connector J3 is located at the bottom, whereas pin 1 of connector J5 is located at the top.*
+*Please note that pin 1 of connector J2 is located at the bottom, whereas pin 1 of connector J5 is located at the top.*
 
 | SIGNAL         | Pin N° on J2 Aux. B | Pin N° on J5 Exp.B  | Comment         | 
 |:---------------:|:------:|:--------:|:-----------:|
@@ -219,7 +219,7 @@ The following table shows signals that are collected directly by the auxiliary b
 | VID /u          |3       |7         |             |
 | MC2M            |4       |6         |             |
 | /MSRA8F         |5       |1         |             |
-| /MSRA9F         |6       |NC        | Leave unconnected | 
+| /MSRA9F         |6       |NC        | Leave unconnected / Not used| 
 
 ## SETTINGS
 
