@@ -1,6 +1,7 @@
 # OpenEarlyMacsRAMexpansion
 
 
+
  ## SUMMARY
 
 Back in the day, RAM upgrades were available for the so called Early Macs (Macintosh 128K / 512K and 512Ke). However, finding these boards in working condition has become increasingly difficult. The *Mac Rescue* board, one of the few offering a full 4MB of RAM, is nearly impossible to obtain.
@@ -13,7 +14,7 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 *Attention: The ROM-INATOR detects the machine model by checking the available RAM size. Therefore, the ROM image needs to be patched before installing this board or any other RAM upgrade on early Macs*
 
-
+##
 ## KEY FEATURES
 
 • Configurable to add up to 4MB of RAM.
@@ -28,15 +29,15 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 • No extensions or other software are required, and the Mac recognizes all the configured RAM at startup.
 
-
+##
 ## CONSTRUCTION
-
+###
 ### RAM EXPANSION BOARD (REV 2.0)
 
 • Latest Schematics
 
 • Latest Gerber files
-
+####
 #### Resistors
 
 | Part description      | Quantity    | Supplier     | Notes           |
@@ -44,14 +45,14 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 |2.2K ohm 0805 Resistor |8            |              |                 | 
 |47 ohm 0805 Resistor   |16           |              |                 |
 |1K ohm 0805 Resistor   |2            |              |                 |
- 
+#### 
 #### Capacitors
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
 |10uF Tantalum Capacitor|1            |  [293D106X9010C2TE3](https://www.mouser.com/ProductDetail/74-293D106X9010C2TE3)|   |
 |100nF 0805 Multilayer Ceramic Capacitor |29           |              |                 |
-
+####
 #### Semiconductors
 
 | Part description      | Quantity    | Supplier     | Notes           |
@@ -61,9 +62,9 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 |5V 3 to 8 line decoder demultiplexer      |2            |[74AHCT138](https://www.mouser.com/ProductDetail/771-AHCT138D118)|  | 
 |5V dual 4-bit multiplexer                 |2            |[74HCT253](https://www.mouser.com/ProductDetail/771-HCT253D653) |     | 
 |5V quad 2-input NAND gate                 |1            |[74HCT32](https://www.mouser.com/ProductDetail/771-74HCT32D-T) |     | 
-
+####
 #### Sockets & Pinheaders
-
+#####
 ##### Option N°1: Pin Headers & PiggyBack Sockets Install (Removable)
 
 *Attention: Clearance between LB and EB will be approx. 12.7 mm, allowing for the LB to slide back on the metallic rails of the case with no interference. No Through-Hole Mount components are installed on the EB for this option.*
