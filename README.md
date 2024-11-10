@@ -25,8 +25,6 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 • Solder jumpers to select among three memory size configurations (1MB, 2MB, or 4MB).
 
-• Auxiliary board can be set to disable the expansion board, restoring the original configuration.
-
 • No extensions or other software are required, and the Mac recognizes all the configured RAM at startup.
 
 ##
