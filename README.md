@@ -8,13 +8,10 @@ Back in the day, RAM upgrades were available for the so called Early Macs (Macin
 
 This new RAM expansion board, paired with an auxiliary i called **RAM Refresh Configurator board**, provides an affordable homebrew solution to increase memory up to 4MB.
 
-The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs, and also with the *ROM-INATOR* board installed concurrently.
-
-*Warning: Testing on a Mac 128K with earlier LB revision is still pending*  
+The expansion board has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also with the *ROM-INATOR* board installed concurrently.
 
 *Attention: For use concurrently with the ROM-INATOR, its ROM image needs to be patched before installing this board or any other RAM upgrade*
 
-##
 ## KEY FEATURES
 
 • Configurable to add up to 4MB of RAM.
