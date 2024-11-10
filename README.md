@@ -70,10 +70,10 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 |:---------------------:|:-----------:|:------------:|:---------------:|
 | DIP-20 IC Chip Socket 2.54mm Pitch 7.6mm Flat Pins |2            |[DIP-20_FP](https://www.amazon.com/uxcell-2-54mm-Soldering-Socket-Adaptor/dp/B07H3RPFH8/ref=sr_1_3?crid=2AAD93YCWMVIH&dib=eyJ2IjoiMSJ9.6rmeeWM4h6g26z0fF63UVOQBFD-LY572b8sE6Kwfb46kzqcsdJvKzEFnzfhSIdAwsuqcWDpDLJj2Oti_vD6p8fpeCsuMI993gmlABOKltN3lKmSxixw9XLjJH7muzdcxx5D0xDImA1dHnck_T9dc8W93a5LaqLHKh_ePhn_39s1udbXTR77i_F_zIucm3cKNmHkN4nzuJcKCB4kohj35bIPE2ApCTL3GoYCQTWGhc.kuVyk9TBJDEDQ9C8tdMgAusFZUh16W4Kn76WCFhgiQ4&dib_tag=se&keywords=dip+sockets+2.54+mm+20&qid=1731069402&sprefix=dip+sockets+2.54+mm+20%2Caps%2C218&sr=8-3)              |Flat Pins Soldering| 
 | DIP-16 IC Chip Socket 2.54mm Pitch 7.6mm Flat Pins |2            |[DIP-16_FP](https://www.amazon.com/Uxcell-a11090300ux0244-2-54mm-Socket-Adaptors/dp/B0079SM1LW/ref=sr_1_3?crid=3M210B1RLHYSC&dib=eyJ2IjoiMSJ9.yineh7dbus9HEsJfsGH3_ClMOLEVwf48Z8De29l_YNoGtqEnB3tJyRem-zre07ujnL2TVvvco8eNgvti2jm33CcLyhH6U8PqRWmaaaLEjJr2N3zYNPC2qB9pAX1UW_nH8ozCvKjCdbLYAzu-9tqIig_TJYqLxoH7n4VqFM2st4Kt-TMeYwoZHiOQBwCx7e21wEb46F8zvW9XvW_nHaPshvztxEOVDYZ9SdTvv7pO12s.dVQZb8SDUPE-DL8tchl75I0Dl3JAkO5fDYRe4af360w&dib_tag=se&keywords=dip+sockets+2.54+mm+16&qid=1731069778&sprefix=dip+sockets+2.54+mm+16%2Caps%2C297&sr=8-3)              |Flat Pins Soldering| 
-| 1x40 2.54mm Pin Male Pin Header STD|2          |2            |             | need 72 pins  |
-| 1x40 Right Angle 2.54mm Male Pin Header Pin STD|1            |             | need 9 pins  |
+| 1x40 2.54mm Pin Male Pin Header STD            |2            |             | need 72 pins  |
+| 1x40 Right Angle 2.54mm Male Pin Header STD    |1            |             | need 9 pins  |
 
-##### Option N°2: Connectors & Sockets Install (Relocate U12E, U13E, U11F, and U11G to the Expansion Board)
+##### Option N°2: Connectors & Sockets Install (ICs U12E, U13E, U11F, and U11G are relocated to the Expansion Board)
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
