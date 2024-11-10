@@ -110,7 +110,7 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 • Latest Gerber files
 ### 2.1 Components
-#### 2.1.1Resistors
+#### 2.1.1 Resistors
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
@@ -150,7 +150,7 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 |1x64P Elevated Socket Conn 2.54mm         |2            | [316-93-164-41-007000](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/316-93-164-41-007000/357031?s=N4IgTCBcDaIMwEYBsBaAnHFyAsLsJQAZCB2YwkAXQF8g)| need 72 pins             |
 
 
-## 3. INSTALLATION
+## 3. BEFORE INSTALLING
 
 ### 3.1 Resistor R42
 
@@ -164,19 +164,19 @@ Then, solder one end of a bodged cable of at least 5 cm long, to the pad where t
 
 Prior to install the auxiliary board, resistor arrays RP2 and RP3 must be removed from the LB and solder in their places socket pin headers. 
 
-## 3.3 Boards Install
+## 4 INSTALLING BOARDS
 
-### 3.3.1 Option A: Soldering piggyback sockets
+### 4.1 Option A: Soldering piggyback sockets
   
-This is the easiest method. Solder DIP sockets onto ICs U11F, U11G, U12E, U13E, and U4F. Then, the boards connect to these sockets via male pin headers.
+This is the easiest method. Solder DIP sockets (flat pins soldering) onto ICs U11F, U11G, U12E, U13E, and U4F. Then, the boards connect to these sockets via std male pin headers.
 
-*Attention: This task requires good soldering skills. Ensure that all pins from the DIP sockets are securely soldered and double-check the continuity between the IC leg base and the top of the pin socket.*
+*Attention: This task requires good soldering skills. Ensure that all pins from the DIP sockets are securely soldered and double-check the continuity between the LB pad and the top of the pin socket.*
 
-### Obtion B: 3.3.2 Relocating ICs to the expansion boards
+### Obtion B: 4.2 Relocating ICs to the expansion boards
 
-Alternatively, you can relocate the mentioned ICs to the expansion and auxiliary boards by soldering IC sockets in their places on the main board (LB) and using extra-long pin header sockets (like those used by the Mac’s-a-Million board by Sophisticated Circuits) for the expansion boards.
+Alternatively, you can relocate the mentioned ICs to the expansion and auxiliary boards by soldering IC sockets in their places on the main board (LB) and using extra-long pin machine header sockets for the expansion boards.
 
-### 3.4 Inputs signals via wires
+### 5 INPUTS VIA WIRES
 
 The following table shows the signals that are collected via bodged cables from the LB to the EB (J5):
 
@@ -220,7 +220,7 @@ The following table shows signals that are collected directly by the auxiliary b
 | /MSRA8F         |5       |1         |             |
 | /MSRA9F         |6       |NC        | Leave unconnected / Not used| 
 
-## 3.5 SETTINGS
+## 6 JUMPER $ SWITCH SETTINGS
 
 ### Mac model
 
