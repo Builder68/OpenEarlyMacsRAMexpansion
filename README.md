@@ -106,6 +106,9 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 ### 2. RAM REFRESH CONFIGURATOR BOARD (REV 2.0)
 
+![front_AB](https://github.com/user-attachments/assets/72ac75e9-48c9-4725-8c3d-b8eae70a8039)
+
+
 • Latest Schematics
 
 • Latest Gerber files
