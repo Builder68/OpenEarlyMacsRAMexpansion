@@ -179,19 +179,18 @@ This is the easiest method. Solder DIP sockets (flat pins soldering) onto ICs U1
 
 Alternatively, you can relocate the mentioned ICs to the expansion and auxiliary boards by soldering IC sockets in their places on the main board (LB) and using extra-long pin machine header sockets for the expansion boards.
 
-### 5 INPUTS & OUTPUTS VIA WIRES
+### 5 Inputs & Outputs via wires
 
 The following table shows the signals that are collected via bodged cables from the LB to the EB (J5):
 
 *Please note that pin 1 of connector J3 is located at the top.*
 
 | SIGNAL                | Location on LB   | Pin N° on J5 | Comment         |
-|:---------------------:|:-----------:|:------------:|:---------------:|
-
-| /RAS |Left Leg of R4  |7            |              |                 |
-| A19  |Pin N°3 - U3D   |2            |              |                 |
-| A20  |Pin N°5 - U4D   |3            |              |                 |
-| A21  |Pin N°50 - CPU  |4            |              |                 |
+|:---------------------:|:----------------:|:------------:|:---------------:|
+| /RAS |Left Leg of R4  |7                 |              |                 |
+| A19  |Pin N°3 - U3D   |2                 |              |                 |
+| A20  |Pin N°5 - U4D   |3                 |              |                 |
+| A21  |Pin N°50 - CPU  |4                 |              |                 |
 
 The following table shows the signals that are collected via bodged cables from the LB to the auxiliary board (J3):
 
