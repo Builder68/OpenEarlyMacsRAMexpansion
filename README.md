@@ -179,7 +179,7 @@ This is the easiest method. Solder DIP sockets (flat pins soldering) onto ICs U1
 
 Alternatively, you can relocate the mentioned ICs to the expansion and auxiliary boards by soldering IC sockets in their places on the main board (LB) and using extra-long pin machine header sockets for the expansion boards.
 
-### 5 INPUTS VIA WIRES
+### 5 INPUTS & OUTPUTS VIA WIRES
 
 The following table shows the signals that are collected via bodged cables from the LB to the EB (J5):
 
@@ -223,7 +223,24 @@ The following table shows signals that are collected directly by the auxiliary b
 | /MSRA8F         |5       |1         |             |
 | /MSRA9F         |6       |NC        | Leave unconnected / Not used| 
 
-## 6 JUMPER $ SWITCH SETTINGS
+## 6 JUMPERS $ SWITCHES SETTINGS
+
+### 6.1 EXPANSION BOARD
+
+#### 6.1.1 Mac Model Selection
+
+|JP3              |Mac Model          |
+|:---------------:|:-----------------:|
+| Open            | Macintosh 128K    |
+| Close           | Macintosh 512K/Ke |
+
+#### 6.1.1 RAM Size
+
+|RAM              |Mac 128K        | Mac 512K/Ke  |
+|:---------------:|:--------------:|:------------:|
+| 1MB             |JP1 & JP2: 2-3  |9             |
+
+
 
 ### Mac model
 
