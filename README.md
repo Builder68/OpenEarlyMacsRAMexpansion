@@ -21,7 +21,7 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 • Compatible with Macintosh 128/512K using either Apple 128K ROM or ROM-INATOR, and the 512KE.
 
-• DIP switch to swap the onboard memory with a memory bank from the expansion board (necessary for Macintosh 128K).
+• DIP switches to disable the expansion board restoring the Mac to its original state and to swap the onboard system memory bank with a memory bank from the expansion board (necessary for Macintosh 128K).
 
 • Solder jumpers to select among three memory size configurations (1MB, 2MB, or 4MB).
 
