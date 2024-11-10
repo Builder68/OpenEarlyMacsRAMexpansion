@@ -83,7 +83,7 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
 | 1x64P Elevated Socket Conn 2.54mm            |2            | [316-93-164-41-007000](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/316-93-164-41-007000/357031?s=N4IgTCBcDaIMwEYBsBaAnHFyAsLsJQAZCB2YwkAXQF8g)| Standoff Height = 10.2 mm / need 72 pins|
-|2.54mm 40x1 Male Header Strip, Machine Round Pins|2            |             |Need 72 pins|
+|2.54mm 40x1 Female Pin Header Strip, Machine Round Pins|2            |             |Need 72 pins|
 
 #### Spacer
 
@@ -96,7 +96,7 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
-| Slide DIP Switch 8P   |1            |[653-A6H-8101](https://www.mouser.com/ProductDetail/Omron-Electronics/A6H-8101?qs=Rh%252BaoYk36r6BMZDoR1skvA%3D%3D)| Ultra low profile  |
+| SMD Slide DIP Switch 8P   |1            |[653-A6H-8101](https://www.mouser.com/ProductDetail/Omron-Electronics/A6H-8101?qs=Rh%252BaoYk36r6BMZDoR1skvA%3D%3D)|   |
 
 #### Diode
 
@@ -115,9 +115,9 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
-|2.2K ohm 0805 Resistor |1            |              |                 | 
+|2.2K ohm 0805 Resistor |3            |              |                 | 
 |47 ohm 0805 Resistor   |12           |              |                 |
-|1K ohm 0805 Resistor   |2            |              |                 |
+
  
 #### Capacitors
 
