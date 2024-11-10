@@ -32,28 +32,27 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 ##
 ## CONSTRUCTION
 ###
-###    RAM EXPANSION BOARD (REV 2.0)
+### 1. RAM EXPANSION BOARD (REV 2.0)
 
 • Latest Schematics
 
 • Latest Gerber files
-####
-####      Resistors
-
+### 1.1 Components
+#### 1.1.1     Resistors
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
 |2.2K ohm 0805 Resistor |8            |              |                 | 
 |47 ohm 0805 Resistor   |16           |              |                 |
 |1K ohm 0805 Resistor   |2            |              |                 |
 #### 
-#### Capacitors
+#### 1.1.2 Capacitors
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
 |10uF Tantalum Capacitor|1            |  [293D106X9010C2TE3](https://www.mouser.com/ProductDetail/74-293D106X9010C2TE3)|   |
 |100nF 0805 Multilayer Ceramic Capacitor |29           |              |                 |
 ####
-#### Semiconductors
+#### 1.1.3 Semiconductors
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
@@ -63,7 +62,7 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 |5V dual 4-bit multiplexer                 |2            |[74HCT253](https://www.mouser.com/ProductDetail/771-HCT253D653) |     | 
 |5V quad 2-input NAND gate                 |1            |[74HCT32](https://www.mouser.com/ProductDetail/771-74HCT32D-T) |     | 
 ####
-#### Sockets & Pinheaders
+#### 1.1.4 Sockets & Pinheaders
 #####
 ##### Option N°1: Pin Headers & PiggyBack Sockets Install (Removable)
 
@@ -85,33 +84,33 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 | 1x64P Elevated Socket Conn 2.54mm            |2            | [316-93-164-41-007000](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/316-93-164-41-007000/357031?s=N4IgTCBcDaIMwEYBsBaAnHFyAsLsJQAZCB2YwkAXQF8g)| Standoff Height = 10.2 mm / need 72 pins soldered to EB|
 |2.54mm 40x1 Female Pin Header Strip, Machine Round Pins|2            |             |Need 72 pins, soldered to LB|
 
-#### Spacer
+#### 1.1.5 Spacer
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
 | Brd Spt Snap Lock Nylon 1/2"   |1            |[36-8892-ND](https://www.digikey.com/en/products/detail/keystone-electronics/8892/2746017)| Length for Piggyback Install 12.7 mm  |
 | Brd Spt Snap Lock Nylon 1/2"   |1            |[36-8891-ND](https://www.digikey.com/en/products/detail/keystone-electronics/8891/2746016)| Length for Connectors & Sockets Install 9.5 mm  |
 
-#### DIP Switch
+#### 1.1.6 DIP Switch
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
 | SMD Slide DIP Switch 8P   |1            |[653-A6H-8101](https://www.mouser.com/ProductDetail/Omron-Electronics/A6H-8101?qs=Rh%252BaoYk36r6BMZDoR1skvA%3D%3D)|   |
 
-#### Diode
+#### 1.1.7 Diodes
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
 | Zener Diode ZNR SOD123 500MW   |2            |[863-SZMMSZ5V1T1G](https://www.mouser.com/ProductDetail/onsemi/SZMMSZ5V1T1G?qs=k%252Be6uhf5HI1HqLTFyqTq7w%3D%3D)|   |
 
 
-### RAM REFRESH CONFIGURATOR BOARD (REV 2.0)
+### 2. RAM REFRESH CONFIGURATOR BOARD (REV 2.0)
 
 • Latest Schematics
 
 • Latest Gerber files
-
-#### Resistors
+### 2.1 Components
+#### 2.1.1Resistors
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
@@ -119,20 +118,20 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 |47 ohm 0805 Resistor   |12           |              |                 |
 
  
-#### Capacitors
+#### 2.1.2 Capacitors
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
 |100nF 0805 Multilayer Ceramic Capacitor |3           |              |                 |
 
-#### Semiconductors
+#### 2.1.3 Semiconductors
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
 |5V dual 4-bit multiplexer|2            |[74HCT253](https://www.mouser.com/ProductDetail/771-HCT253D653) |     | 
 |5V Quad 2-input multiplexer|1            |[74HCT257](https://www.mouser.com/ProductDetail/771-HCT257D653) |     | 
 
-#### Sockets & Pinheaders
+#### 2.1.4 Sockets & Pinheaders
 
 ##### Option N°1: Pin Headers & PiggyBack Sockets Install (Removable)
 
@@ -151,9 +150,9 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 |1x64P Elevated Socket Conn 2.54mm         |2            | [316-93-164-41-007000](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/316-93-164-41-007000/357031?s=N4IgTCBcDaIMwEYBsBaAnHFyAsLsJQAZCB2YwkAXQF8g)| need 72 pins             |
 
 
-## INSTALLATION
+## 3. INSTALLATION
 
-### Resistor R42
+### 3.1 Resistor R42
 
 Let's start the installation by opening  a leg of resistor R42 (U13G side).
 Then, solder one end of a bodged cable of at least 5 cm long, to the pad where the left leg was connected. You need to do this as a first step because the EB will later be on top of this connection point.
@@ -161,23 +160,23 @@ Then, solder one end of a bodged cable of at least 5 cm long, to the pad where t
 *Please note this will only apply to LB revisions that actually have an R42 resistor and IC U13F populated. Early LB revisions from Macintosh 128K will not have these components.*
 
 
-### Resistor Arrays RP2 & RP3 
+### 3.2 Resistor Arrays RP2 & RP3 
 
 Prior to install the auxiliary board, resistor arrays RP2 and RP3 must be removed from the LB and solder in their places socket pin headers. 
 
-## Boards Install
+## 3.3 Boards Install
 
-### Option A: Soldering piggyback sockets
+### 3.3.1 Option A: Soldering piggyback sockets
   
 This is the easiest method. Solder DIP sockets onto ICs U11F, U11G, U12E, U13E, and U4F. Then, the boards connect to these sockets via male pin headers.
 
 *Attention: This task requires good soldering skills. Ensure that all pins from the DIP sockets are securely soldered and double-check the continuity between the IC leg base and the top of the pin socket.*
 
-### Obtion B: Relocating ICs to the expansion boards
+### Obtion B: 3.3.2 Relocating ICs to the expansion boards
 
 Alternatively, you can relocate the mentioned ICs to the expansion and auxiliary boards by soldering IC sockets in their places on the main board (LB) and using extra-long pin header sockets (like those used by the Mac’s-a-Million board by Sophisticated Circuits) for the expansion boards.
 
-### Inputs signals via wires
+### 3.4 Inputs signals via wires
 
 The following table shows the signals that are collected via bodged cables from the LB to the EB (J5):
 
@@ -221,7 +220,7 @@ The following table shows signals that are collected directly by the auxiliary b
 | /MSRA8F         |5       |1         |             |
 | /MSRA9F         |6       |NC        | Leave unconnected / Not used| 
 
-## SETTINGS
+## 3.5 SETTINGS
 
 ### Mac model
 
