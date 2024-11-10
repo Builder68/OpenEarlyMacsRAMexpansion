@@ -78,8 +78,6 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
 |Conn Socket 64P        |2            | [316-93-164-41-007000](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/316-93-164-41-007000/357031?s=N4IgTCBcDaIMwEYBsBaAnHFyAsLsJQAZCB2YwkAXQF8g)| Standoff Height = 10.2 mm|
-|Conn IC DIP-20 Socket  |2            | [SA203000](https://www.digikey.com/en/products/detail/on-shore-technology-inc/SA203000/3313532)             | Soldered to LB: U12E, U13E                |
-|Conn IC DIP-16 Socket  |2            | [SA163000](https://www.digikey.com/en/products/detail/on-shore-technology-inc/SA163000/3313525)             | Soldered to LB: U11F, U11G                |
 
 
 #### Spacer
