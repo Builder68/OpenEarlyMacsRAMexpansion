@@ -77,7 +77,7 @@ The expansion board has been tested on a Macintosh 512K with Mac Plus/512Ke ROMs
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
-|Conn Socket 64P        |2            | [316-93-164-41-007000](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/316-93-164-41-007000/357031?s=N4IgTCBcDaIMwEYBsBaAnHFyAsLsJQAZCB2YwkAXQF8g)| Standoff Height = 10.2 mm / need 72 pins|
+| 1x64P Elevated Socket Conn 2.54mm            |2            | [316-93-164-41-007000](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/316-93-164-41-007000/357031?s=N4IgTCBcDaIMwEYBsBaAnHFyAsLsJQAZCB2YwkAXQF8g)| Standoff Height = 10.2 mm / need 72 pins|
 |2.54mm 40x1 Male Header Strip, Machine Round Pins|2            |             |Need 72 pins|
 
 #### Spacer
