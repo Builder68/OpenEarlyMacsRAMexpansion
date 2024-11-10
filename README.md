@@ -239,14 +239,16 @@ The following table shows signals that are collected directly by the auxiliary b
 | Up to 2MB       |JP1:1-2 / JP2: 2-3|
 | Up to 4MB       |JP1 & JP2: 1-2    |
 
-#### 6.1.3 System RAM Bank
+#### 6.1.3 System RAM Bank (SW1)
 
-| SW1                               |
-|:---------------------------------:|
-
-|RAM                | Mac 128K/512K/Ke |
-|:-----------------:|:----------------:|
-| Up to 1MB       |JP1 & JP2: 2-3    |
+|System RAM Disabled | System RAM Enabled  |
+|:------------------:|:-------------------:|
+| ON                 |               OFF   |
+| OFF                |               ON    |
+| ON                 |               OFF   |
+| OFF                |               ON    |
+| ON                 |               OFF   |
+| OFF                |               ON    |
 
 ### 6.2 RAM Refresh Configurator Board
 
