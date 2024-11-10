@@ -173,7 +173,7 @@ Prior to install the auxiliary board, resistor arrays RP2 and RP3 must be remove
   
 This is the easiest method. Solder DIP sockets (flat pins soldering) onto ICs U11F, U11G, U12E, U13E, and U4F. Then, the boards connect to these sockets via std male pin headers.
 
-### Obtion B: 4.2 Relocating ICs to the expansion boards
+### 4.2 Option B: Relocating ICs to the expansion boards
 
 Alternatively, you can relocate the mentioned ICs to the expansion and auxiliary boards by soldering IC sockets in their places on the main board (LB) and using extra-long pin machine header sockets for the expansion boards.
 
