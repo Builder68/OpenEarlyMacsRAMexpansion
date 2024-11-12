@@ -168,7 +168,7 @@ Please be sure to get the right schematics for your LB revision.
 
 *Does not apply for Macintosh 128K with early LB revision, where resistor R42 is not present*
 
-To begin, we'll remove the solder from the left side of resistor R42 (the side closest to IC U13G). Then, solder one end of a bodged wire of at least 5 cm long, to the pad where the resistor leg was connected. You need to do this as a first step because the RAM Expansion Board will later be on top of this connection point. Please note this will only apply to LB revisions that actually have an R42 resistor. 
+To begin, we'll remove the solder from the left side of resistor R42 (the side closest to IC U13G). Then, solder one end of a bodged wire, at least 5 cm long, to the pad where the resistor leg was connected. You need to do this as a first step because the RAM Expansion Board will later be on top of this connection point. Please note that this will only apply to LB revisions that actually have an R42 resistor.
 
 ### 3.2 Resistor Arrays RP2 & RP3 
 
