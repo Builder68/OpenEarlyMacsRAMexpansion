@@ -101,12 +101,19 @@ Please be sure to get the right schematics for your LB revision.
 |:---------------------:|:-----------:|:------------:|:---------------:|
 | Zener Diode ZNR SOD123 500MW   |2            |[863-SZMMSZ5V1T1G](https://www.mouser.com/ProductDetail/onsemi/SZMMSZ5V1T1G?qs=k%252Be6uhf5HI1HqLTFyqTq7w%3D%3D)|   |
 
+#### 1.1.8 JST Connectors
+
+| Part description      | Quantity    | Supplier     | Notes           |
+|:---------------------:|:-----------:|:------------:|:---------------:|
+| JST XH2.54 XH 2.54mm Wire Connector 10 Pin Female |1            |                  | Pre-assembled with wires |
+| JST XH2.54 XH 2.54mm Wire Connector 10 Pin Female |1            |                  | Pre-assembled with wires |
 
 ### 2. RAM REFRESH CONFIGURATOR BOARD (REV 2.0)
 
 ![ABV2_F](https://github.com/user-attachments/assets/5ac3e7d7-771f-4fa7-9436-0a833fb66da7)
 
 ### 2.1 Components
+
 #### 2.1.1 Resistors
 
 | Part description      | Quantity    | Supplier     | Notes           |
@@ -128,7 +135,15 @@ Please be sure to get the right schematics for your LB revision.
 |5V dual 4-bit multiplexer|2            |[74HCT253](https://www.mouser.com/ProductDetail/771-HCT253D653) |     | 
 |5V Quad 2-input multiplexer|1            |[74HCT257](https://www.mouser.com/ProductDetail/771-HCT257D653) |     | 
 
-#### 2.1.4 Sockets & Pinheaders
+
+#### 2.1.4 JST Connector 
+
+| Part description      | Quantity    | Supplier     | Notes           |
+|:---------------------:|:-----------:|:------------:|:---------------:|
+| JST XH2.54 XH 2.54mm Wire Connector 9 Pin Female |1            |                  | Pre-assembled with wires |
+
+
+#### 2.1.5 Sockets & Pinheaders
 
 ##### Option N°1: Pin Headers & PiggyBack Sockets Install (Removable)
 
@@ -146,7 +161,6 @@ Please be sure to get the right schematics for your LB revision.
 |:---------------------:|:-----------:|:------------:|:---------------:|
 |1x64P Elevated Socket Conn 2.54mm         |2            | [316-93-164-41-007000](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/316-93-164-41-007000/357031?s=N4IgTCBcDaIMwEYBsBaAnHFyAsLsJQAZCB2YwkAXQF8g)| need 72 pins             |
 |:---------------------:|:-----------:|:------------:|:---------------:|
-| JST XH2.54 XH 2.54mm Wire Cable Connector 9 Pin Pitch Male Female Plug Socket 20cm Wire Length 26AWG|1            |                  | need 72 pins             |
 
 ## 3. Before Installing 
 
