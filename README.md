@@ -47,7 +47,7 @@ It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
-|10uF Tantalum Capacitor|1            |  [293D106X9010C2TE3](https://www.mouser.com/ProductDetail/74-293D106X9010C2TE3)|   |
+|10uF Tantalum Capacitor|1            |  [293D106X9010C2TE3](https://www.mouser.com/ProductDetail/74-293D106X9010C2TE3)| Fast Page Mode only |
 |100nF 0805 Multilayer Ceramic Capacitor |29           |              |                 |
 ####
 #### 1.1.3 Semiconductors
