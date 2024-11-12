@@ -254,13 +254,15 @@ The following table shows signals that are collected directly by the auxiliary b
 
 #### 6.2.1 Mac Plus Refresh Cycles Mode
 
-In this configuration, the RAM configurator board mimics the Mac Plus's RAM address generation process to obtain 512 refresh cycles. It replicates the generation of RAM address bits RA8 and RA0, substituting the system's RA0 and RA8. This method was devised by Golden Potato, a member of the 68KMLA forums. Thank you, Golden Potato!
+In this mode, the RAM configurator board mimics the Mac Plus's RAM address generation process to obtain 512 refresh cycles. It replicates the generation of RAM address bits RA8 and RA0, substituting the system's RA0 and RA8. This method was devised by Golden Potato, a member of the 68KMLA forums. Thank you, Golden Potato!
 
 | JUMPER          | Pads to bridge| 
 |:---------------:|:-------------:|
 | JP1             | 2-3           | 
 | JP2             | 2-3           |
 | JP3             | 1-2           |
+
+*This mode must be always selected for Macintosh 128K with early LB revisions, were there is no R42 resistor*
 
 #### 6.2.2 System Refresh Cycles Mode
 
@@ -277,6 +279,8 @@ If you have the same LB revision, ROM image (MacPlus/512Ke ROM or ROM-INATOR ROM
 | JP1             | 1-2           | 
 | JP2             | 1-2           |
 | JP3             | 1-2           |
+
+*This mode can´t be used for Macintosh 128K with earlier LB revisions*
 
 #### 6.2.2 1024 Refresh Cycles Mode
 
