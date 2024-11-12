@@ -81,6 +81,7 @@ Please be sure to get the right schematics for your LB revision.
 | 1x64P Elevated Socket Conn 2.54mm            |2            | [316-93-164-41-007000](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/316-93-164-41-007000/357031?s=N4IgTCBcDaIMwEYBsBaAnHFyAsLsJQAZCB2YwkAXQF8g)| Standoff Height = 10.2 mm / need 72 pins soldered to EB|
 |2.54mm 40x1 Female Pin Header Strip, Machine Round Pins|2            |             |Need 72 pins, soldered to LB|
 
+
 #### 1.1.5 Spacer
 
 | Part description      | Quantity    | Supplier     | Notes           |
@@ -144,7 +145,8 @@ Please be sure to get the right schematics for your LB revision.
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
 |1x64P Elevated Socket Conn 2.54mm         |2            | [316-93-164-41-007000](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/316-93-164-41-007000/357031?s=N4IgTCBcDaIMwEYBsBaAnHFyAsLsJQAZCB2YwkAXQF8g)| need 72 pins             |
-
+|:---------------------:|:-----------:|:------------:|:---------------:|
+| JST XH2.54 XH 2.54mm Wire Cable Connector 9 Pin Pitch Male Female Plug Socket 20cm Wire Length 26AWG|1            |                  | need 72 pins             |
 
 ## 3. Before Installing 
 
