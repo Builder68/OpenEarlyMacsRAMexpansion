@@ -28,7 +28,7 @@ It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also
 ###
 ### 1. RAM EXPANSION BOARD (REV 2.0)
 
-![Screenshot 2024-11-12 at 5 19 31 PM](https://github.com/user-attachments/assets/efc11983-d14c-45ba-8192-a9cc39ef6f08)
+
 
 •  [Latest Gerber Files](https://github.com/Builder68/OpenEarlyMacsRAMexpansion/blob/main/RAMEXB_V2_Github.zip)
 
@@ -101,7 +101,7 @@ It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also
 
 ### 2. RAM REFRESH CONFIGURATOR BOARD (REV 2.0)
 
-/Users/patrick/Desktop/Screenshot 2024-11-12 at 5.16.41 PM.png
+
 
 •  [Latest Gerber files](https://github.com/Builder68/OpenEarlyMacsRAMexpansion/blob/main/AUXB_V2.zip)
 
