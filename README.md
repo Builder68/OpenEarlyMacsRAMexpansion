@@ -10,7 +10,7 @@ This new RAM expansion board, paired with an auxiliary i called **RAM Refresh Co
 
 The expansion board has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also with the *ROM-INATOR* board installed concurrently.
 
-*Attention: For use concurrently with the ROM-INATOR, its ROM image needs to be patched before installing this board or any other RAM upgrade*
+*Attention: For use concurrently with the ROM-INATOR, its ROM image needs to be [patched](https://68kmla.org/bb/index.php?threads/early-macintosh-home-brew-4mb-memory-upgrade-board-development.47308/post-544271) before installing this board or any other RAM upgrade*
 
 ## KEY FEATURES
 
@@ -269,7 +269,7 @@ Interestingly, I've discovered that at least the RAM ICs I've used on my expansi
 
 I haven't yet figured out whether the LB is actually generating 512 refresh cycles from the point of view of the IC (most probable explanation), or whether the used RAM IC only needs address variations between RA0-RA7 for RAM refresh. Anyway, this mode has been stable on my Mac 512K for several months.
 
-If you have the same LB revision, ROM image (Macplus or ROM-INATOR patched), and RAM IC model as mine, you can implement this mode with reasonable confidence.
+If you have the same LB revision, ROM image (MacPlus/512Ke ROM or ROM-INATOR ROM patched), and RAM IC model as mine, you can implement this mode with reasonable confidence.
 
 | JUMPER          | Pads to bridge| 
 |:---------------:|:-------------:|
