@@ -16,7 +16,7 @@ It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also
 
 • Configurable to add up to 4MB of RAM.
 
-• Compatible with Macintosh 128/512K using either Apple 128K ROM or ROM-INATOR, and the 512KE.
+• Compatible with Macintosh 128/512K (all LB revisions) using either Apple 128K ROM or ROM-INATOR, and the 512KE.
 
 • RAM expansion board can be disabled via DIP switch, restoring the Mac to its original state
 
