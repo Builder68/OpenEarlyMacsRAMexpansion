@@ -1,4 +1,4 @@
-# Open Early Macs RAM expansion
+# Open Early Macs RAM Expansion
 
  ## SUMMARY
 
