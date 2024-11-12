@@ -28,8 +28,6 @@ It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also
 ###
 ### 1. RAM EXPANSION BOARD (REV 2.0)
 
-
-
 •  [Latest Gerber Files](https://github.com/Builder68/OpenEarlyMacsRAMexpansion/blob/main/RAMEXB_V2_Github.zip)
 
 ### 1.1 Components
@@ -101,7 +99,7 @@ It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also
 
 ### 2. RAM REFRESH CONFIGURATOR BOARD (REV 2.0)
 
-[RAM REFRESH CONFIGURATOR BOARD](/Users/patrick/Desktop/Screenshot 2024-11-12 at 5.16.41 PM.png)
+[AUXBV2](https://github.com/Builder68/OpenEarlyMacsRAMexpansion/blob/main/ABV2_F.png)
 
 •  [Latest Gerber files](https://github.com/Builder68/OpenEarlyMacsRAMexpansion/blob/main/AUXB_V2.zip)
 
