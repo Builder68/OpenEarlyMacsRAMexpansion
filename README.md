@@ -266,6 +266,8 @@ In this mode, the RAM configurator board mimics the Mac Plus's RAM address gener
 
 #### 6.2.2 System Refresh Cycles Mode
 
+*Warning: DO NOT use this mode on Mac 128K (all LB revisions). Fail to do so may damage the LB*
+
 Early Mac RAM ICs require just 256 refresh cycles every 4 milliseconds, refreshing the "rows" using the /RAS method (/RAS before /CAS).
 
 Interestingly, I've discovered that at least the RAM ICs I've used on my expansion board function flawlessly without modifying the RAM address bus generation circuitry, even though their specifications indicate a requirement for 512 refresh cycles. 
@@ -279,10 +281,6 @@ If you have the same LB revision, ROM image (MacPlus/512Ke ROM or ROM-INATOR ROM
 | JP1             | 1-2           | 
 | JP2             | 1-2           |
 | JP3             | 1-2           |
-
-*This mode can be used only on Macintosh 512K/Ke*
-
-*Warning: DO NOT use this mode on Mac 128K (all LB revisions).*
 
 #### 6.2.2 1024 Refresh Cycles Mode
 
