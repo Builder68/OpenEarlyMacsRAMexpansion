@@ -217,6 +217,7 @@ The following table shows the signals that are collected via bodged wires from t
 The following table shows signals that are collected directly by the auxiliary board and need to be wired from J2 to J5:
 
 *Please note that pin 1 of connector J4 is located at the bottom, whereas pin 1 of connector J5 is located at the top.*
+*For J4 and J5, I use JST connectors pre-assembled with wires, soldering together the corresponding wires of the common signals between the two connectors.*
 
 | SIGNAL         | Pin N° on J4 Aux. B | Pin N° on J5 Exp.B  | Comment         | 
 |:---------------:|:------:|:--------:|:-----------:|
