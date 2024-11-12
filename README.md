@@ -6,7 +6,7 @@
 
 Back in the day, several RAM upgrade boards were available for the so called Early Macs (Macintosh 128K / 512K and 512Ke). Today, finding one of these boards in working condition has become challenging. The *Mac Rescue* board, one of the few offering a full 4MB of RAM, is nearly impossible to obtain.
 
-This new RAM expansion board, paired with an auxiliary i called **RAM Refresh Configurator board**, provides an affordable homebrew solution to increase memory up to 4MB.
+This new RAM expansion board, paired with an auxiliary i called **RAM Refresh Configurator board**, provides an affordable 4MB RAM upgrade.
 
 The expansion board has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also with the *ROM-INATOR* board installed concurrently.
 
