@@ -294,3 +294,5 @@ DIP Switch SWB1 allows disabling the RAM Expansion Board, restoring the memory o
 
 *Warning: DIP Switch B is inverted, therefore switch n°1 is at the bottom. Any other combination may cause damages*
 *Attention: double check all connetions and DIP switch settings before power-up*
+
+Good luck. Let us know how it goes here: https://68kmla.org/bb/index.php?threads/early-macintosh-home-brew-4mb-memory-upgrade-board-development.47308/
