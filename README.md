@@ -47,14 +47,14 @@ It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
-|10uF Tantalum Capacitor|1            |  [293D106X9010C2TE3](https://www.mouser.com/ProductDetail/74-293D106X9010C2TE3)| Fast Page Mode only |
+|10uF Tantalum Capacitor|1            |  [293D106X9010C2TE3](https://www.mouser.com/ProductDetail/74-293D106X9010C2TE3)|  |
 |100nF 0805 Multilayer Ceramic Capacitor |29           |              |                 |
 ####
 #### 1.1.3 Semiconductors
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
-|5V 256K x 16 CMOS DRAM (fast page mode)   |8            |[AS4C256K16F0-60JC](https://www.utsource.net/pro/AS4C256K16F0-60JC.html?srsltid=AfmBOort4nx-luAnQ9rYHgn0u1JrMKh2p2SnMiqUe_HYeLMkHxX2aOso)                                                   |   |
+|5V 256K x 16 CMOS DRAM (fast page mode)   |8            |[AS4C256K16F0-60JC](https://www.utsource.net/pro/AS4C256K16F0-60JC.html?srsltid=AfmBOort4nx-luAnQ9rYHgn0u1JrMKh2p2SnMiqUe_HYeLMkHxX2aOso)                                                   | Fast Page Mode only  |
 |5V 8-bit buffer/line driver, 3-states     |2            |[74HCT244](https://www.mouser.com/ProductDetail/771-74HCT244D-T)|     |
 |5V 3 to 8 line decoder demultiplexer      |2            |[74AHCT138](https://www.mouser.com/ProductDetail/771-AHCT138D118)|  | 
 |5V dual 4-bit multiplexer                 |2            |[74HCT253](https://www.mouser.com/ProductDetail/771-HCT253D653) |     | 
