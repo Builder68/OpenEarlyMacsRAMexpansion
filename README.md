@@ -2,8 +2,6 @@
 
  ## SUMMARY
 
-Back in the day, several RAM upgrade boards were available for the so called Early Macs (Macintosh 128K / 512K and 512Ke). Today, finding one of these boards in working condition has become challenging. The *Mac Rescue* board, one of the few offering a full 4MB of RAM, is nearly impossible to obtain.
-
 This upgrade provides up to 4MB using more recently RAM ICs of higher density (256Kb x 16 bit).
 
 It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also with the *ROM-INATOR* board installed concurrently.
@@ -29,9 +27,6 @@ It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also
 ### 1. RAM EXPANSION BOARD (REV 2.0)
 
 ![EBV2_F](https://github.com/user-attachments/assets/bff24d1b-d510-434b-b2db-5dfa07d72ddc)
-
-
-•  [Latest Gerber Files](https://github.com/Builder68/OpenEarlyMacsRAMexpansion/blob/main/RAMEXB_V2_Github.zip)
 
 ### 1.1 Components
 #### 1.1.1     Resistors
@@ -103,9 +98,6 @@ It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also
 ### 2. RAM REFRESH CONFIGURATOR BOARD (REV 2.0)
 
 ![ABV2_F](https://github.com/user-attachments/assets/5ac3e7d7-771f-4fa7-9436-0a833fb66da7)
-
-
-•  [Latest Gerber files](https://github.com/Builder68/OpenEarlyMacsRAMexpansion/blob/main/AUXB_V2.zip)
 
 ### 2.1 Components
 #### 2.1.1 Resistors
