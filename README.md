@@ -277,12 +277,12 @@ If you have the same LB revision, ROM image (Macplus or ROM-INATOR patched), and
 | JP2             | 1-2           |
 | JP3             | 1-2           |
 
-#### 6.2.3 Disable RAM Expansion Board
+#### 6.2.3 Disabling RAM Expansion Board
 
 The DIP Switch SW-B allows disabling the RAM Expansion Board 
 
 |S n°|RAM Expansion Enabled | RAM Expansion Disabled  |
-|:--:|:------------------:|:-------------------:|
+|:--:|:--------------------:|:-----------------------:|
 | 1  | ON                 |               OFF   |
 | 2  | OFF                |               ON    |
 | 3  | ON                 |               OFF   |
@@ -290,6 +290,5 @@ The DIP Switch SW-B allows disabling the RAM Expansion Board
 | 5  | ON                 |               OFF   |
 | 6  | OFF                |               ON    |
 
-
-** REMOVE THE EXPANSION BOARD BEFORE TURN ON **
+*Warning: DIP Switch B is inverted, therefore switch n°1 is at the bottom. Any other combination may cause damages*
 *Attention: double check all connetions and DIP switch settings before power-up*
