@@ -2,7 +2,7 @@
 
  ## SUMMARY
 
-This upgrade provides up to 4MB using more recent RAM ICs of higher density (256Kb x 16 bit).
+This upgrade provides up to 4MB of RAM using more recent RAM ICs of higher density (256Kb x 16 bit).
 
 It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also with the *ROM-INATOR* board installed concurrently.
 
@@ -10,9 +10,9 @@ It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also
 
 ## KEY FEATURES
 
-• Configurable to add up to 4MB of RAM.
+• Configurable to add up to 4MB of RAM. 
 
-• Compatible with Macintosh 128/512K (all LB revisions) using either Apple 128K ROM or ROM-INATOR, and the 512KE.
+• Compatible with Macintosh 128/512K/Ke (all LB revisions) using either Apple 128K Stock ROM or ROM-INATOR board. (It should work also with the MacSnap SCSI board, but I haven´t tested yet)
 
 • RAM expansion board can be disabled via DIP switch, restoring the Mac to its original state
 
