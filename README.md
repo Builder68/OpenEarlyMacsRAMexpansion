@@ -106,7 +106,7 @@ Please be sure to get the right schematics for your LB revision.
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
 | JST XH2.54 XH 2.54mm Wire Connector 10 Pin Female |1            |                  | Pre-assembled with wires |
-| JST XH2.54 XH 2.54mm Wire Connector 10 Pin Female |1            |                  | Pre-assembled with wires |
+| JST XH2.54 XH 2.54mm Wire Connector 6 Pin Female  |1             |                 | Pre-assembled with wires |
 
 ### 2. RAM REFRESH CONFIGURATOR BOARD (REV 2.0)
 
