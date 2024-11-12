@@ -1,6 +1,7 @@
 # Open Early Macs RAM expansion
 
 
+![Screenshot 2024-11-12 at 5 19 31 PM](https://github.com/user-attachments/assets/efc11983-d14c-45ba-8192-a9cc39ef6f08)
 
  ## SUMMARY
 
