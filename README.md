@@ -1,8 +1,5 @@
 # Open Early Macs RAM expansion
 
-
-![Screenshot 2024-11-12 at 5 19 31 PM](https://github.com/user-attachments/assets/efc11983-d14c-45ba-8192-a9cc39ef6f08)
-
  ## SUMMARY
 
 Back in the day, several RAM upgrade boards were available for the so called Early Macs (Macintosh 128K / 512K and 512Ke). Today, finding one of these boards in working condition has become challenging. The *Mac Rescue* board, one of the few offering a full 4MB of RAM, is nearly impossible to obtain.
@@ -31,7 +28,7 @@ It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also
 ###
 ### 1. RAM EXPANSION BOARD (REV 2.0)
 
-![Front_EB](https://github.com/user-attachments/assets/7b5f1d7c-59fb-42c0-81d6-d0c1ccaf5089)
+![Screenshot 2024-11-12 at 5 19 31 PM](https://github.com/user-attachments/assets/efc11983-d14c-45ba-8192-a9cc39ef6f08)
 
 •  [Latest Gerber Files](https://github.com/Builder68/OpenEarlyMacsRAMexpansion/blob/main/RAMEXB_V2_Github.zip)
 
