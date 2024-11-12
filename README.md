@@ -235,7 +235,7 @@ The following table shows signals that are collected directly by the auxiliary b
 | Up to 2MB       |JP1:1-2 / JP2: 2-3|
 | Up to 4MB       |JP1 & JP2: 1-2    |
 
-#### 6.1.3 System RAM Bank (SW A)
+#### 6.1.3 System RAM Bank (SWA1)
 
 |S n°|System RAM Bank Disabled | System RAM Bank Enabled  |
 |:--:|:------------------:|:-------------------:|
@@ -246,7 +246,7 @@ The following table shows signals that are collected directly by the auxiliary b
 | 5  | ON                 |               OFF   |
 | 6  | OFF                |               ON    |
 
-*Warning: DIP Switch A is inverted, therefore switch n°1 is at the bottom. Any other combination may cause damages*
+*Warning: DIP Switch SWA1 is inverted, therefore switch n°1 is at the bottom. Any other combination may cause damages*
 
 *Warning: For Mac 128K, system RAM must be always set to disabled*
 
@@ -290,7 +290,7 @@ This configuration has not been tested yet and is for a future RAM Expansion Boa
 
 #### 6.2.3 Disabling RAM Expansion Board
 
-The DIP Switch SW-B allows disabling the RAM Expansion Board, restoring the memory of the Mac to its original state.
+DIP Switch SWB1 allows disabling the RAM Expansion Board, restoring the memory of the Mac to its original state.
 
 |S n°|RAM Expansion Enabled | RAM Expansion Disabled  |
 |:--:|:--------------------:|:-----------------------:|
