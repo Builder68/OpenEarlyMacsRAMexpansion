@@ -101,7 +101,7 @@ It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also
 
 ### 2. RAM REFRESH CONFIGURATOR BOARD (REV 2.0)
 
-![front_AB](https://github.com/user-attachments/assets/6e766940-576b-49ec-b25d-eb78c4c02122)
+/Users/patrick/Desktop/Screenshot 2024-11-12 at 5.16.41 PM.png
 
 •  [Latest Gerber files](https://github.com/Builder68/OpenEarlyMacsRAMexpansion/blob/main/AUXB_V2.zip)
 
