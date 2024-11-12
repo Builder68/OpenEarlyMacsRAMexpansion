@@ -2,7 +2,7 @@
 
  ## SUMMARY
 
-This upgrade provides up to 4MB using more recently RAM ICs of higher density (256Kb x 16 bit).
+This upgrade provides up to 4MB using more recent RAM ICs of higher density (256Kb x 16 bit).
 
 It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also with the *ROM-INATOR* board installed concurrently.
 
