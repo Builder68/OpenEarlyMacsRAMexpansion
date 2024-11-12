@@ -22,8 +22,12 @@ It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also
 
 • No extensions or other software are required, and the Mac recognizes all the configured RAM at startup.
 
-## CONSTRUCTION
-###
+## ASSEMBLY
+
+While the assembly process is straightforward, it can be challenging. Using solder paste and a heat gun is highly recommended for the RAM chips and most SMD components.
+
+I also use solder paste and a heat gun for the piggyback sockets with excellent results.
+
 ### 1. RAM EXPANSION BOARD (REV 2.0)
 
 ![EBV2_F](https://github.com/user-attachments/assets/bff24d1b-d510-434b-b2db-5dfa07d72ddc)
