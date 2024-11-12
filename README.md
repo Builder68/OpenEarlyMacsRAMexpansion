@@ -282,7 +282,7 @@ I haven't yet figured out whether the LB is actually generating 512 refresh cycl
 
 #### 6.2.2 1024 Refresh Cycles Mode
 
-This configuration has not been tested yet and is for a future RAM Expansion Board made with higher-density RAM ICs (1Mb x 16 bits), which is still under development as of today.
+This configuration has not been tested yet and is for a future RAM Expansion Board made with even higher-density RAM ICs (1Mb x 16 bits), which is still under development as of today.
 
 | JUMPER          | Pads to bridge| 
 |:---------------:|:-------------:|
