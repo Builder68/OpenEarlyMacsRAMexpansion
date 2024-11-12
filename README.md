@@ -200,9 +200,9 @@ The following table shows the signals that are collected via bodged wires from t
 
 The following table shows signals that are collected directly by the auxiliary board and need to be wired from J2 to J5:
 
-*Please note that pin 1 of connector J2 is located at the bottom, whereas pin 1 of connector J5 is located at the top.*
+*Please note that pin 1 of connector J4 is located at the bottom, whereas pin 1 of connector J5 is located at the top.*
 
-| SIGNAL         | Pin N° on J2 Aux. B | Pin N° on J5 Exp.B  | Comment         | 
+| SIGNAL         | Pin N° on J4 Aux. B | Pin N° on J5 Exp.B  | Comment         | 
 |:---------------:|:------:|:--------:|:-----------:|
 | /MCAS0          |1       |9         |             |
 | /MCAS1          |2       |8         |             |
