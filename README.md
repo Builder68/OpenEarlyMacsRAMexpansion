@@ -24,7 +24,6 @@ The expansion board has been tested so far on a Macintosh 512K with Mac Plus/512
 
 • No extensions or other software are required, and the Mac recognizes all the configured RAM at startup.
 
-##
 ## CONSTRUCTION
 ###
 ### 1. RAM EXPANSION BOARD (REV 2.0)
@@ -277,6 +276,16 @@ If you have the same LB revision, ROM image (MacPlus/512Ke ROM or ROM-INATOR ROM
 | JP2             | 1-2           |
 | JP3             | 1-2           |
 
+#### 6.2.2 1024 Refresh Cycles Mode
+
+This configuration is for a future RAM Expansion Board made with higher density RAM ICs (1Mb x 16 bits), which still under development as of today
+
+| JUMPER          | Pads to bridge| 
+|:---------------:|:-------------:|
+| JP1             | 2-3           | 
+| JP2             | 2-3           |
+| JP3             | 2-3           |
+
 #### 6.2.3 Disabling RAM Expansion Board
 
 The DIP Switch SW-B allows disabling the RAM Expansion Board 
@@ -284,11 +293,11 @@ The DIP Switch SW-B allows disabling the RAM Expansion Board
 |S n°|RAM Expansion Enabled | RAM Expansion Disabled  |
 |:--:|:--------------------:|:-----------------------:|
 | 1  | ON                   |               OFF   |
-| 2  | OFF                |               ON    |
-| 3  | ON                 |               OFF   |
-| 4  | OFF                |               ON    |
-| 5  | ON                 |               OFF   |
-| 6  | OFF                |               ON    |
+| 2  | OFF                  |               ON    |
+| 3  | ON                   |               OFF   |
+| 4  | OFF                  |               ON    |
+| 5  | ON                   |               OFF   |
+| 6  | OFF                  |               ON    |
 
 *Warning: DIP Switch B is inverted, therefore switch n°1 is at the bottom. Any other combination may cause damages*
 *Attention: double check all connetions and DIP switch settings before power-up*
