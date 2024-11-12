@@ -234,9 +234,9 @@ The following table shows signals that are collected directly by the auxiliary b
 | Up to 2MB       |JP1:1-2 / JP2: 2-3|
 | Up to 4MB       |JP1 & JP2: 1-2    |
 
-#### 6.1.3 System RAM Bank (SW1)
+#### 6.1.3 System RAM Bank (SW A)
 
-|S n°|System RAM Disabled | System RAM Enabled  |
+|S n°|System RAM Bank Disabled | System RAM Bank Enabled  |
 |:--:|:------------------:|:-------------------:|
 | 1  | ON                 |               OFF   |
 | 2  | OFF                |               ON    |
@@ -245,7 +245,7 @@ The following table shows signals that are collected directly by the auxiliary b
 | 5  | ON                 |               OFF   |
 | 6  | OFF                |               ON    |
 
-*Warning: DIP Switch is inverted, therefore switch n°1 is at the bottom. Any other combination may cause damages*
+*Warning: DIP Switch A is inverted, therefore switch n°1 is at the bottom. Any other combination may cause damages*
 
 *Warning: For Mac 128K, system RAM must be always set to disabled*
 
@@ -277,29 +277,19 @@ If you have the same LB revision, ROM image (Macplus or ROM-INATOR patched), and
 | JP2             | 1-2           |
 | JP3             | 1-2           |
 
-#### 6.2.3 1024 Refresh Cycles Mode
+#### 6.2.3 Disable RAM Expansion Board
 
+The DIP Switch SW-B allows disabling the RAM Expansion Board 
 
+|S n°|RAM Expansion Enabled | RAM Expansion Disabled  |
+|:--:|:------------------:|:-------------------:|
+| 1  | ON                 |               OFF   |
+| 2  | OFF                |               ON    |
+| 3  | ON                 |               OFF   |
+| 4  | OFF                |               ON    |
+| 5  | ON                 |               OFF   |
+| 6  | OFF                |               ON    |
 
-| JUMPER          | 1MB    | 2MB      | 4MB         | 
-|:---------------:|:------:|:--------:|:-----------:|
-| JP1 / EXP.B V2  | 1-2    | 2-3      | 2-3         |
-| JP2 / EXP.B V2  | 1-2    | 1-2      | 2-3         |
-| JP3 / EXP.B V2  | 1-2    | 1-2      | 1-2         |
-| JP4 / EXP.B V2  | 2-3    | 2-3      | 2-3         |
-| JP5 / EXP.B V2  | 1-2-3  | 1-2-3    | 1-2-3       |
-| JP1 / AUX.B V2  | 2-3    | 2-3      | 2-3         |
-| JP2 / AUX.B V2  | 2-3    | 2-3      | 2-3         |
-| JP3 / AUX.B V2  | 2-3    | 2-3      | 2-3         |
-| JP4 / AUX.B V2  | 1-2    | 1-2      | 1-2         |
-| JP5 / AUX.B V2  | 1-2    | 1-2      | 1-2         |
-
-### EXPANSION BOARD DISABLED  & STOCK MEMORY CONFIGURATION RESTORED
-
-| JUMPER          |        | 
-|:---------------:|:------:|
-| JP5 / AUX.B V2  | 2-3    |
-| JP5 / AUX.B V2  | 2-3    |
 
 ** REMOVE THE EXPANSION BOARD BEFORE TURN ON **
 *Attention: double check all connetions and DIP switch settings before power-up*
