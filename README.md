@@ -278,7 +278,7 @@ If you have the same LB revision, ROM image (MacPlus/512Ke ROM or ROM-INATOR ROM
 
 #### 6.2.2 1024 Refresh Cycles Mode
 
-This configuration is for a future RAM Expansion Board made with higher density RAM ICs (1Mb x 16 bits), which still under development as of today
+This configuration has not been tested yet and is for a future RAM Expansion Board made with higher-density RAM ICs (1Mb x 16 bits), which is still under development as of today.
 
 | JUMPER          | Pads to bridge| 
 |:---------------:|:-------------:|
@@ -288,7 +288,7 @@ This configuration is for a future RAM Expansion Board made with higher density 
 
 #### 6.2.3 Disabling RAM Expansion Board
 
-The DIP Switch SW-B allows disabling the RAM Expansion Board 
+The DIP Switch SW-B allows disabling the RAM Expansion Board, restoring the memory of the Mac to its original state.
 
 |S n°|RAM Expansion Enabled | RAM Expansion Disabled  |
 |:--:|:--------------------:|:-----------------------:|
