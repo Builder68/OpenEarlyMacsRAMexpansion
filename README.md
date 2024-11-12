@@ -200,7 +200,7 @@ The following table shows the signals that are collected via bodged wires from t
 | A17             |Pin N°45 - CPU  |7             |                 |
 | A20             |Pin N°5 - U4D   |8             |                 |
 | A19             |Pin N°3 - U3D   |9             |                 |
-| RA8             |Left Pad R42    |9             |R42 must be open |
+| RA8             |Left Pad R42    |9             |Left leg of R42 disconnected |
 
 The following table shows signals that are collected directly by the auxiliary board and need to be wired from J2 to J5:
 
@@ -253,7 +253,7 @@ The following table shows signals that are collected directly by the auxiliary b
 
 #### 6.2.1 Mac Plus Refresh Cycles Mode
 
-This is the recommended default mode to be used with this version of the expansion board. In this configuration, the RAM configurator board mimics the Mac Plus's RAM address generation process to obtain 512 refresh cycles. It replicates the generation of RAM address bits RA8 and RA0, substituting the system's RA0 and RA8. This method was devised by Golden Potato, a member of the 68KMLA forums. Thank you, Golden Potato!
+In this configuration, the RAM configurator board mimics the Mac Plus's RAM address generation process to obtain 512 refresh cycles. It replicates the generation of RAM address bits RA8 and RA0, substituting the system's RA0 and RA8. This method was devised by Golden Potato, a member of the 68KMLA forums. Thank you, Golden Potato!
 
 | JUMPER          | Pads to bridge| 
 |:---------------:|:-------------:|
@@ -269,7 +269,7 @@ Interestingly, I've discovered that at least the RAM ICs I've used on my expansi
 
 I haven't yet figured out whether the LB is actually generating 512 refresh cycles from the point of view of the IC (most probable explanation), or whether the IC only needs address variations between RA0-RA7 for RAM refresh. Anyway, this mode has been stable on my Mac 512K for several months.
 
-If you have the same LB revision, ROM image (Macplus or ROM-INATOR patched), and RAM IC model as mine, and you want to minimize components and wiring on the LB, you can implement this mode with reasonable confidence.
+If you have the same LB revision, ROM image (Macplus or ROM-INATOR patched), and RAM IC model as mine, you can implement this mode with reasonable confidence.
 
 | JUMPER          | Pads to bridge| 
 |:---------------:|:-------------:|
@@ -283,7 +283,7 @@ The DIP Switch SW-B allows disabling the RAM Expansion Board
 
 |S n°|RAM Expansion Enabled | RAM Expansion Disabled  |
 |:--:|:--------------------:|:-----------------------:|
-| 1  | ON                 |               OFF   |
+| 1  | ON                   |               OFF   |
 | 2  | OFF                |               ON    |
 | 3  | ON                 |               OFF   |
 | 4  | OFF                |               ON    |
