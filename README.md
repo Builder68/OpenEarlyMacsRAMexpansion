@@ -159,10 +159,6 @@ It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also
 
 To begin, we'll remove the solder from the left side of resistor R42 (the side closest to IC U13G). Then, solder one end of a bodged wire of at least 5 cm long, to the pad where the resistor leg was connected. You need to do this as a first step because the RAM Expansion Board will later be on top of this connection point. Please note this will only apply to LB revisions that actually have an R42 resistor. Early LB revisions from Macintosh 128K will not have it.
 
-#### 3.1.2 jumper W1 (Only for Macintosh 128K)
-
-If you are going to install this RAM upgrade on to a Mac 128K with a later LB revision (Jumper W1 / resistor R42 are present), W1 must be opened. 
-
 ### 3.2 Resistor Arrays RP2 & RP3 
 
 Prior to installing the auxiliary board, resistor arrays RP2 and RP3 must be removed from the LB and replaced with socket pin machine headers.
@@ -266,8 +262,7 @@ In this mode, the RAM configurator board mimics the Mac Plus's RAM address gener
 | JP2             | 2-3           |
 | JP3             | 1-2           |
 
-*1) This mode must be always selected for Macintosh 128K with an earlier LB revision, were there no R42 is present*
-*2) for Macintosh 128K with a later LB revision, were R42 is present, W1 must be open*
+*This mode must be always selected for Macintosh 128K (all LB revisions)*
 
 #### 6.2.2 System Refresh Cycles Mode
 
@@ -286,6 +281,8 @@ If you have the same LB revision, ROM image (MacPlus/512Ke ROM or ROM-INATOR ROM
 | JP3             | 1-2           |
 
 *This mode can be used only on Macintosh 512K/Ke*
+
+*Warning: DO NOT use this mode on Mac 128K (all LB revisions).*
 
 #### 6.2.2 1024 Refresh Cycles Mode
 
