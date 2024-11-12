@@ -32,7 +32,7 @@ It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also
 
 ![Front_EB](https://github.com/user-attachments/assets/7b5f1d7c-59fb-42c0-81d6-d0c1ccaf5089)
 
-• Gerber files 
+•  [Latest Gerber files](https://github.com/Builder68/OpenEarlyMacsRAMexpansion/blob/main/AUXB_V2.zip)
 
 ### 1.1 Components
 #### 1.1.1     Resistors
