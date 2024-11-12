@@ -254,7 +254,7 @@ The following table shows signals that are collected directly by the auxiliary b
 
 #### 6.2.1 Mac Plus Refresh Cycles Mode
 
-In this mode, the RAM configurator board mimics the Mac Plus's RAM address generation process to obtain 512 refresh cycles. It replicates the generation of RAM address bits RA8 and RA0, substituting the system's RA0 and RA8. This method was devised by Golden Potato, a member of the 68KMLA forums. Thank you, Golden Potato!
+In this mode, the RAM configurator board mimics the Mac Plus's RAM address generation process to obtain 512 refresh cycles. This mode was devised by Golden Potato, a member of the 68KMLA forums. Thank you, Golden Potato!
 
 | JUMPER          | Pads to bridge| 
 |:---------------:|:-------------:|
@@ -264,17 +264,15 @@ In this mode, the RAM configurator board mimics the Mac Plus's RAM address gener
 
 *This mode must be always selected for Macintosh 128K (all LB revisions)*
 
-#### 6.2.2 System Refresh Cycles Mode
+#### 6.2.2 Mac 512K/Ke Refresh Cycles Mode
 
 *Warning: DO NOT use this mode on Mac 128K (all LB revisions). Fail to do so may damage the LB*
 
-Early Mac RAM ICs require just 256 refresh cycles every 4 milliseconds, refreshing the "rows" using the /RAS method (/RAS before /CAS).
+Mac 512K/Ke RAM ICs require just 256 refresh cycles every 4 milliseconds, refreshing the "rows" using the /RAS method (/RAS before /CAS).
 
 Interestingly, I've discovered that at least the RAM ICs I've used on my expansion board function flawlessly without modifying the RAM address bus generation circuitry, even though their specifications indicate a requirement for 512 refresh cycles. 
 
-I haven't yet figured out whether the LB is actually generating 512 refresh cycles from the point of view of the IC (most probable explanation), or whether the used RAM IC only needs address variations between RA0-RA7 for RAM refresh. Anyway, this mode has been stable on my Mac 512K for several months.
-
-If you have the same LB revision, ROM image (MacPlus/512Ke ROM or ROM-INATOR ROM patched), and RAM IC model as mine, you can implement this mode with reasonable confidence.
+I haven't yet figured out whether the LB is actually generating 512 refresh cycles from the point of view of the IC (most probable explanation), or whether the used RAM IC only needs address variations between RA0-RA7 for RAM refresh. Anyway, this mode has been stable on my Mac 512K with a ROM-INATOR board for several months.
 
 | JUMPER          | Pads to bridge| 
 |:---------------:|:-------------:|
