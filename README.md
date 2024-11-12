@@ -158,10 +158,9 @@ To begin, we'll remove the solder from the right side of resistor R42 (the side 
 
 *Please note this will only apply to LB revisions that actually have an R42 resistor and IC at 13-G. Early LB revisions from Macintosh 128K will not have these components.*
 
-
 ### 3.2 Resistor Arrays RP2 & RP3 
 
-Prior to install the auxiliary board, resistor arrays RP2 and RP3 must be removed from the LB and solder in their places socket pin headers. 
+Prior to installing the auxiliary board, resistor arrays RP2 and RP3 must be removed from the LB and replaced with socket pin machine headers.
 
 ## 4. Boards Installation
 
@@ -175,7 +174,7 @@ Alternatively, you can relocate the mentioned ICs to the expansion and auxiliary
 
 ### 5. Inputs & Outputs via wires
 
-The following table shows the signals that are collected via bodged cables from the LB to the EB (J5):
+The following table shows the signals that are collected via bodged wires from the LB to the EB (J5):
 
 *Please note that pin 1 of connector J3 is located at the top.*
 
@@ -246,35 +245,23 @@ The following table shows signals that are collected directly by the auxiliary b
 | 5  | ON                 |               OFF   |
 | 6  | OFF                |               ON    |
 
-*Warning: DIP Switch is inverted, therefore switch n°1 is at the bottom. Any other combination may cause damages to the Logic Board*
+*Warning: DIP Switch is inverted, therefore switch n°1 is at the bottom. Any other combination may cause damages*
 
-*Warning: For Mac 128K, system RAM must be set to disabled*
+*Warning: For Mac 128K, system RAM must be always set to disabled*
 
 ### 6.2 RAM Refresh Configurator Board
 
-
-
-### Mac model
-
-### RAM Size
-
-### Refresh Mode
-
-### System RAM Bank
-
-### Restore Memory System
-
-Mac Plus Refresh Cycles Mode
+#### 6.2.1 Mac Plus Refresh Cycles Mode
 
 This is the recommended default mode to be used with this version of the expansion board. In this configuration, the RAM configurator board mimics the Mac Plus's RAM address generation process to obtain 512 refresh cycles. It replicates the generation of RAM address bits RA8 and RA0, substituting the system's RA0 and RA8. This method was devised by Golden Potato, a member of the 68KMLA forums. Thank you, Golden Potato!
 
-System Refresh Cycles Mode
+#### 6.2.1 System Refresh Cycles Mode
 
-Early Mac RAM ICs require just 256 refresh cycles every 4 milliseconds. The LB's circuitry should then only generates these 256 RAM addresses sequentially every 4 milliseconds, refreshing the "rows" using the /RAS method (/RAS before /CAS).
+Early Mac RAM ICs require just 256 refresh cycles every 4 milliseconds. The LB's circuitry should then only generate these 256 RAM addresses sequentially every 4 milliseconds, refreshing the "rows" using the /RAS method (/RAS before /CAS).
 
-Interestingly, I’ve discovered that at least the RAM ICs I’ve used on my expansion board function flawlessly without modifying the RAM address bus generation circuitry, even though their specifications indicate a requirement for 512 refresh cycles. I haven’t yet figured out if this is due to the LB actually generating 512 refresh cycles from the point of view of the IC, or if the IC only needs address variations between RA0-RA7 for RAM refresh. Anyway, this mode has been stable on my Mac 512K for several months.
+Interestingly, I've discovered that at least the RAM ICs I've used on my expansion board function flawlessly without modifying the RAM address bus generation circuitry, even though their specifications indicate a requirement for 512 refresh cycles. I haven't yet figured out whether the LB is actually generating 512 refresh cycles from the point of view of the IC, or whether the IC only needs address variations between RA0-RA7 for RAM refresh. Anyway, this mode has been stable on my Mac 512K for several months.
 
-While I haven't determined the exact reason for this unexpected behavior, I cannot confidently recommend it as the default choice for any other scenario where the LB, the ROM image, and the RAM IC model is the same as mines. However, if you're aiming to minimize wiring from the LB, and you're using the same RAM ICs I recommend, you can implement this mode with reasonable assurance.
+If you have the same LB revision, ROM image, and RAM IC model as mine, and you want to minimize components and wiring on the LB, you can implement this mode with reasonable confidence.
 
 ### 1204 REFRESH CYCLES MODE
 
