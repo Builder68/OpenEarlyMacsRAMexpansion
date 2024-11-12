@@ -105,10 +105,8 @@ It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also
 
 ![front_AB](https://github.com/user-attachments/assets/6e766940-576b-49ec-b25d-eb78c4c02122)
 
+•  [Latest Gerber files](https://github.com/Builder68/OpenEarlyMacsRAMexpansion/blob/main/AUXB_V2.zip)
 
-• Latest Schematics
-
-• Latest Gerber files
 ### 2.1 Components
 #### 2.1.1 Resistors
 
