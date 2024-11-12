@@ -154,7 +154,7 @@ The expansion board has been tested so far on a Macintosh 512K with Mac Plus/512
 
 ### 3.1 Resistor R42
 
-To begin, we'll remove the solder from the left side of resistor R42 (the side closest to IC U13G). Then, solder one end of a bodged wire of at least 5 cm long, to the pad where the leg was connected. You need to do this as a first step because the RAM Expansion Board will later be on top of this connection point.
+To begin, we'll remove the solder from the left side of resistor R42 (the side closest to IC U13G). Then, solder one end of a bodged wire of at least 5 cm long, to the pad where the resistor leg was connected. You need to do this as a first step because the RAM Expansion Board will later be on top of this connection point.
 
 *Please note this will only apply to LB revisions that actually have an R42 resistor and IC at 13-G. Early LB revisions from Macintosh 128K will not have these components.*
 
