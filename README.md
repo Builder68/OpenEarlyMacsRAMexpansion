@@ -153,11 +153,11 @@ It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also
 
 ## 3. Before Installing 
 
-### 3.1 Resistor R42 and Jumper W1
+### 3.1 Resistor R42
 
-#### 3.1.1 Resistor R42
+*Does not apply for Macintosh 128K with early LB revision, were resistor R42 is not present*
 
-To begin, we'll remove the solder from the left side of resistor R42 (the side closest to IC U13G). Then, solder one end of a bodged wire of at least 5 cm long, to the pad where the resistor leg was connected. You need to do this as a first step because the RAM Expansion Board will later be on top of this connection point. Please note this will only apply to LB revisions that actually have an R42 resistor. Early LB revisions from Macintosh 128K will not have it.
+To begin, we'll remove the solder from the left side of resistor R42 (the side closest to IC U13G). Then, solder one end of a bodged wire of at least 5 cm long, to the pad where the resistor leg was connected. You need to do this as a first step because the RAM Expansion Board will later be on top of this connection point. Please note this will only apply to LB revisions that actually have an R42 resistor. 
 
 ### 3.2 Resistor Arrays RP2 & RP3 
 
@@ -248,7 +248,7 @@ The following table shows signals that are collected directly by the auxiliary b
 
 *Warning: DIP Switch SWA1 is inverted, therefore switch n°1 is at the bottom. Any other combination may cause damages*
 
-*Warning: For Mac 128K, system RAM must be always set to disabled*
+*Warning: For Mac 128K, system RAM must be always set to disabled. Fail to do so may cause damages*
 
 ### 6.2 RAM Refresh Configurator Board
 
