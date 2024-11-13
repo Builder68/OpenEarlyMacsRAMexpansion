@@ -149,7 +149,7 @@ Please be sure to get the right schematics for your LB revision.
 
 | Part description                                   |  Quantity   | Supplier     | Notes           |
 |:--------------------------------------------------:|:-----------:|:------------:|:---------------:|
-| DIP-16 IC Chip Socket 2.54mm Pitch 7.6mm Flat Pins |1            |[DIP-16_FP](https://www.amazon.com/Uxcell-a11090300ux0244-2-54mm-Socket-Adaptors/dp/B0079SM1LW/ref=sr_1_3?crid=3M210B1RLHYSC&dib=eyJ2IjoiMSJ9.yineh7dbus9HEsJfsGH3_ClMOLEVwf48Z8De29l_YNoGtqEnB3tJyRem-zre07ujnL2TVvvco8eNgvti2jm33CcLyhH6U8PqRWmaaaLEjJr2N3zYNPC2qB9pAX1UW_nH8ozCvKjCdbLYAzu-9tqIig_TJYqLxoH7n4VqFM2st4Kt-TMeYwoZHiOQBwCx7e21wEb46F8zvW9XvW_nHaPshvztxEOVDYZ9SdTvv7pO12s.dVQZb8SDUPE-DL8tchl75I0Dl3JAkO5fDYRe4af360w&dib_tag=se&keywords=dip+sockets+2.54+mm+16&qid=1731069778&sprefix=dip+sockets+2.54+mm+16%2Caps%2C297&sr=8-3) |Flat Pins Soldering| 
+| DIP-16 IC Chip Socket 2.54mm Pitch 7.6mm Flat Pins |1            | |[DIP-16_FP](https://www.amazon.com/Uxcell-a11090300ux0244-2-54mm-Socket-Adaptors/dp/B0079SM1LW/ref=sr_1_3?crid=3M210B1RLHYSC&dib=eyJ2IjoiMSJ9.yineh7dbus9HEsJfsGH3_ClMOLEVwf48Z8De29l_YNoGtqEnB3tJyRem-zre07ujnL2TVvvco8eNgvti2jm33CcLyhH6U8PqRWmaaaLEjJr2N3zYNPC2qB9pAX1UW_nH8ozCvKjCdbLYAzu-9tqIig_TJYqLxoH7n4VqFM2st4Kt-TMeYwoZHiOQBwCx7e21wEb46F8zvW9XvW_nHaPshvztxEOVDYZ9SdTvv7pO12s.dVQZb8SDUPE-DL8tchl75I0Dl3JAkO5fDYRe4af360w&dib_tag=se&keywords=dip+sockets+2.54+mm+16&qid=1731069778&sprefix=dip+sockets+2.54+mm+16%2Caps%2C297&sr=8-3) |Flat Pins Soldering| 
 |Conn Socket 64P                                                      |2            |               | Need 20 pins|
 |2.54mm 40x1 male to male header Strip, Machine Round Pins STD height |1            |               |Need 20 pins|
 |2.54mm 40x1 female to male header Strip, Machine Round Pins STD      |1            |               |Need 40 pins: two sets of two rows of 1x10P pile-up|
@@ -160,7 +160,6 @@ Please be sure to get the right schematics for your LB revision.
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
 |1x64P Elevated Socket Conn 2.54mm         |2            | [316-93-164-41-007000](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/316-93-164-41-007000/357031?s=N4IgTCBcDaIMwEYBsBaAnHFyAsLsJQAZCB2YwkAXQF8g)| need 72 pins             |
-|:---------------------:|:-----------:|:------------:|:---------------:|
 
 ## 3. Before Installing 
 
