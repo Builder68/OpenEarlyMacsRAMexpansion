@@ -1,5 +1,5 @@
 # Open Early Macs RAM Expansion
-
+#
  ## SUMMARY
 
 This upgrade provides up to 4MB of RAM using more recent RAM ICs of higher density (256Kb x 16 bit).
@@ -7,7 +7,7 @@ This upgrade provides up to 4MB of RAM using more recent RAM ICs of higher densi
 It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also with the *ROM-INATOR* board installed concurrently.
 
 *Attention: Due to the way the ROM-INATOR board determines the Mac model it's installed on (Mac Plus or Mac 512K), its ROM image needs to be [patched](https://68kmla.org/bb/index.php?threads/early-macintosh-home-brew-4mb-memory-upgrade-board-development.47308/post-544271) before installing this RAM expansion board or any other RAM upgrade.*
-
+#
 ## KEY FEATURES
 
 • Configurable to add up to 4MB of RAM. 
@@ -21,7 +21,7 @@ It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also
 • Solder jumpers to select among three memory size configurations (1MB, 2MB, or 4MB).
 
 • No extensions or other software are required, and the Mac recognizes all the configured RAM at startup.
-
+#
 ## ASSEMBLY
 
 While the assembly process is straightforward, it can be challenging. Reflow soldering, or using solder paste and a heat gun, is highly recommended for the RAM chips and most SMD components. I also use solder paste and a heat gun for the piggyback sockets with excellent results.
@@ -29,7 +29,7 @@ While the assembly process is straightforward, it can be challenging. Reflow sol
 Although this might sound highly obvious, I must say it:
 
 Please be sure to get the right schematics for your LB revision.
-
+#
 ### 1. RAM EXPANSION BOARD (REV 2.0)
 
 ![EBV2_F](https://github.com/user-attachments/assets/bff24d1b-d510-434b-b2db-5dfa07d72ddc)
@@ -81,7 +81,6 @@ Please be sure to get the right schematics for your LB revision.
 | 1x64P Elevated Socket Conn 2.54mm            |2            | [316-93-164-41-007000](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/316-93-164-41-007000/357031?s=N4IgTCBcDaIMwEYBsBaAnHFyAsLsJQAZCB2YwkAXQF8g)| Standoff Height = 10.2 mm / need 72 pins soldered to EB|
 |2.54mm 40x1 Female Pin Header Strip, Machine Round Pins|2            |             |Need 72 pins, soldered to LB|
 
-
 #### 1.1.5 Spacer
 
 | Part description      | Quantity    | Supplier     | Notes           |
@@ -107,7 +106,7 @@ Please be sure to get the right schematics for your LB revision.
 |:---------------------:|:-----------:|:------------:|:---------------:|
 | JST XH2.54 XH 2.54mm Wire Connector 10 Pin Female |1            |                  | Pre-assembled with wires |
 | JST XH2.54 XH 2.54mm Wire Connector 6 Pin Female  |1             |                 | Pre-assembled with wires |
-
+#
 ### 2. RAM REFRESH CONFIGURATOR BOARD (REV 2.0)
 
 ![ABV2_F](https://github.com/user-attachments/assets/5ac3e7d7-771f-4fa7-9436-0a833fb66da7)
@@ -172,7 +171,7 @@ To begin, we'll remove the solder from the left side of resistor R42 (the side c
 ### 3.2 Resistor Arrays RP2 & RP3 
 
 Prior to installing the auxiliary board, resistor arrays RP2 and RP3 must be removed from the LB and replaced with socket pin machine headers.
-
+#
 ## 4. Boards Installation
 
 ### 4.1 Option A: Soldering piggyback sockets
@@ -182,9 +181,10 @@ This is the easiest method. Solder DIP sockets (flat pins soldering) onto ICs U1
 ### 4.2 Option B: Relocating ICs to the expansion boards
 
 Alternatively, you can relocate the mentioned ICs to the expansion and auxiliary boards by soldering IC sockets in their places on the main board (LB) and using extra-long pin machine header sockets for the expansion boards.
+#
+## 5. Inputs & Outputs via wires
 
-### 5. Inputs & Outputs via wires
-
+### 5.1 From LB to J5
 The following table shows the signals that are collected via bodged wires from the LB to the EB (J5):
 
 *Please note that pin 1 of connector J3 is located at the top.*
@@ -196,6 +196,7 @@ The following table shows the signals that are collected via bodged wires from t
 | A20  |Pin N°5 - U4D   |3                 |              |                 |
 | A21  |Pin N°50 - CPU  |4                 |              |                 |
 
+### 5.2 From LB to J3
 The following table shows the signals that are collected via bodged wires from the LB to the auxiliary board (J3):
 
 *Please note that pin 1 of connector J3 is located at the top.*
@@ -213,6 +214,7 @@ The following table shows the signals that are collected via bodged wires from t
 | A19             |Pin N°3 - U3D   |9             |                 |
 | RA8             |Left Pad R42    |9             |Left leg of R42 disconnected |
 
+### 5.3 From J2 on the auxiliary board to J5 on the expansion board
 The following table shows signals that are collected directly by the auxiliary board and need to be wired from J2 to J5:
 
 *Please note that pin 1 of connector J4 is located at the bottom, whereas pin 1 of connector J5 is located at the top.*
@@ -226,7 +228,7 @@ The following table shows signals that are collected directly by the auxiliary b
 | MC2M            |4       |6         |             |
 | /MSRA8F         |5       |1         |             |
 | /MSRA9F         |6       |NC        | Leave unconnected / Not used| 
-
+#
 ## 6. Settings
 
 ### 6.1 RAM Expansion Board
@@ -291,7 +293,7 @@ I haven't yet figured out whether the LB is actually generating 512 refresh cycl
 | JP2             | 1-2           |
 | JP3             | 1-2           |
 
-#### 6.2.2 1024 Refresh Cycles Mode
+#### 6.2.3 1024 Refresh Cycles Mode
 
 This configuration has not been tested yet and is for a future RAM Expansion Board made with even higher-density RAM ICs (1Mb x 16 bits), which is still under development as of today.
 
@@ -301,7 +303,7 @@ This configuration has not been tested yet and is for a future RAM Expansion Boa
 | JP2             | 2-3           |
 | JP3             | 2-3           |
 
-#### 6.2.3 Disabling RAM Expansion Board
+#### 6.2.4 Disabling RAM Expansion Board
 
 DIP Switch SWB1 allows disabling the RAM Expansion Board, restoring the memory of the Mac to its original state.
 
