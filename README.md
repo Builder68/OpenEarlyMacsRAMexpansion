@@ -160,7 +160,7 @@ Please be sure to get the right schematics for your LB revision.
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
 |1x64P Elevated Socket Conn 2.54mm         |2            | [316-93-164-41-007000](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/316-93-164-41-007000/357031?s=N4IgTCBcDaIMwEYBsBaAnHFyAsLsJQAZCB2YwkAXQF8g)| need 72 pins             |
-
+#
 ## 3. Before Installing 
 
 ### 3.1 Resistor R42
