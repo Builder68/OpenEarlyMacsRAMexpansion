@@ -10,14 +10,15 @@ It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also
 
 ## PROJECT STATUS
 
-Functional, though not rigorously tested on a Mac 128K with earlier LB revision
+• Functional, though not rigorously tested on a Mac 128K with earlier LB revision
 
+• RAM expansion board PCB v2.1 added for concurrent installation with a MacSnap SCSI board
 
 ## KEY FEATURES
 
 • Configurable to add up to 4MB of RAM. 
 
-• Compatible with Macintosh 128/512K/Ke (all LB revisions) using either Apple 128K Stock ROM or ROM-INATOR board. (It should work also with the MacSnap SCSI board, but I haven´t tested yet)
+• Compatible with Macintosh 128/512K/Ke (all LB revisions) using either Apple 128K Stock ROM or ROM-INATOR board.
 
 • RAM expansion board can be disabled via DIP switch, restoring the Mac to its original state
 
