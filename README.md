@@ -38,6 +38,8 @@ Please be sure to get the right schematics for your LB revision.
 ### 1. RAM EXPANSION BOARD (REV 2+)
 ![EBV2_F](https://github.com/user-attachments/assets/bff24d1b-d510-434b-b2db-5dfa07d72ddc)
 
+![Screenshot 2024-11-24 at 2 27 48 PM](https://github.com/user-attachments/assets/997bae82-b6df-4eff-bf1b-a67451924189)
+
 ### 1.1 Components
 #### 1.1.1     Resistors
 | Part description      | Quantity    | Supplier     | Notes           |
