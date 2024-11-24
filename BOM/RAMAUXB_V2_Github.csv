@@ -1,0 +1,12 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"J5";"PinSocket_1x10_P2.54mm_Vertical";1;"(RP2)";;;
+2;"J6";"PinSocket_1x10_P2.54mm_Vertical";1;"(RP3)";;;
+3;"R8,R13,R2,R5,R3,R6,R4,R9,R12,R11,R1,R7";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";12;"47";;;
+4;"C2,C1,C3";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";3;"0.1";;;
+5;"JP1,JP2,JP3";"SolderJumper-3";3;"~";;;
+6;"U1";"SO-16_3.9x9.9mm_P1.27mm";1;"74HCT257";;;
+7;"R14,R15,R10";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";3;"2.2K";;;
+8;"U3,U2";"SO-16_3.9x9.9mm_P1.27mm";2;"74HCT253";;;
+9;"SWB1";"SW_DIP_SPSTx06_Slide_Omron_A6H-6101_W6.15mm_P1.27mm";1;"SW_DIP_x06";;;
+10;"J4";"PinHeader_1x06_P2.54mm_Horizontal";1;"Conn_01x06";;;
+11;"J3";"PinHeader_1x10_P2.54mm_Horizontal";1;"Conn_01x10";;;
