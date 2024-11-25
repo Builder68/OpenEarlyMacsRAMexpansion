@@ -43,8 +43,6 @@ Please be sure to get the right schematics for your LB revision.
 
 ### 1.1 Components
 
-[Interactive BOM EB V2.1](https://github.com/Builder68/OpenEarlyMacsRAMexpansion/blob/main/BOM/RAMEXB_V21_Github.html)
-[Interactive BOM EB V2.0](https://github.com/Builder68/OpenEarlyMacsRAMexpansion/blob/main/BOM/RAMEXB_V2_Github.html)
 
 #### 1.1.1     Resistors
 | Part description      | Quantity    | Supplier     | Notes           |
