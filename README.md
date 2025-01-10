@@ -156,7 +156,7 @@ Please be sure to get the right schematics for your LB revision.
 
 | Part description      | Quantity    | Supplier     | Notes           |
 |:---------------------:|:-----------:|:------------:|:---------------:|
-| SMD Slide DIP Switch 6P   |1            |[653-A6H-8101](https://www.mouser.com/ProductDetail/Omron-Electronics/A6H-8101?qs=Rh%252BaoYk36r6BMZDoR1skvA%3D%3D)|   |
+| SMD Slide DIP Switch 6P   |1            |[653-ASN-6104](https://www.mouser.com/ProductDetail/Omron-Electronics/A6SN-6104?qs=hAJFN2R7%2FQyHqchvSwNTjQ%3D%3D)|   |
 
 
 
