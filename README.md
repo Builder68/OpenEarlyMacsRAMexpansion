@@ -152,8 +152,15 @@ Please be sure to get the right schematics for your LB revision.
 |:------------------------------------------------:|:-----------:|:------------:|:---------------:|
 | JST XH2.54 XH 2.54mm Wire Connector 9 Pin Female |1            |              | Pre-assembled with wires |
 
+#### 2.1.5 DIP Switch
 
-#### 2.1.5 Sockets & Pinheaders
+| Part description      | Quantity    | Supplier     | Notes           |
+|:---------------------:|:-----------:|:------------:|:---------------:|
+| SMD Slide DIP Switch 6P   |1            |[653-A6H-8101](https://www.mouser.com/ProductDetail/Omron-Electronics/A6H-8101?qs=Rh%252BaoYk36r6BMZDoR1skvA%3D%3D)|   |
+
+
+
+#### 2.1.6 Sockets & Pinheaders
 
 ##### Option N°1: Pin Headers & PiggyBack Sockets Install (Removable)
 
