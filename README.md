@@ -12,7 +12,7 @@ It has been tested so far on a Macintosh 512K with Mac Plus/512Ke ROMs, and also
 
 • Functional, though not rigorously tested on a Mac 128K with earlier LB revision
 
-• RAM expansion board PCB v2.1 added for concurrent installation with a MacSnap SCSI board
+• RAM expansion board PCB v2.+ added for concurrent installation with a MacSnap SCSI board
 
 ## KEY FEATURES
 
