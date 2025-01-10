@@ -37,6 +37,7 @@ Although this might sound highly obvious, I must say it:
 Please be sure to get the right schematics for your LB revision.
 #
 ### 1. RAM EXPANSION BOARD 
+![Screenshot 2025-01-10 at 9 28 38 AM](https://github.com/user-attachments/assets/ddedb58c-c9b7-4e1a-8982-28d6f6bfdbac)
 
 
 
