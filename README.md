@@ -2,7 +2,7 @@
 #
  ## SUMMARY
 
-Utilizing 2Mb x 16-bit RAM ICs with 1024 refresh cycles, this upgrade provides up to 4MB of RAM for the Macintosh 128K and 512K
+Utilizing 2MB x 16-bit RAM ICs with 1024 refresh cycles, this upgrade provides up to 4MB of RAM for the Macintosh 128K and 512K
 
 It has been tested so far on a Macintosh 512Ke, and also with the *ROM-INATOR* board installed concurrently.
 
