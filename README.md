@@ -30,7 +30,7 @@ Please be sure to get the right schematics for your LB revision.
 
 ## SPECIAL THANKS
 
-This project wouldn't be where it is today without the significant contributions of Golden Potato. His collaboration on developing and testing this design was instrumental. From the beginning, his desire was that this design should be free and open source with both of our names attached to it. We hope all is well.
+This project wouldn't be where it is today without the significant contributions of Golden Potato. His collaboration on developing and testing this design was instrumental. From the beginning, his desire was that this design should be free and open source with both of our names attached to it. 
 #
 #
 
