@@ -7,7 +7,6 @@ Testing has confirmed compatibility with a Macintosh 512Ke, including concurrent
 
 *Attention: Due to the way the ROM-INATOR board determines the Mac model it's installed on (Mac Plus or Mac 512K), its ROM image needs to be [patched](https://68kmla.org/bb/index.php?threads/early-macintosh-home-brew-4mb-memory-upgrade-board-development.47308/post-544271) before installing this RAM expansion board or any other RAM upgrade.*
 
-Installing this memory expansion board alongside a SCSI card (such as the MacSnap SCSI) allows the 128KB ROM to identify the machine as a Mac Plus.
 
 ## PROJECT STATUS
 
