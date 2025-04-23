@@ -10,7 +10,7 @@ Testing has confirmed compatibility with a Macintosh 512Ke, including concurrent
 
 ## PROJECT STATUS
 
-This project is fully functional on a Mac 512Ke. While it should also work on a Mac 128K or 512K, this compatibility hasn't been tested yet.
+This project is fully functional on a Mac 512Ke. Although it's expected to work on Mac 128K or 512K systems with the 128KB ROM, this specific compatibility hasn't been tested yet.
 
 ## KEY FEATURES
 
