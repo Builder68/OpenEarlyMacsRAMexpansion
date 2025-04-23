@@ -5,7 +5,7 @@
 This upgrade utilizes 2MB x 16-bit RAM ICs with 1024 refresh cycles, providing up to 4MB of RAM for Macintosh 128K and 512K equipped with the 128KB ROM. 
 Testing has confirmed compatibility with a Macintosh 512Ke, including concurrent use with the ROM-INATOR board. Furthermore, installing this memory expansion alongside a SCSI card (like the MacSnap SCSI) enables the 128KB ROM to identify the machine as a Mac Plus.
 
-*Attention: Due to the way the ROM-INATOR board determines the Mac model it's installed on (Mac Plus or Mac 512K), its ROM image needs to be [patched](https://68kmla.org/bb/index.php?threads/early-macintosh-home-brew-4mb-memory-upgrade-board-development.47308/post-544271) before installing this RAM expansion board or any other RAM upgrade.*
+*Attention: Due to the way the ROM-INATOR board determines the Mac model it's installed on (Mac Plus or Mac 512Ke), its ROM image needs to be [patched](https://68kmla.org/bb/index.php?threads/early-macintosh-home-brew-4mb-memory-upgrade-board-development.47308/post-544271) before installing this RAM expansion board or any other RAM upgrade.*
 
 
 ## PROJECT STATUS
