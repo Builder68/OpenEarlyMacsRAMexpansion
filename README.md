@@ -48,7 +48,8 @@ Back
 
 ## 2. BOM
 
-![Screenshot 2025-04-09 at 10 40 25 AM](https://github.com/user-attachments/assets/514e9318-9721-4b20-8755-eee80d34c2cd)
+
+![Screenshot 2025-04-25 at 2 33 11 PM](https://github.com/user-attachments/assets/821c0caf-546c-44f0-92c2-87965683e375)
 
 
 #
