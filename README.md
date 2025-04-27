@@ -91,7 +91,7 @@ The following tables shows the signals that are collected via bodged wires from 
 | A20                   |Pin N°5 - U4D     |2             |                 |
 | A19                   |Pin N°3 - U3D     |3             |                 |
 | A21                   |Pin N°50 - CPU    |4             |                 |
-| /RAS                  |Left Leg of R4    |5             |                 | 
+| /RAS                  |Left Leg of R4 or Pin N°14 - 4D   |5             |                 | 
 | R/WF                  |Right Leg of R33  |6             |                 |
 #
 
