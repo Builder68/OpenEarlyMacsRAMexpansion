@@ -95,7 +95,8 @@ The following tables shows the signals that are collected via bodged wires from 
 | R/WF                  |Right Leg of R33  |6             |                 |
 #
 
-![Uploading LB Signals to Expansion Card (JST Connectors).jpg…]()
+![LB Signals to Expansion Card (JST Connectors)](https://github.com/user-attachments/assets/03796169-dac9-41c8-b6f6-86eaa0c76446)
+
 
 ## 6. Settings
 
