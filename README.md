@@ -94,6 +94,9 @@ The following tables shows the signals that are collected via bodged wires from 
 | /RAS                  |Left Leg of R4    |5             |                 | 
 | R/WF                  |Right Leg of R33  |6             |                 |
 #
+
+![Uploading LB Signals to Expansion Card (JST Connectors).jpg…]()
+
 ## 6. Settings
 
 ### 6.1 RAM Expansion Board
