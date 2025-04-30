@@ -74,7 +74,7 @@ The following tables shows the signals that are collected via bodged wires from 
 
 ### 5.1 J11
 
-| SIGNAL          | Location       | Pin N° on J3 | Comment         |
+| SIGNAL          | Location       | Pin N° | Comment         |
 |:---------------:|:--------------:|:------------:|:---------------:|
 | /SNDPG2         |Pin N°5 - U2F   |1             |                 |
 | /DMA            |Pin N°15 - U2F  |2             |                 |
@@ -85,7 +85,7 @@ The following tables shows the signals that are collected via bodged wires from 
 
 ### 5.2 J12
 
-| SIGNAL                | Location on LB   | Pin N° on J5 | Comment         |
+| SIGNAL                | Location on LB   | Pin N° | Comment         |
 |:---------------------:|:----------------:|:------------:|:---------------:|
 | A17                   |Pin N°45 - CPU    |1             |                 |
 | A20                   |Pin N°5 - U4D     |2             |                 |
