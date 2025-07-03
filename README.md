@@ -63,9 +63,9 @@ Prior to installing the expansion board, resistor arrays RP2 and RP3 must be rem
 
 ### 4.1 Pin headers
   
-Solder machine pin headers (male to male) onto ICs U11F, U11G, and U4F. Then, the board connects to these pin headers via sockets soldered on the backside of the expansion board.
+Solder machine pin headers (male to male) onto ICs U12E, U13E, and U4F. Then, the board connects to these pin headers via sockets soldered on the backside of the expansion board.
 
-Optionally, you can instead solder DIP sockets onto U11F, U11G, and U4F (piggybacked) and solder male-to-male pin headers to the expansion board.
+Optionally, you can instead solder DIP sockets onto U12E, U13E, and U4F (piggybacked) and solder male-to-male pin headers to the expansion board.
 
 ## 5. Signals to JST connectors
 
