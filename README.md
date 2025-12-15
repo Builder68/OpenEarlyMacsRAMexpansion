@@ -44,13 +44,15 @@ Front
 
 Back
 
-![Screenshot 2025-04-09 at 9 39 32 AM](https://github.com/user-attachments/assets/46a13f87-a933-4e78-9750-3d6b5d64c997)
+
+<img width="1427" height="996" alt="Screenshot 2025-12-15 at 4 21 14 PM" src="https://github.com/user-attachments/assets/3483cac5-ca96-45ff-a153-e02ed114da51" />
 
 
 ## 2. BOM
 
 
-![Screenshot 2025-04-25 at 2 33 11 PM](https://github.com/user-attachments/assets/821c0caf-546c-44f0-92c2-87965683e375)
+<img width="1730" height="661" alt="Screenshot 2025-12-15 at 4 29 40 PM" src="https://github.com/user-attachments/assets/52810dec-dfca-4a35-b20c-5a0fc751ec1e" />
+
 
 
 #
