@@ -37,7 +37,8 @@ This project wouldn't be where it is today without the significant contributions
 ### 1. RAM EXPANSION BOARD 
 Front
 
-![Screenshot 2025-04-09 at 10 08 55 AM](https://github.com/user-attachments/assets/de959ade-b2c9-4ae8-911b-d56883ff1fd2)
+
+<img width="1477" height="1001" alt="Screenshot 2025-12-15 at 4 20 59 PM" src="https://github.com/user-attachments/assets/e61ea4c2-dc76-44ba-93f8-d741e45fd444" />
 
 
 
