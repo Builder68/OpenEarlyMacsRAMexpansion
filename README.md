@@ -18,7 +18,7 @@ This project is fully functional on a Mac 512Ke. Although it's expected to work 
 * You can disable RAM expansion through DIP switches on the board.
 * A solder jumper allows you to select between two memory size configurations: 2MB or 4MB.
 * Compatible with FPM or EDO CMOS RAM ICs of 1Mb x 16 bits.
-* The PCB dimensions are designed to allow concurrent installation with [Demik's MacSnap SCSI replica board](https://github.com/demik/MacSnap-SCSI//) and a future Accelerator Board (still under development) based on [Bolle's Micromac Performer board clone](https://github.com/TheRealBolle/Performer-SE-PL-CL).
+* The PCB dimensions are designed to allow concurrent installation with [Demik's MacSnap SCSI replica board](https://github.com/demik/MacSnap-SCSI//). 
 * No extensions or additional software are needed; Mac will automatically recognize all the configured RAM upon startup.
 ## ASSEMBLY
 
